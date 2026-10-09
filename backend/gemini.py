@@ -38,8 +38,12 @@ PRICES = {
 }
 PRICE_IN, PRICE_OUT = PRICES.get(MODEL, PRICES["gemini-3.8-flash"])
 
+# A stuck request must not hang a test run or the API: each attempt gets a time limit.
+# Two attempts x 25 s stay under Vercel's 60 s function limit.
+TIMEOUT_S = int(os.environ.get("GEMINI_TIMEOUT_S", "25"))
+
 # Client and config are created once, not per call
-client = genai.Client(api_key=KEY)
+client = genai.Client(api_key=KEY, http_options=types.HttpOptions(timeout=TIMEOUT_S * 1000))
 CONFIG = types.GenerateContentConfig(
     system_instruction=PROMPT,
     response_mime_type="application/json",
@@ -61,6 +65,9 @@ def extract_facts(call, retries=1):
             print(f"  Gemini: API error {e.code} (attempt {attempt})")
             if e.code == 429:  # rate limit hit: wait, otherwise the retry fails too
                 time.sleep(8)
+            continue
+        except Exception as e:  # timeouts and network errors: retry once, then give the call to a human
+            print(f"  Gemini: {type(e).__name__} (attempt {attempt}): {str(e)[:120]}")
             continue
 
         # Count the tokens of this attempt
