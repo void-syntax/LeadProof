@@ -1,0 +1,281 @@
+{
+  "summary": {
+    "set": "stress",
+    "model": "gemini-3.8-flash",
+    "thinking": "LOW",
+    "calls": 10,
+    "agent_accuracy": "9/10",
+    "baseline_accuracy": "1/10",
+    "agent_by_language": {
+      "az": "6/6",
+      "mixed": "2/2",
+      "ru": "1/2"
+    },
+    "needs_review": 0,
+    "dropped_quotes": 0,
+    "total_cost_usd": 0.0427,
+    "cost_per_call_usd": 0.00427,
+    "avg_latency_s": 6.3
+  },
+  "rows": [
+    {
+      "call_id": "S-01",
+      "language": "mixed",
+      "scenario": "Client quotes a 10% discount from an ad; manager corrects it to the allowed 3% for full payment",
+      "expected": [
+        "OK"
+      ],
+      "agent": [
+        "OK"
+      ],
+      "baseline": [
+        "CORRECT_PROMISE",
+        "CALLBACK_TODAY"
+      ],
+      "agent_ok": true,
+      "baseline_ok": false,
+      "violations": [],
+      "expected_violations": [],
+      "criteria_diff": {},
+      "dropped": [],
+      "cost_usd": 0.004626,
+      "latency_ms": 16452
+    },
+    {
+      "call_id": "S-02",
+      "language": "az",
+      "scenario": "Down payment 20% said in words (below the 30% minimum); 'two years' installment is compliant",
+      "expected": [
+        "CORRECT_PROMISE"
+      ],
+      "agent": [
+        "CORRECT_PROMISE"
+      ],
+      "baseline": [
+        "OK"
+      ],
+      "agent_ok": true,
+      "baseline_ok": false,
+      "violations": [
+        "down_payment_pct"
+      ],
+      "expected_violations": [
+        "down_payment_pct"
+      ],
+      "criteria_diff": {},
+      "dropped": [],
+      "cost_usd": 0.004677,
+      "latency_ms": 6062
+    },
+    {
+      "call_id": "S-03",
+      "language": "az",
+      "scenario": "Handover 'second quarter of next year' = 2027-04, earlier than the declared 2027-10; no showroom invite",
+      "expected": [
+        "CORRECT_PROMISE",
+        "INVITE_SHOWROOM"
+      ],
+      "agent": [
+        "CORRECT_PROMISE",
+        "INVITE_SHOWROOM"
+      ],
+      "baseline": [
+        "CORRECT_PROMISE",
+        "CALLBACK_TODAY",
+        "INVITE_SHOWROOM",
+        "COACHING"
+      ],
+      "agent_ok": true,
+      "baseline_ok": false,
+      "violations": [
+        "completion_date"
+      ],
+      "expected_violations": [
+        "completion_date"
+      ],
+      "criteria_diff": {},
+      "dropped": [],
+      "cost_usd": 0.004008,
+      "latency_ms": 4594
+    },
+    {
+      "call_id": "S-04",
+      "language": "ru",
+      "scenario": "Russian transliterated into Latin with ASR errors ('demo rezidens', 'skitku'); 5% discount exceeds the 3% maximum",
+      "expected": [
+        "CORRECT_PROMISE"
+      ],
+      "agent": [
+        "CORRECT_PROMISE"
+      ],
+      "baseline": [
+        "CALLBACK_TODAY"
+      ],
+      "agent_ok": true,
+      "baseline_ok": false,
+      "violations": [
+        "discount"
+      ],
+      "expected_violations": [
+        "discount"
+      ],
+      "criteria_diff": {},
+      "dropped": [],
+      "cost_usd": 0.00414,
+      "latency_ms": 5072
+    },
+    {
+      "call_id": "S-05",
+      "language": "az",
+      "scenario": "Azerbaijani written in Cyrillic (ASR setting); price 1,900 AZN per m2 is below the 2,000 minimum",
+      "expected": [
+        "CORRECT_PROMISE"
+      ],
+      "agent": [
+        "CORRECT_PROMISE"
+      ],
+      "baseline": [
+        "CALLBACK_TODAY",
+        "COACHING"
+      ],
+      "agent_ok": true,
+      "baseline_ok": false,
+      "violations": [
+        "price_per_m2"
+      ],
+      "expected_violations": [
+        "price_per_m2"
+      ],
+      "criteria_diff": {},
+      "dropped": [],
+      "cost_usd": 0.00434,
+      "latency_ms": 5149
+    },
+    {
+      "call_id": "S-06",
+      "language": "mixed",
+      "scenario": "Two promises in one sentence: 36-month installment (violation) and 30% down payment (compliant); showroom without a time",
+      "expected": [
+        "CORRECT_PROMISE",
+        "INVITE_SHOWROOM"
+      ],
+      "agent": [
+        "CORRECT_PROMISE",
+        "INVITE_SHOWROOM"
+      ],
+      "baseline": [
+        "CORRECT_PROMISE"
+      ],
+      "agent_ok": true,
+      "baseline_ok": false,
+      "violations": [
+        "installment_months"
+      ],
+      "expected_violations": [
+        "installment_months"
+      ],
+      "criteria_diff": {},
+      "dropped": [],
+      "cost_usd": 0.004399,
+      "latency_ms": 6369
+    },
+    {
+      "call_id": "S-07",
+      "language": "az",
+      "scenario": "Long call: an allowed hedged remark early ('ola bilər'), a guaranteed 10% price growth buried near the end",
+      "expected": [
+        "CORRECT_PROMISE"
+      ],
+      "agent": [
+        "CORRECT_PROMISE"
+      ],
+      "baseline": [
+        "CALLBACK_TODAY"
+      ],
+      "agent_ok": true,
+      "baseline_ok": false,
+      "violations": [
+        "price_growth"
+      ],
+      "expected_violations": [
+        "price_growth"
+      ],
+      "criteria_diff": {},
+      "dropped": [],
+      "cost_usd": 0.004756,
+      "latency_ms": 5352
+    },
+    {
+      "call_id": "S-08",
+      "language": "az",
+      "scenario": "Client repeats a competitor's 'price will surely grow 20%'; manager explicitly refuses to guarantee it",
+      "expected": [
+        "CALLBACK_TODAY",
+        "COACHING"
+      ],
+      "agent": [
+        "CALLBACK_TODAY",
+        "COACHING"
+      ],
+      "baseline": [
+        "CALLBACK_TODAY",
+        "COACHING"
+      ],
+      "agent_ok": true,
+      "baseline_ok": true,
+      "violations": [],
+      "expected_violations": [],
+      "criteria_diff": {},
+      "dropped": [],
+      "cost_usd": 0.003741,
+      "latency_ms": 4219
+    },
+    {
+      "call_id": "S-09",
+      "language": "ru",
+      "scenario": "Speaker labels swapped by the telephony: the manager's 7% discount line is tagged as client",
+      "expected": [
+        "CORRECT_PROMISE"
+      ],
+      "agent": [
+        "OK"
+      ],
+      "baseline": [
+        "CALLBACK_TODAY"
+      ],
+      "agent_ok": false,
+      "baseline_ok": false,
+      "violations": [],
+      "expected_violations": [
+        "discount"
+      ],
+      "criteria_diff": {},
+      "dropped": [],
+      "cost_usd": 0.003702,
+      "latency_ms": 4601
+    },
+    {
+      "call_id": "S-10",
+      "language": "az",
+      "scenario": "Compliant 3% discount for full payment, said in words ('üç faiz')",
+      "expected": [
+        "OK"
+      ],
+      "agent": [
+        "OK"
+      ],
+      "baseline": [
+        "CORRECT_PROMISE",
+        "CALLBACK_TODAY"
+      ],
+      "agent_ok": true,
+      "baseline_ok": false,
+      "violations": [],
+      "expected_violations": [],
+      "criteria_diff": {},
+      "dropped": [],
+      "cost_usd": 0.004342,
+      "latency_ms": 5068
+    }
+  ]
+}

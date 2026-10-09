@@ -60,92 +60,96 @@
     "actions": [
       "OK"
     ],
-    "summary_en": "Client is looking for a 3-room apartment from 90 m2 for family living with a budget up to 200,000 AZN via mortgage, and agreed to visit the showroom on Saturday at 12:00; manager stated handover is in Q4 2027.",
+    "summary_en": "The client is looking for a 3-room, ~90 m² apartment for living with a mortgage budget of up to 200,000 AZN, and agreed to a showroom visit on Saturday at 12:00 after the manager stated handover is in Q4 2027.",
     "facts": {
       "intro": {
         "name_said": true,
         "project_said": true,
-        "quote": "ЖК Demo Residence, меня зовут Тимур."
+        "quote": "Demo Residence yaşayış kompleksi, mənim adım Teymurdur."
       },
       "budget": {
         "asked": true,
         "amount_azn": 200000.0,
-        "quote": "На какой бюджет ориентируетесь?"
+        "quote": "Büdcəniz nə qədərdir?"
       },
       "payment": {
         "method": "mortgage",
-        "quote": "Ипотека, через банк."
+        "quote": "İpoteka ilə, bank vasitəsilə."
       },
       "need": {
         "rooms": 3,
         "area_m2": 90.0,
         "purpose": "living",
-        "quote": "Трёшку, где-то от девяноста метров."
+        "quote": "Üçotaqlı, təxminən doxsan kvadratdan."
       },
       "showroom": {
         "offered": true,
         "has_time": true,
         "discouraged": false,
-        "quote": "Давайте я вас приглашу в шоурум. Суббота в 12:00 вам удобно?"
+        "quote": "Onda sizi şouruma dəvət edirəm. Şənbə saat 12:00 sizə uyğundur?"
       },
       "next_step": {
         "type": "showroom_visit",
-        "when": "суббота в 12:00",
+        "when": "şənbə saat 12:00",
         "client_agreed": true,
-        "quote": "Да, суббота в 12 подходит."
+        "quote": "Bəli, şənbə saat 12 uyğundur."
       },
       "promises": [
         {
           "topic": "completion_date",
           "value": "2027-10",
           "condition": null,
-          "quote": "Сдача дома — четвёртый квартал 2027 года."
+          "quote": "Binanın təhvili 2027-ci ilin dördüncü rübündədir."
         }
       ],
       "lead": {
         "temperature": "hot",
-        "quote": "Да, суббота в 12 подходит."
+        "quote": "Planları canlı görmək istərdik."
       },
       "translations": [
         {
-          "quote": "ЖК Demo Residence, меня зовут Тимур.",
-          "en": "Demo Residence residential complex, my name is Timur."
+          "quote": "Demo Residence yaşayış kompleksi, mənim adım Teymurdur.",
+          "en": "Demo Residence residential complex, my name is Teymur."
         },
         {
-          "quote": "На какой бюджет ориентируетесь?",
-          "en": "What budget are you aiming for?"
+          "quote": "Büdcəniz nə qədərdir?",
+          "en": "What is your budget?"
         },
         {
-          "quote": "Ипотека, через банк.",
-          "en": "Mortgage, through a bank."
+          "quote": "İpoteka ilə, bank vasitəsilə.",
+          "en": "With a mortgage, through a bank."
         },
         {
-          "quote": "Трёшку, где-то от девяноста метров.",
-          "en": "A three-room apartment, somewhere from ninety meters."
+          "quote": "Üçotaqlı, təxminən doxsan kvadratdan.",
+          "en": "Three-room, from about ninety square meters."
         },
         {
-          "quote": "Давайте я вас приглашу в шоурум. Суббота в 12:00 вам удобно?",
-          "en": "Let me invite you to the showroom. Is Saturday at 12:00 convenient for you?"
+          "quote": "Onda sizi şouruma dəvət edirəm. Şənbə saat 12:00 sizə uyğundur?",
+          "en": "Then I invite you to the showroom. Does Saturday at 12:00 suit you?"
         },
         {
-          "quote": "Да, суббота в 12 подходит.",
-          "en": "Yes, Saturday at 12 works."
+          "quote": "Bəli, şənbə saat 12 uyğundur.",
+          "en": "Yes, Saturday at 12 suits."
         },
         {
-          "quote": "Сдача дома — четвёртый квартал 2027 года.",
-          "en": "Handover of the building is in the fourth quarter of 2027."
+          "quote": "Binanın təhvili 2027-ci ilin dördüncü rübündədir.",
+          "en": "The building handover is in the fourth quarter of 2027."
+        },
+        {
+          "quote": "Planları canlı görmək istərdik.",
+          "en": "We would like to see the layouts in person."
         }
       ],
-      "summary_en": "Client is looking for a 3-room apartment from 90 m2 for family living with a budget up to 200,000 AZN via mortgage, and agreed to visit the showroom on Saturday at 12:00; manager stated handover is in Q4 2027."
+      "summary_en": "The client is looking for a 3-room, ~90 m² apartment for living with a mortgage budget of up to 200,000 AZN, and agreed to a showroom visit on Saturday at 12:00 after the manager stated handover is in Q4 2027."
     },
     "usage": {
       "model": "gemini-3.8-flash",
-      "thinking": "default",
-      "input_tokens": 3040,
-      "output_tokens": 4234,
-      "cost_usd": 0.018158
+      "thinking": "LOW",
+      "input_tokens": 3126,
+      "output_tokens": 639,
+      "cost_usd": 0.004741
     },
-    "latency_ms": 34469
+    "latency_ms": 6204
   },
   "C-002": {
     "call_id": "C-002",
@@ -208,12 +212,12 @@
     "actions": [
       "OK"
     ],
-    "summary_en": "The client is looking for a two-room apartment of around 60 m2 to live in, plans to pay immediately in cash, and agreed to visit the showroom on Thursday at 17:00.",
+    "summary_en": "The client is looking for a 2-room apartment of around 60 m2 to live in, paying in cash, and agreed to visit the showroom on Thursday at 17:00.",
     "facts": {
       "intro": {
         "name_said": true,
         "project_said": true,
-        "quote": "Добрый день, Demo Residence, меня зовут Нигяр. Вы интересовались двухкомнатными квартирами?"
+        "quote": "Salam, Demo Residence, mənim adım Nigardır. İkiotaqlı mənzillərlə maraqlanırdınız?"
       },
       "budget": {
         "asked": false,
@@ -222,63 +226,63 @@
       },
       "payment": {
         "method": "cash",
-        "quote": "Наличными, сразу."
+        "quote": "Nağd, birdəfəlik."
       },
       "need": {
         "rooms": 2,
         "area_m2": 60.0,
         "purpose": "living",
-        "quote": "Двушку ищу, жить сами будем."
+        "quote": "İkiotaqlı axtarıram, özümüz yaşayacağıq."
       },
       "showroom": {
         "offered": true,
         "has_time": true,
         "discouraged": false,
-        "quote": "Тогда приглашаю вас в шоурум, покажу обе планировки. В четверг в 17:00 сможете?"
+        "quote": "Onda sizi şouruma dəvət edirəm, hər iki planı göstərərəm. Cümə axşamı saat 17:00-da gələ bilərsiniz?"
       },
       "next_step": {
         "type": "showroom_visit",
-        "when": "четверг в 17:00",
+        "when": "Cümə axşamı saat 17:00",
         "client_agreed": true,
-        "quote": "В четверг в пять — да, смогу."
+        "quote": "Cümə axşamı saat beşdə — bəli, gələrəm."
       },
       "promises": [],
       "lead": {
         "temperature": "hot",
-        "quote": "В четверг в пять — да, смогу."
+        "quote": "Cümə axşamı saat beşdə — bəli, gələrəm."
       },
       "translations": [
         {
-          "quote": "Добрый день, Demo Residence, меня зовут Нигяр. Вы интересовались двухкомнатными квартирами?",
-          "en": "Good day, Demo Residence, my name is Nigar. Were you interested in two-room apartments?"
+          "quote": "Salam, Demo Residence, mənim adım Nigardır. İkiotaqlı mənzillərlə maraqlanırdınız?",
+          "en": "Hello, Demo Residence, my name is Nigar. Were you interested in two-room apartments?"
         },
         {
-          "quote": "Наличными, сразу.",
-          "en": "In cash, immediately."
+          "quote": "Nağd, birdəfəlik.",
+          "en": "Cash, all at once."
         },
         {
-          "quote": "Двушку ищу, жить сами будем.",
-          "en": "I'm looking for a two-room flat, we'll live there ourselves."
+          "quote": "İkiotaqlı axtarıram, özümüz yaşayacağıq.",
+          "en": "I am looking for a two-room flat, we will live there ourselves."
         },
         {
-          "quote": "Тогда приглашаю вас в шоурум, покажу обе планировки. В четверг в 17:00 сможете?",
-          "en": "Then I invite you to the showroom, I'll show both floor plans. Can you make it on Thursday at 17:00?"
+          "quote": "Onda sizi şouruma dəvət edirəm, hər iki planı göstərərəm. Cümə axşamı saat 17:00-da gələ bilərsiniz?",
+          "en": "Then I invite you to the showroom, I will show both layouts. Can you come on Thursday at 17:00?"
         },
         {
-          "quote": "В четверг в пять — да, смогу.",
-          "en": "On Thursday at five — yes, I can."
+          "quote": "Cümə axşamı saat beşdə — bəli, gələrəm.",
+          "en": "Thursday at five o'clock — yes, I will come."
         }
       ],
-      "summary_en": "The client is looking for a two-room apartment of around 60 m2 to live in, plans to pay immediately in cash, and agreed to visit the showroom on Thursday at 17:00."
+      "summary_en": "The client is looking for a 2-room apartment of around 60 m2 to live in, paying in cash, and agreed to visit the showroom on Thursday at 17:00."
     },
     "usage": {
       "model": "gemini-3.8-flash",
-      "thinking": "default",
-      "input_tokens": 2888,
-      "output_tokens": 1368,
-      "cost_usd": 0.007296
+      "thinking": "LOW",
+      "input_tokens": 2951,
+      "output_tokens": 556,
+      "cost_usd": 0.004298
     },
-    "latency_ms": 10868
+    "latency_ms": 5650
   },
   "C-003": {
     "call_id": "C-003",
@@ -341,102 +345,98 @@
     "actions": [
       "OK"
     ],
-    "summary_en": "Client is looking for a one-room apartment for investment with a budget up to 90,000 AZN via installments, and agreed to a showroom visit tomorrow at 11:00 after the manager offered an installment plan of up to 24 months with a 30% down payment.",
+    "summary_en": "The client is looking for a one-room apartment for investment with a budget up to 90,000 AZN via installments, and agreed to visit the showroom tomorrow at 11:00.",
     "facts": {
       "intro": {
         "name_said": true,
         "project_said": true,
-        "quote": "Здравствуйте! Меня зовут Эльвин, ЖК Demo Residence."
+        "quote": "Salam! Mənim adım Elvindir, Demo Residence. Saytda müraciət etmisiniz?"
       },
       "budget": {
         "asked": true,
         "amount_azn": 90000.0,
-        "quote": "А в какие деньги хотите уложиться?"
+        "quote": "Hansı məbləğə sığmaq istəyirsiniz?"
       },
       "payment": {
         "method": "installment",
-        "quote": "Рассрочка интересует."
+        "quote": "Рассрочка maraqlıdır."
       },
       "need": {
         "rooms": 1,
         "area_m2": null,
         "purpose": "investment",
-        "quote": "Да-да, по поводу однушки."
+        "quote": "Kirayə vermək üçün, как вложение."
       },
       "showroom": {
         "offered": true,
         "has_time": true,
         "discouraged": false,
-        "quote": "Приезжайте в шоурум, всё посчитаем на месте. Завтра в 11:00 удобно?"
+        "quote": "Şouruma gəlin, hər şeyi yerində hesablayaq. Sabah saat 11:00 uyğundur?"
       },
       "next_step": {
         "type": "showroom_visit",
-        "when": "завтра в 11:00",
+        "when": "sabah saat 11:00",
         "client_agreed": true,
-        "quote": "Да, завтра в одиннадцать приеду."
+        "quote": "Bəli, sabah on birdə gələrəm."
       },
       "promises": [
         {
           "topic": "installment_months",
           "value": "24",
           "condition": null,
-          "quote": "Рассрочка у нас до 24 месяцев"
+          "quote": "Rassrochka 24 aya qədərdir, ilkin ödəniş 30%-dən."
         },
         {
           "topic": "down_payment_pct",
           "value": "30",
           "condition": null,
-          "quote": "первый взнос от 30%"
+          "quote": "Rassrochka 24 aya qədərdir, ilkin ödəniş 30%-dən."
         }
       ],
       "lead": {
         "temperature": "hot",
-        "quote": "Да, завтра в одиннадцать приеду."
+        "quote": "Bəli, sabah on birdə gələrəm."
       },
       "translations": [
         {
-          "quote": "Здравствуйте! Меня зовут Эльвин, ЖК Demo Residence.",
-          "en": "Hello! My name is Elvin, Demo Residence residential complex."
+          "quote": "Salam! Mənim adım Elvindir, Demo Residence. Saytda müraciət etmisiniz?",
+          "en": "Hello! My name is Elvin, Demo Residence. Did you apply on the website?"
         },
         {
-          "quote": "А в какие деньги хотите уложиться?",
-          "en": "And what budget do you want to fit into?"
+          "quote": "Hansı məbləğə sığmaq istəyirsiniz?",
+          "en": "What amount do you want to fit into?"
         },
         {
-          "quote": "Рассрочка интересует.",
-          "en": "I am interested in installments."
+          "quote": "Рассрочка maraqlıdır.",
+          "en": "Installment is of interest."
         },
         {
-          "quote": "Да-да, по поводу однушки.",
-          "en": "Yes, yes, about the one-room flat."
+          "quote": "Kirayə vermək üçün, как вложение.",
+          "en": "For renting out, as an investment."
         },
         {
-          "quote": "Приезжайте в шоурум, всё посчитаем на месте. Завтра в 11:00 удобно?",
-          "en": "Come to the showroom, we will calculate everything on site. Is tomorrow at 11:00 convenient?"
+          "quote": "Şouruma gəlin, hər şeyi yerində hesablayaq. Sabah saat 11:00 uyğundur?",
+          "en": "Come to the showroom, let's calculate everything on site. Is tomorrow at 11:00 suitable?"
         },
         {
-          "quote": "Да, завтра в одиннадцать приеду.",
+          "quote": "Bəli, sabah on birdə gələrəm.",
           "en": "Yes, I will come tomorrow at eleven."
         },
         {
-          "quote": "Рассрочка у нас до 24 месяцев",
-          "en": "Our installment plan is up to 24 months"
-        },
-        {
-          "quote": "первый взнос от 30%",
-          "en": "down payment from 30%"
+          "quote": "Rassrochka 24 aya qədərdir, ilkin ödəniş 30%-dən.",
+          "en": "Installment is up to 24 months, down payment from 30%."
         }
       ],
-      "summary_en": "Client is looking for a one-room apartment for investment with a budget up to 90,000 AZN via installments, and agreed to a showroom visit tomorrow at 11:00 after the manager offered an installment plan of up to 24 months with a 30% down payment."
+      "summary_en": "The client is looking for a one-room apartment for investment with a budget up to 90,000 AZN via installments, and agreed to visit the showroom tomorrow at 11:00."
     },
     "usage": {
       "model": "gemini-3.8-flash",
-      "thinking": "default",
-      "input_tokens": 2925,
-      "output_tokens": 8246,
-      "cost_usd": 0.033116
+      "thinking": "LOW",
+      "input_tokens": 2978,
+      "output_tokens": 650,
+      "cost_usd": 0.004671
     },
-    "latency_ms": 67558
+    "latency_ms": 7000
   },
   "C-004": {
     "call_id": "C-004",
@@ -499,81 +499,85 @@
     "actions": [
       "INVITE_SHOWROOM"
     ],
-    "summary_en": "Client is looking for a 3-room apartment to live in with a budget of about 180,000 AZN via mortgage; manager discouraged visiting the showroom and promised to send floor plans via WhatsApp by 6:00 PM today, which the client agreed to review with her husband.",
+    "summary_en": "The client is looking for a 3-room apartment to live in with a budget of 180,000 AZN via mortgage, and the manager discouraged visiting the showroom and agreed to send floor plans by 6 PM today.",
     "facts": {
       "intro": {
         "name_said": true,
         "project_said": true,
-        "quote": "Добрый день, Demo Residence, меня зовут Ровшан."
+        "quote": "Salam, Demo Residence, mənim adım Rövşəndir. Üçotaqlı mənzillərlə bağlı soruşmuşdunuz?"
       },
       "budget": {
         "asked": true,
         "amount_azn": 180000.0,
-        "quote": "Какой бюджет рассматриваете?"
+        "quote": "Büdcəniz nə qədərdir?"
       },
       "payment": {
         "method": "mortgage",
-        "quote": "Ипотека."
+        "quote": "İpoteka."
       },
       "need": {
         "rooms": 3,
         "area_m2": null,
         "purpose": "living",
-        "quote": "Нам с мужем нужна трёшка, жить."
+        "quote": "Həyat yoldaşımla üçotaqlı mənzil axtarırıq, yaşamaq üçün."
       },
       "showroom": {
         "offered": false,
         "has_time": false,
         "discouraged": true,
-        "quote": "Шоурум у нас есть, но вам, наверное, далеко ехать, не стоит тратить время."
+        "quote": "Şourumumuz var, amma sizə yəqin uzaq olacaq, vaxt itirməyə dəyməz. Gəlin, planları WhatsApp-a göndərim."
       },
       "next_step": {
         "type": "send_floor_plans",
-        "when": "сегодня до шести вечера",
+        "when": "Bu gün axşam saat altıya qədər",
         "client_agreed": true,
-        "quote": "Хорошо, посмотрю с мужем."
+        "quote": "Yaxşı, göndərin."
       },
       "promises": [],
       "lead": {
         "temperature": "warm",
-        "quote": "Хорошо, посмотрю с мужем."
+        "quote": "Yaxşı, həyat yoldaşımla baxarıq."
       },
       "translations": [
         {
-          "quote": "Добрый день, Demo Residence, меня зовут Ровшан.",
-          "en": "Good afternoon, Demo Residence, my name is Rovshan."
+          "quote": "Salam, Demo Residence, mənim adım Rövşəndir. Üçotaqlı mənzillərlə bağlı soruşmuşdunuz?",
+          "en": "Hello, Demo Residence, my name is Rovshan. You asked about three-room apartments?"
         },
         {
-          "quote": "Какой бюджет рассматриваете?",
-          "en": "What budget are you considering?"
+          "quote": "Büdcəniz nə qədərdir?",
+          "en": "What is your budget?"
         },
         {
-          "quote": "Ипотека.",
+          "quote": "İpoteka.",
           "en": "Mortgage."
         },
         {
-          "quote": "Нам с мужем нужна трёшка, жить.",
-          "en": "My husband and I need a three-room flat to live in."
+          "quote": "Həyat yoldaşımla üçotaqlı mənzil axtarırıq, yaşamaq üçün.",
+          "en": "My spouse and I are looking for a three-room apartment, to live in."
         },
         {
-          "quote": "Шоурум у нас есть, но вам, наверное, далеко ехать, не стоит тратить время.",
-          "en": "We have a showroom, but it's probably far for you to travel, it's not worth spending time."
+          "quote": "Şourumumuz var, amma sizə yəqin uzaq olacaq, vaxt itirməyə dəyməz. Gəlin, planları WhatsApp-a göndərim.",
+          "en": "We have a showroom, but it will probably be far for you, not worth wasting time. Let me send the floor plans to WhatsApp."
         },
         {
-          "quote": "Хорошо, посмотрю с мужем.",
-          "en": "All right, I'll take a look with my husband."
+          "quote": "Yaxşı, göndərin.",
+          "en": "Okay, send them."
+        },
+        {
+          "quote": "Yaxşı, həyat yoldaşımla baxarıq.",
+          "en": "Okay, my spouse and I will take a look."
         }
       ],
-      "summary_en": "Client is looking for a 3-room apartment to live in with a budget of about 180,000 AZN via mortgage; manager discouraged visiting the showroom and promised to send floor plans via WhatsApp by 6:00 PM today, which the client agreed to review with her husband."
+      "summary_en": "The client is looking for a 3-room apartment to live in with a budget of 180,000 AZN via mortgage, and the manager discouraged visiting the showroom and agreed to send floor plans by 6 PM today."
     },
     "usage": {
       "model": "gemini-3.8-flash",
-      "thinking": "default",
-      "input_tokens": 2858,
-      "output_tokens": 2860,
-      "cost_usd": 0.012868
+      "thinking": "LOW",
+      "input_tokens": 2927,
+      "output_tokens": 604,
+      "cost_usd": 0.00446
     },
-    "latency_ms": 21546
+    "latency_ms": 6667
   },
   "C-005": {
     "call_id": "C-005",
@@ -636,12 +640,12 @@
     "actions": [
       "CALLBACK_TODAY"
     ],
-    "summary_en": "The client is looking for a two-room apartment to live in with a budget of 130,000 AZN in cash, but hesitated regarding a showroom visit on Saturday at 11:00, resulting in no agreed next step.",
+    "summary_en": "The client is looking for a 2-room apartment to live in with a budget of 130,000 AZN in cash, but gave a vague response to a showroom invitation for Saturday at 11:00, leading to no concrete next step.",
     "facts": {
       "intro": {
         "name_said": true,
         "project_said": true,
-        "quote": "Здравствуйте, ЖК Demo Residence, меня зовут Лейла."
+        "quote": "Здравствуйте, ЖК Demo Residence, меня зовут Лейла. Вы оставляли заявку на двушку?"
       },
       "budget": {
         "asked": true,
@@ -668,7 +672,7 @@
         "type": "none",
         "when": null,
         "client_agreed": false,
-        "quote": null
+        "quote": "Хорошо, тогда созвонимся."
       },
       "promises": [],
       "lead": {
@@ -677,12 +681,12 @@
       },
       "translations": [
         {
-          "quote": "Здравствуйте, ЖК Demo Residence, меня зовут Лейла.",
-          "en": "Hello, Demo Residence residential complex, my name is Leyla."
+          "quote": "Здравствуйте, ЖК Demo Residence, меня зовут Лейла. Вы оставляли заявку на двушку?",
+          "en": "Hello, Demo Residence residential complex, my name is Leyla. Did you leave an inquiry for a two-room flat?"
         },
         {
           "quote": "Какой бюджет?",
-          "en": "What is your budget?"
+          "en": "What is the budget?"
         },
         {
           "quote": "Наличными, квартиру продаём.",
@@ -690,27 +694,31 @@
         },
         {
           "quote": "Да, жить.",
-          "en": "Yes, to live."
+          "en": "Yes, to live in."
         },
         {
           "quote": "Приглашаю вас в шоурум, в субботу в 11:00 сможете?",
-          "en": "I invite you to the showroom, can you make it on Saturday at 11:00?"
+          "en": "I invite you to the showroom, could you do Saturday at 11:00?"
+        },
+        {
+          "quote": "Хорошо, тогда созвонимся.",
+          "en": "Okay, then we'll be in touch."
         },
         {
           "quote": "Ой, не знаю, ну посмотрим, может быть.",
           "en": "Oh, I don't know, well we'll see, maybe."
         }
       ],
-      "summary_en": "The client is looking for a two-room apartment to live in with a budget of 130,000 AZN in cash, but hesitated regarding a showroom visit on Saturday at 11:00, resulting in no agreed next step."
+      "summary_en": "The client is looking for a 2-room apartment to live in with a budget of 130,000 AZN in cash, but gave a vague response to a showroom invitation for Saturday at 11:00, leading to no concrete next step."
     },
     "usage": {
       "model": "gemini-3.8-flash",
-      "thinking": "default",
+      "thinking": "LOW",
       "input_tokens": 2875,
-      "output_tokens": 3702,
-      "cost_usd": 0.016039
+      "output_tokens": 481,
+      "cost_usd": 0.00396
     },
-    "latency_ms": 26990
+    "latency_ms": 5220
   },
   "C-006": {
     "call_id": "C-006",
@@ -780,12 +788,12 @@
     "actions": [
       "CORRECT_PROMISE"
     ],
-    "summary_en": "Client is looking for a 2-room apartment to live in with a budget of 120,000 AZN on installment, and agreed to visit the showroom on Friday at 18:00; manager promised up to 24 months installment and an unspecified discount.",
+    "summary_en": "The client is looking for a two-room apartment to live in with a budget of around 120,000 AZN via installment, and agreed to visit the showroom on Friday at 18:00.",
     "facts": {
       "intro": {
         "name_said": true,
         "project_said": true,
-        "quote": "Demo Residence, меня зовут Фарид."
+        "quote": "Добрый день! Demo Residence, меня зовут Фарид. Звоню по вашей заявке на двухкомнатную."
       },
       "budget": {
         "asked": true,
@@ -810,7 +818,7 @@
       },
       "next_step": {
         "type": "showroom_visit",
-        "when": "пятница в 18:00",
+        "when": "пятница 18:00",
         "client_agreed": true,
         "quote": "В пятницу в шесть, да, приеду."
       },
@@ -834,12 +842,12 @@
       },
       "translations": [
         {
-          "quote": "Demo Residence, меня зовут Фарид.",
-          "en": "Demo Residence, my name is Farid."
+          "quote": "Добрый день! Demo Residence, меня зовут Фарид. Звоню по вашей заявке на двухкомнатную.",
+          "en": "Good day! Demo Residence, my name is Farid. I'm calling regarding your inquiry for a two-room flat."
         },
         {
           "quote": "На какую сумму рассчитываете?",
-          "en": "What amount are you planning to spend?"
+          "en": "What amount are you planning for?"
         },
         {
           "quote": "Рассрочку хотим.",
@@ -847,7 +855,7 @@
         },
         {
           "quote": "Для себя ищем, жить.",
-          "en": "Looking for ourselves, to live in."
+          "en": "We're looking for ourselves, to live in."
         },
         {
           "quote": "Приезжайте в шоурум в пятницу в 18:00, всё покажу.",
@@ -859,23 +867,23 @@
         },
         {
           "quote": "Рассрочка до 24 месяцев.",
-          "en": "Installment up to 24 months."
+          "en": "Installment plan up to 24 months."
         },
         {
           "quote": "И скидочку вам подберём, не переживайте, договоримся.",
-          "en": "And we'll arrange a discount for you, don't worry, we'll agree on terms."
+          "en": "And we will arrange a discount for you, don't worry, we'll agree on terms."
         }
       ],
-      "summary_en": "Client is looking for a 2-room apartment to live in with a budget of 120,000 AZN on installment, and agreed to visit the showroom on Friday at 18:00; manager promised up to 24 months installment and an unspecified discount."
+      "summary_en": "The client is looking for a two-room apartment to live in with a budget of around 120,000 AZN via installment, and agreed to visit the showroom on Friday at 18:00."
     },
     "usage": {
       "model": "gemini-3.8-flash",
-      "thinking": "default",
+      "thinking": "LOW",
       "input_tokens": 2903,
-      "output_tokens": 2152,
-      "cost_usd": 0.010247
+      "output_tokens": 602,
+      "cost_usd": 0.004435
     },
-    "latency_ms": 15485
+    "latency_ms": 7119
   },
   "C-007": {
     "call_id": "C-007",
@@ -945,12 +953,12 @@
     "actions": [
       "CORRECT_PROMISE"
     ],
-    "summary_en": "The client is looking for a one-room apartment for his son with a budget of up to 85,000 AZN in cash, and agreed to visit the showroom on Wednesday at 15:00 after being informed of completion in summer 2027.",
+    "summary_en": "The client is looking for a one-room apartment for his son to live in with a cash budget of up to 85,000 AZN, and agreed to a showroom visit on Wednesday at 15:00 after the manager stated the building would be completed next summer.",
     "facts": {
       "intro": {
         "name_said": true,
         "project_said": true,
-        "quote": "ЖК Demo Residence, меня зовут Самир."
+        "quote": "Алло, здравствуйте! ЖК Demo Residence, меня зовут Самир. Вы оставляли заявку?"
       },
       "budget": {
         "asked": true,
@@ -959,7 +967,7 @@
       },
       "payment": {
         "method": "cash",
-        "quote": "Наличными."
+        "quote": "Наличными. А когда сдача дома?"
       },
       "need": {
         "rooms": 1,
@@ -975,7 +983,7 @@
       },
       "next_step": {
         "type": "showroom_visit",
-        "when": "в среду в 15:00",
+        "when": "среда 15:00",
         "client_agreed": true,
         "quote": "Да, в среду в три подойдём."
       },
@@ -993,20 +1001,20 @@
       },
       "translations": [
         {
-          "quote": "ЖК Demo Residence, меня зовут Самир.",
-          "en": "Demo Residence RC, my name is Samir."
+          "quote": "Алло, здравствуйте! ЖК Demo Residence, меня зовут Самир. Вы оставляли заявку?",
+          "en": "Hello! Demo Residence RC, my name is Samir. Did you leave a request?"
         },
         {
           "quote": "Бюджет какой?",
           "en": "What is the budget?"
         },
         {
-          "quote": "Наличными.",
-          "en": "In cash."
+          "quote": "Наличными. А когда сдача дома?",
+          "en": "In cash. And when is the handover of the building?"
         },
         {
           "quote": "Да, по однушкам. Для сына берём, жить будет.",
-          "en": "Yes, regarding one-room apartments. We are buying for our son, he will live there."
+          "en": "Yes, regarding one-room apartments. We are buying it for my son, he will live there."
         },
         {
           "quote": "Приглашаю в шоурум, в среду в 15:00 удобно?",
@@ -1021,16 +1029,16 @@
           "en": "Handover is in the summer of next year, you'll receive the keys by summer."
         }
       ],
-      "summary_en": "The client is looking for a one-room apartment for his son with a budget of up to 85,000 AZN in cash, and agreed to visit the showroom on Wednesday at 15:00 after being informed of completion in summer 2027."
+      "summary_en": "The client is looking for a one-room apartment for his son to live in with a cash budget of up to 85,000 AZN, and agreed to a showroom visit on Wednesday at 15:00 after the manager stated the building would be completed next summer."
     },
     "usage": {
       "model": "gemini-3.8-flash",
-      "thinking": "default",
+      "thinking": "LOW",
       "input_tokens": 2876,
-      "output_tokens": 1170,
-      "cost_usd": 0.006544
+      "output_tokens": 570,
+      "cost_usd": 0.004294
     },
-    "latency_ms": 10161
+    "latency_ms": 7100
   },
   "C-008": {
     "call_id": "C-008",
@@ -1100,12 +1108,12 @@
     "actions": [
       "CORRECT_PROMISE"
     ],
-    "summary_en": "The client is looking for a 2-room apartment to live in with a maximum budget of 110,000 AZN via installment and agreed to visit the showroom on Saturday at 13:00.",
+    "summary_en": "The client is looking for a 2-room apartment to live in with a maximum budget of 110,000 AZN via installment, and agreed to visit the showroom on Saturday at 13:00.",
     "facts": {
       "intro": {
         "name_said": true,
         "project_said": true,
-        "quote": "Salam, Demo Residence, mənim adım Aysel."
+        "quote": "Salam, Demo Residence, mənim adım Aysel. Вы оставляли заявку?"
       },
       "budget": {
         "asked": true,
@@ -1130,7 +1138,7 @@
       },
       "next_step": {
         "type": "showroom_visit",
-        "when": "şənbə saat 13:00",
+        "when": "şənbə saat 13:00-da",
         "client_agreed": true,
         "quote": "Bəli, şənbə saat 13:00-da gələcəyəm."
       },
@@ -1154,8 +1162,8 @@
       },
       "translations": [
         {
-          "quote": "Salam, Demo Residence, mənim adım Aysel.",
-          "en": "Hello, Demo Residence, my name is Aysel."
+          "quote": "Salam, Demo Residence, mənim adım Aysel. Вы оставляли заявку?",
+          "en": "Hello, Demo Residence, my name is Aysel. Did you leave a request?"
         },
         {
           "quote": "Büdcəniz nə qədərdir?",
@@ -1163,11 +1171,11 @@
         },
         {
           "quote": "Rassrochka istəyirik.",
-          "en": "We want an installment plan."
+          "en": "We want installment."
         },
         {
           "quote": "Нам ikiotaqlı mənzil lazımdır, yaşamaq üçün.",
-          "en": "We need a two-room apartment, to live in."
+          "en": "We need a two-room apartment, for living."
         },
         {
           "quote": "Şənbə saat 13:00-da şouruma gələ bilərsiniz?",
@@ -1182,16 +1190,16 @@
           "en": "We have installments up to 36 months, down payment 30%."
         }
       ],
-      "summary_en": "The client is looking for a 2-room apartment to live in with a maximum budget of 110,000 AZN via installment and agreed to visit the showroom on Saturday at 13:00."
+      "summary_en": "The client is looking for a 2-room apartment to live in with a maximum budget of 110,000 AZN via installment, and agreed to visit the showroom on Saturday at 13:00."
     },
     "usage": {
       "model": "gemini-3.8-flash",
-      "thinking": "default",
+      "thinking": "LOW",
       "input_tokens": 2919,
-      "output_tokens": 2271,
-      "cost_usd": 0.010705
+      "output_tokens": 658,
+      "cost_usd": 0.004657
     },
-    "latency_ms": 16712
+    "latency_ms": 7278
   },
   "C-009": {
     "call_id": "C-009",
@@ -1254,7 +1262,7 @@
     "actions": [
       "OK"
     ],
-    "summary_en": "The client is looking for a 3-room apartment to live in with a budget of about 200,000 AZN in cash, received an offer of a 3% discount for full payment, and agreed to visit the showroom on Tuesday at 16:00.",
+    "summary_en": "The client is looking for a 3-room apartment to live in with a cash budget around 200,000 AZN, received a 3% discount offer for full upfront payment, and agreed to visit the showroom on Tuesday at 16:00.",
     "facts": {
       "intro": {
         "name_said": true,
@@ -1274,7 +1282,7 @@
         "rooms": 3,
         "area_m2": null,
         "purpose": "living",
-        "quote": "Да, добрый день. Трёшку смотрим, жить."
+        "quote": "Трёшку смотрим, жить."
       },
       "showroom": {
         "offered": true,
@@ -1284,7 +1292,7 @@
       },
       "next_step": {
         "type": "showroom_visit",
-        "when": "вторник в 16:00",
+        "when": "вторник 16:00",
         "client_agreed": true,
         "quote": "Во вторник в 16 — да."
       },
@@ -1303,7 +1311,7 @@
       "translations": [
         {
           "quote": "Здравствуйте, Demo Residence, меня зовут Ульви. По вашей заявке звоню.",
-          "en": "Hello, Demo Residence, my name is Ulvi. Calling regarding your request."
+          "en": "Hello, Demo Residence, my name is Ulvi. Calling regarding your inquiry."
         },
         {
           "quote": "Бюджет какой рассматриваете?",
@@ -1314,32 +1322,32 @@
           "en": "The entire amount at once, in cash."
         },
         {
-          "quote": "Да, добрый день. Трёшку смотрим, жить.",
-          "en": "Yes, good afternoon. Looking for a three-room flat, to live in."
+          "quote": "Трёшку смотрим, жить.",
+          "en": "We're looking at a three-room flat, to live in."
         },
         {
           "quote": "Приезжайте в шоурум во вторник в 16:00?",
-          "en": "Can you come to the showroom on Tuesday at 16:00?"
+          "en": "Would you come to the showroom on Tuesday at 16:00?"
         },
         {
           "quote": "Во вторник в 16 — да.",
-          "en": "Tuesday at 16 — yes."
+          "en": "On Tuesday at 16 — yes."
         },
         {
           "quote": "При стопроцентной оплате можем дать скидку 3%.",
           "en": "With 100% payment we can give a 3% discount."
         }
       ],
-      "summary_en": "The client is looking for a 3-room apartment to live in with a budget of about 200,000 AZN in cash, received an offer of a 3% discount for full payment, and agreed to visit the showroom on Tuesday at 16:00."
+      "summary_en": "The client is looking for a 3-room apartment to live in with a cash budget around 200,000 AZN, received a 3% discount offer for full upfront payment, and agreed to visit the showroom on Tuesday at 16:00."
     },
     "usage": {
       "model": "gemini-3.8-flash",
-      "thinking": "default",
+      "thinking": "LOW",
       "input_tokens": 2864,
-      "output_tokens": 1441,
-      "cost_usd": 0.007552
+      "output_tokens": 525,
+      "cost_usd": 0.004117
     },
-    "latency_ms": 11602
+    "latency_ms": 5659
   },
   "C-010": {
     "call_id": "C-010",
@@ -1402,7 +1410,7 @@
     "actions": [
       "OK"
     ],
-    "summary_en": "The call was a wrong number as the person stated they had not submitted any request.",
+    "summary_en": "The call was a wrong number as the client stated they did not submit any inquiry, resulting in a cold lead with no further steps.",
     "facts": {
       "intro": {
         "name_said": true,
@@ -1439,7 +1447,7 @@
       "promises": [],
       "lead": {
         "temperature": "cold",
-        "quote": "Səhv nömrədir yəqin."
+        "quote": "Xeyr, mən heç nə müraciət etməmişəm. Səhv nömrədir yəqin."
       },
       "translations": [
         {
@@ -1447,20 +1455,20 @@
           "en": "Hello, Demo Residence, my name is Kamran. Did you apply on the website?"
         },
         {
-          "quote": "Səhv nömrədir yəqin.",
-          "en": "It must be a wrong number."
+          "quote": "Xeyr, mən heç nə müraciət etməmişəm. Səhv nömrədir yəqin.",
+          "en": "No, I did not apply for anything. It is probably a wrong number."
         }
       ],
-      "summary_en": "The call was a wrong number as the person stated they had not submitted any request."
+      "summary_en": "The call was a wrong number as the client stated they did not submit any inquiry, resulting in a cold lead with no further steps."
     },
     "usage": {
       "model": "gemini-3.8-flash",
-      "thinking": "default",
+      "thinking": "LOW",
       "input_tokens": 2749,
-      "output_tokens": 633,
-      "cost_usd": 0.004436
+      "output_tokens": 309,
+      "cost_usd": 0.00322
     },
-    "latency_ms": 5750
+    "latency_ms": 4539
   },
   "C-011": {
     "call_id": "C-011",
@@ -1523,7 +1531,7 @@
     "actions": [
       "OK"
     ],
-    "summary_en": "The client stated they are just looking with no plans to buy and declined receiving a catalogue.",
+    "summary_en": "The client is cold and just looking without plans to buy, declining the manager's offer to send a catalog.",
     "facts": {
       "intro": {
         "name_said": true,
@@ -1565,23 +1573,23 @@
       "translations": [
         {
           "quote": "Dobryy den', ZhK Demo Residence, menya zovut Ilkin. Vy ostavlyali zayavku?",
-          "en": "Good day, Demo Residence residential complex, my name is Ilkin. Did you leave an application?"
+          "en": "Good day, Demo Residence RC, my name is Ilkin. Did you leave a request?"
         },
         {
           "quote": "Da, no ya prosto smotryu poka, nichego ne planiruyu.",
-          "en": "Yes, but I'm just looking for now, not planning anything."
+          "en": "Yes, but I am just looking for now, not planning anything."
         }
       ],
-      "summary_en": "The client stated they are just looking with no plans to buy and declined receiving a catalogue."
+      "summary_en": "The client is cold and just looking without plans to buy, declining the manager's offer to send a catalog."
     },
     "usage": {
       "model": "gemini-3.8-flash",
-      "thinking": "default",
+      "thinking": "LOW",
       "input_tokens": 2775,
-      "output_tokens": 969,
-      "cost_usd": 0.005715
+      "output_tokens": 294,
+      "cost_usd": 0.003184
     },
-    "latency_ms": 8745
+    "latency_ms": 4495
   },
   "C-012": {
     "call_id": "C-012",
@@ -1644,7 +1652,7 @@
     "actions": [
       "OK"
     ],
-    "summary_en": "Client is looking for a 2-room apartment for investment with a budget of around 100,000 AZN in cash, agreed to visit the showroom on Monday at 10:00; manager stated handover is in Q4 2027.",
+    "summary_en": "The client is looking for a two-room apartment for investment with a cash budget of around 100,000 AZN, and agreed to visit the showroom on Monday at 10:00 after being informed of a Q4 2027 handover.",
     "facts": {
       "intro": {
         "name_said": true,
@@ -1713,23 +1721,23 @@
         },
         {
           "quote": "Bazar ertəsi 10:00 — olar, gələrəm.",
-          "en": "Monday 10:00 — works, I will come."
+          "en": "Monday at 10:00 is fine, I will come."
         },
         {
           "quote": "Сдача — IV квартал 2027 года, kirayə üçün yaxşı vaxtdır.",
           "en": "Handover is Q4 2027, a good time for renting."
         }
       ],
-      "summary_en": "Client is looking for a 2-room apartment for investment with a budget of around 100,000 AZN in cash, agreed to visit the showroom on Monday at 10:00; manager stated handover is in Q4 2027."
+      "summary_en": "The client is looking for a two-room apartment for investment with a cash budget of around 100,000 AZN, and agreed to visit the showroom on Monday at 10:00 after being informed of a Q4 2027 handover."
     },
     "usage": {
       "model": "gemini-3.8-flash",
-      "thinking": "default",
+      "thinking": "LOW",
       "input_tokens": 2898,
-      "output_tokens": 2070,
-      "cost_usd": 0.009936
+      "output_tokens": 617,
+      "cost_usd": 0.004487
     },
-    "latency_ms": 15877
+    "latency_ms": 5367
   },
   "C-013": {
     "call_id": "C-013",
@@ -1792,7 +1800,7 @@
     "actions": [
       "OK"
     ],
-    "summary_en": "The client is looking for a 2-room apartment to live in with his wife on a budget of around 140,000 AZN via mortgage and agreed to visit the showroom on Saturday at 12:00.",
+    "summary_en": "The client is looking for a 2-room apartment to live in with his wife with a budget around 140,000 via mortgage, and agreed to visit the showroom on Saturday at 12:00.",
     "facts": {
       "intro": {
         "name_said": true,
@@ -1822,7 +1830,7 @@
       },
       "next_step": {
         "type": "showroom_visit",
-        "when": "в субботу в двенадцать",
+        "when": "суббота двенадцать",
         "client_agreed": true,
         "quote": "да в субботу в двенадцать приду sağ olun"
       },
@@ -1842,31 +1850,31 @@
         },
         {
           "quote": "ипатека",
-          "en": "Mortgage"
+          "en": "mortgage"
         },
         {
           "quote": "да здрасте двушку смотрю жить с женой будем",
-          "en": "Yes hello, I'm looking for a two-room apartment, my wife and I will live there"
+          "en": "Yes hello, looking for a two-room flat, will live with my wife"
         },
         {
           "quote": "понял приходите к нам в шорум в субботу в двенадцать нол нол сможете",
-          "en": "Understood, come visit our showroom on Saturday at twelve o'clock, can you make it?"
+          "en": "Understood, come visit our showroom on Saturday at twelve hundred, could you?"
         },
         {
           "quote": "да в субботу в двенадцать приду sağ olun",
           "en": "Yes, I will come on Saturday at twelve, thank you"
         }
       ],
-      "summary_en": "The client is looking for a 2-room apartment to live in with his wife on a budget of around 140,000 AZN via mortgage and agreed to visit the showroom on Saturday at 12:00."
+      "summary_en": "The client is looking for a 2-room apartment to live in with his wife with a budget around 140,000 via mortgage, and agreed to visit the showroom on Saturday at 12:00."
     },
     "usage": {
       "model": "gemini-3.8-flash",
-      "thinking": "default",
+      "thinking": "LOW",
       "input_tokens": 2813,
-      "output_tokens": 1844,
-      "cost_usd": 0.009025
+      "output_tokens": 457,
+      "cost_usd": 0.003824
     },
-    "latency_ms": 14876
+    "latency_ms": 6586
   },
   "C-014": {
     "call_id": "C-014",
@@ -1945,12 +1953,12 @@
       "INVITE_SHOWROOM",
       "COACHING"
     ],
-    "summary_en": "The client inquired about a 2-room apartment but postponed the decision to consult his wife, while the manager stated prices from 2,000 AZN per m2, handover in summer 2027, an installment plan with a 30% down payment, and promised to arrange a discount.",
+    "summary_en": "Client inquired about prices and handover date for a two-room flat, manager quoted starting prices at 2,000 AZN/m2, handover in summer 2027, an installment plan with a 30% down payment, and an unspecified discount; client postponed decision to discuss with his wife.",
     "facts": {
       "intro": {
         "name_said": true,
         "project_said": true,
-        "quote": "Добрый день, ЖК Demo Residence, меня зовут Рауф."
+        "quote": "Добрый день, ЖК Demo Residence, меня зовут Рауф. Вы оставляли заявку на двухкомнатную?"
       },
       "budget": {
         "asked": false,
@@ -2011,16 +2019,16 @@
       },
       "translations": [
         {
-          "quote": "Добрый день, ЖК Demo Residence, меня зовут Рауф.",
-          "en": "Good day, Demo Residence residential complex, my name is Rauf."
+          "quote": "Добрый день, ЖК Demo Residence, меня зовут Рауф. Вы оставляли заявку на двухкомнатную?",
+          "en": "Good day, Demo Residence residential complex, my name is Rauf. Did you leave an inquiry for a two-room flat?"
         },
         {
           "quote": "Вы оставляли заявку на двухкомнатную?",
-          "en": "Did you submit an inquiry for a two-room apartment?"
+          "en": "Did you leave an inquiry for a two-room flat?"
         },
         {
           "quote": "Цены от 2 000 манат за метр.",
-          "en": "Prices start from 2,000 manats per meter."
+          "en": "Prices are from 2,000 manats per meter."
         },
         {
           "quote": "Сдача летом следующего года.",
@@ -2028,27 +2036,27 @@
         },
         {
           "quote": "Есть рассрочка, первый взнос 30%.",
-          "en": "There is an installment plan, down payment 30%."
+          "en": "There is an installment plan, down payment of 30%."
         },
         {
           "quote": "И скидочку вам подберём, не переживайте.",
-          "en": "And we will find a discount for you, do not worry."
+          "en": "And we'll arrange a discount for you, don't worry."
         },
         {
           "quote": "Хорошо, мне надо с женой обсудить.",
           "en": "Okay, I need to discuss it with my wife."
         }
       ],
-      "summary_en": "The client inquired about a 2-room apartment but postponed the decision to consult his wife, while the manager stated prices from 2,000 AZN per m2, handover in summer 2027, an installment plan with a 30% down payment, and promised to arrange a discount."
+      "summary_en": "Client inquired about prices and handover date for a two-room flat, manager quoted starting prices at 2,000 AZN/m2, handover in summer 2027, an installment plan with a 30% down payment, and an unspecified discount; client postponed decision to discuss with his wife."
     },
     "usage": {
       "model": "gemini-3.8-flash",
-      "thinking": "default",
+      "thinking": "LOW",
       "input_tokens": 2812,
-      "output_tokens": 3049,
-      "cost_usd": 0.013543
+      "output_tokens": 605,
+      "cost_usd": 0.004378
     },
-    "latency_ms": 24490
+    "latency_ms": 5755
   },
   "C-015": {
     "call_id": "C-015",
@@ -2111,7 +2119,7 @@
     "actions": [
       "CALLBACK_TODAY"
     ],
-    "summary_en": "The client is looking for a two-room apartment to live in with a budget of 120,000 AZN via installments; the manager stated prices from 2,000 AZN per square meter and handover in Q4 2027, and invited the client to the showroom on Saturday at 12:00, but the client postponed the decision to think.",
+    "summary_en": "The client is looking for a 2-room apartment for living with a budget of 120,000 AZN via installments, but postponed visiting the showroom and said they would think about it.",
     "facts": {
       "intro": {
         "name_said": true,
@@ -2140,28 +2148,28 @@
         "quote": "Приглашаю вас в шоурум в субботу в 12:00."
       },
       "next_step": {
-        "type": "showroom_visit",
+        "type": "none",
         "when": null,
         "client_agreed": false,
-        "quote": "Ага, конечно, в субботу, прям бегу. Ладно, я подумаю."
+        "quote": "Хорошо, тогда до связи."
       },
       "promises": [
         {
           "topic": "price_per_m2",
           "value": "2000",
           "condition": null,
-          "quote": "От 2 000 манат за метр"
+          "quote": "От 2 000 манат за метр, сдача в четвёртом квартале 2027 года. Вы для себя или под сдачу?"
         },
         {
           "topic": "completion_date",
           "value": "2027-10",
           "condition": null,
-          "quote": "сдача в четвёртом квартале 2027 года"
+          "quote": "От 2 000 манат за метр, сдача в четвёртом квартале 2027 года. Вы для себя или под сдачу?"
         }
       ],
       "lead": {
         "temperature": "warm",
-        "quote": "Ладно, я подумаю."
+        "quote": "Ага, конечно, в субботу, прям бегу. Ладно, я подумаю."
       },
       "translations": [
         {
@@ -2170,11 +2178,11 @@
         },
         {
           "quote": "Какой бюджет?",
-          "en": "What is your budget?"
+          "en": "What is the budget?"
         },
         {
           "quote": "Рассрочка.",
-          "en": "Installment."
+          "en": "Installment plan."
         },
         {
           "quote": "Для себя, жить.",
@@ -2185,32 +2193,28 @@
           "en": "I invite you to the showroom on Saturday at 12:00."
         },
         {
+          "quote": "Хорошо, тогда до связи.",
+          "en": "Alright, then we will be in touch."
+        },
+        {
+          "quote": "От 2 000 манат за метр, сдача в четвёртом квартале 2027 года. Вы для себя или под сдачу?",
+          "en": "From 2,000 manats per square meter, delivery in the fourth quarter of 2027. Are you looking for yourself or for renting out?"
+        },
+        {
           "quote": "Ага, конечно, в субботу, прям бегу. Ладно, я подумаю.",
-          "en": "Yeah, sure, on Saturday, running right over. Okay, I'll think about it."
-        },
-        {
-          "quote": "От 2 000 манат за метр",
-          "en": "From 2,000 manats per meter"
-        },
-        {
-          "quote": "сдача в четвёртом квартале 2027 года",
-          "en": "handover in the fourth quarter of 2027"
-        },
-        {
-          "quote": "Ладно, я подумаю.",
-          "en": "Okay, I'll think about it."
+          "en": "Yeah, sure, on Saturday, running right there. Alright, I'll think about it."
         }
       ],
-      "summary_en": "The client is looking for a two-room apartment to live in with a budget of 120,000 AZN via installments; the manager stated prices from 2,000 AZN per square meter and handover in Q4 2027, and invited the client to the showroom on Saturday at 12:00, but the client postponed the decision to think."
+      "summary_en": "The client is looking for a 2-room apartment for living with a budget of 120,000 AZN via installments, but postponed visiting the showroom and said they would think about it."
     },
     "usage": {
       "model": "gemini-3.8-flash",
-      "thinking": "default",
+      "thinking": "LOW",
       "input_tokens": 2883,
-      "output_tokens": 6568,
-      "cost_usd": 0.026792
+      "output_tokens": 658,
+      "cost_usd": 0.00463
     },
-    "latency_ms": 50972
+    "latency_ms": 7498
   },
   "C-016": {
     "call_id": "C-016",
@@ -2225,7 +2229,7 @@
       {
         "id": "C2",
         "name": "Asked about budget",
-        "status": "not_met",
+        "status": "met",
         "weight": 2
       },
       {
@@ -2255,32 +2259,26 @@
     ],
     "statuses": {
       "C1": "met",
-      "C2": "not_met",
+      "C2": "met",
       "C3": "not_met",
       "C4": "met",
       "C5": "not_met",
       "C6": "not_met"
     },
-    "score": 3,
+    "score": 5,
     "max_score": 13,
-    "score_pct": 23,
+    "score_pct": 38,
     "needs_coaching": true,
     "violations": [
       {
         "topic": "price_growth",
-        "value": "15",
+        "value": "15%",
         "quote": "Берите сейчас, через полгода цена точно вырастет на 15%, потом будете жалеть.",
         "reason": "Price growth cannot be guaranteed"
       }
     ],
     "needs_review": [],
-    "dropped": [
-      {
-        "field": "budget",
-        "quote": "На какой budget рассчитываете?",
-        "reason": "quote not found in the call"
-      }
-    ],
+    "dropped": [],
     "lead_temperature": "hot",
     "active_lead": true,
     "actions": [
@@ -2289,7 +2287,7 @@
       "INVITE_SHOWROOM",
       "COACHING"
     ],
-    "summary_en": "Client is looking to buy a two-room apartment for personal living before New Year with a budget of around 150,000 AZN, agreed to receive floor plans, and the manager claimed prices will definitely increase by 15% in half a year.",
+    "summary_en": "The client is looking to buy a 2-room apartment to live in before the New Year with a budget of about 150,000 AZN; the manager promised a definite 15% price increase in half a year and agreed to send floor plans.",
     "facts": {
       "intro": {
         "name_said": true,
@@ -2297,9 +2295,9 @@
         "quote": "Добрый день, Demo Residence, меня зовут Рауф. Вы оставляли заявку на двухкомнатную?"
       },
       "budget": {
-        "asked": false,
-        "amount_azn": null,
-        "quote": null
+        "asked": true,
+        "amount_azn": 150000.0,
+        "quote": "На какой бюджет рассчитываете?"
       },
       "payment": {
         "method": "unknown",
@@ -2309,7 +2307,7 @@
         "rooms": 2,
         "area_m2": null,
         "purpose": "living",
-        "quote": "Да, здравствуйте. Хотим купить до Нового года, жить сами будем."
+        "quote": "Хотим купить до Нового года, жить сами будем."
       },
       "showroom": {
         "offered": false,
@@ -2321,12 +2319,12 @@
         "type": "send_floor_plans",
         "when": null,
         "client_agreed": true,
-        "quote": "Да, отправлю вам планировки."
+        "quote": "Хорошо."
       },
       "promises": [
         {
           "topic": "price_growth",
-          "value": "15",
+          "value": "15%",
           "condition": null,
           "quote": "Берите сейчас, через полгода цена точно вырастет на 15%, потом будете жалеть."
         }
@@ -2338,35 +2336,35 @@
       "translations": [
         {
           "quote": "Добрый день, Demo Residence, меня зовут Рауф. Вы оставляли заявку на двухкомнатную?",
-          "en": "Good day, Demo Residence, my name is Rauf. Did you leave an inquiry for a two-room apartment?"
+          "en": "Good day, Demo Residence, my name is Rauf. Did you leave a request for a two-room apartment?"
         },
         {
           "quote": "На какой бюджет рассчитываете?",
-          "en": "What budget are you planning on?"
+          "en": "What budget are you expecting?"
         },
         {
-          "quote": "Да, здравствуйте. Хотим купить до Нового года, жить сами будем.",
-          "en": "Yes, hello. We want to buy before the New Year, we will live there ourselves."
+          "quote": "Хотим купить до Нового года, жить сами будем.",
+          "en": "We want to buy before the New Year, we will live there ourselves."
         },
         {
-          "quote": "Да, отправлю вам планировки.",
-          "en": "Yes, I will send you the floor plans."
+          "quote": "Хорошо.",
+          "en": "Good."
         },
         {
           "quote": "Берите сейчас, через полгода цена точно вырастет на 15%, потом будете жалеть.",
-          "en": "Take it now, in half a year the price will definitely increase by 15%, you will regret it later."
+          "en": "Take it now, in half a year the price will definitely increase by 15%, then you will regret it."
         }
       ],
-      "summary_en": "Client is looking to buy a two-room apartment for personal living before New Year with a budget of around 150,000 AZN, agreed to receive floor plans, and the manager claimed prices will definitely increase by 15% in half a year."
+      "summary_en": "The client is looking to buy a 2-room apartment to live in before the New Year with a budget of about 150,000 AZN; the manager promised a definite 15% price increase in half a year and agreed to send floor plans."
     },
     "usage": {
       "model": "gemini-3.8-flash",
-      "thinking": "default",
+      "thinking": "LOW",
       "input_tokens": 2829,
-      "output_tokens": 5846,
-      "cost_usd": 0.024044
+      "output_tokens": 462,
+      "cost_usd": 0.003854
     },
-    "latency_ms": 41471
+    "latency_ms": 15895
   },
   "C-017": {
     "call_id": "C-017",
@@ -2429,7 +2427,7 @@
     "actions": [
       "OK"
     ],
-    "summary_en": "Client is looking for a two-bedroom apartment to live in with a budget of 160,000 AZN via mortgage and agreed to visit the showroom on Saturday at 2 pm.",
+    "summary_en": "The client is looking for a two-bedroom flat to live in with a budget of around 160,000 AZN via mortgage, was promised Q4 2027 handover, and agreed to visit the showroom on Saturday at 2 pm.",
     "facts": {
       "intro": {
         "name_said": true,
@@ -2439,7 +2437,7 @@
       "budget": {
         "asked": true,
         "amount_azn": 160000.0,
-        "quote": "What budget do you have in mind?"
+        "quote": "Great. What budget do you have in mind?"
       },
       "payment": {
         "method": "mortgage",
@@ -2468,7 +2466,7 @@
           "topic": "completion_date",
           "value": "2027-10",
           "condition": null,
-          "quote": "Handover is in Q4 2027."
+          "quote": "We work with a partner bank for that. Handover is in Q4 2027."
         }
       ],
       "lead": {
@@ -2481,8 +2479,8 @@
           "en": "Hello, Demo Residence, my name is Javid. You left a request on our website?"
         },
         {
-          "quote": "What budget do you have in mind?",
-          "en": "What budget do you have in mind?"
+          "quote": "Great. What budget do you have in mind?",
+          "en": "Great. What budget do you have in mind?"
         },
         {
           "quote": "Mortgage, through a local bank.",
@@ -2501,20 +2499,20 @@
           "en": "Saturday at 2 pm works, I'll be there."
         },
         {
-          "quote": "Handover is in Q4 2027.",
-          "en": "Handover is in Q4 2027."
+          "quote": "We work with a partner bank for that. Handover is in Q4 2027.",
+          "en": "We work with a partner bank for that. Handover is in Q4 2027."
         }
       ],
-      "summary_en": "Client is looking for a two-bedroom apartment to live in with a budget of 160,000 AZN via mortgage and agreed to visit the showroom on Saturday at 2 pm."
+      "summary_en": "The client is looking for a two-bedroom flat to live in with a budget of around 160,000 AZN via mortgage, was promised Q4 2027 handover, and agreed to visit the showroom on Saturday at 2 pm."
     },
     "usage": {
       "model": "gemini-3.8-flash",
-      "thinking": "default",
+      "thinking": "LOW",
       "input_tokens": 2901,
-      "output_tokens": 1810,
-      "cost_usd": 0.008963
+      "output_tokens": 617,
+      "cost_usd": 0.004489
     },
-    "latency_ms": 16952
+    "latency_ms": 4536
   },
   "C-018": {
     "call_id": "C-018",
@@ -2584,7 +2582,7 @@
     "actions": [
       "CORRECT_PROMISE"
     ],
-    "summary_en": "The client seeks a 1-bedroom apartment for investment with a budget up to 90,000 AZN on installments, and agreed to visit the showroom on Tuesday at 11 am after the manager promised up to 24 months installment and a 10% discount.",
+    "summary_en": "Client is seeking a one-bedroom apartment as an investment with a budget of up to 90,000 AZN via installments, and agreed to visit the showroom on Tuesday at 11 am after the manager offered up to 24-month installments and a 10% discount.",
     "facts": {
       "intro": {
         "name_said": true,
@@ -2670,16 +2668,16 @@
           "en": "And I can get you 10% off, no problem."
         }
       ],
-      "summary_en": "The client seeks a 1-bedroom apartment for investment with a budget up to 90,000 AZN on installments, and agreed to visit the showroom on Tuesday at 11 am after the manager promised up to 24 months installment and a 10% discount."
+      "summary_en": "Client is seeking a one-bedroom apartment as an investment with a budget of up to 90,000 AZN via installments, and agreed to visit the showroom on Tuesday at 11 am after the manager offered up to 24-month installments and a 10% discount."
     },
     "usage": {
       "model": "gemini-3.8-flash",
-      "thinking": "default",
+      "thinking": "LOW",
       "input_tokens": 2856,
-      "output_tokens": 1585,
-      "cost_usd": 0.008086
+      "output_tokens": 545,
+      "cost_usd": 0.004186
     },
-    "latency_ms": 22097
+    "latency_ms": 6689
   },
   "C-019": {
     "call_id": "C-019",
@@ -2742,7 +2740,7 @@
     "actions": [
       "CALLBACK_TODAY"
     ],
-    "summary_en": "A family of four is looking for a three-bedroom apartment to live in with a budget of 210,000 AZN in cash; the manager proposed a showroom visit on Thursday at 5 pm, but the client postponed to check their schedule.",
+    "summary_en": "The client is looking for a three-bedroom apartment to live in with a budget of around 210,000 AZN in cash, and postponed scheduling a showroom visit offered for Thursday at 5 pm.",
     "facts": {
       "intro": {
         "name_said": true,
@@ -2771,10 +2769,10 @@
         "quote": "Would you like to visit our showroom on Thursday at 5 pm?"
       },
       "next_step": {
-        "type": "showroom_visit",
-        "when": "Thursday at 5 pm",
+        "type": "none",
+        "when": null,
         "client_agreed": false,
-        "quote": "I'll check my schedule and let you know."
+        "quote": null
       },
       "promises": [],
       "lead": {
@@ -2807,16 +2805,16 @@
           "en": "I'll check my schedule and let you know."
         }
       ],
-      "summary_en": "A family of four is looking for a three-bedroom apartment to live in with a budget of 210,000 AZN in cash; the manager proposed a showroom visit on Thursday at 5 pm, but the client postponed to check their schedule."
+      "summary_en": "The client is looking for a three-bedroom apartment to live in with a budget of around 210,000 AZN in cash, and postponed scheduling a showroom visit offered for Thursday at 5 pm."
     },
     "usage": {
       "model": "gemini-3.8-flash",
-      "thinking": "default",
+      "thinking": "LOW",
       "input_tokens": 2813,
-      "output_tokens": 2056,
-      "cost_usd": 0.00982
+      "output_tokens": 427,
+      "cost_usd": 0.003711
     },
-    "latency_ms": 20350
+    "latency_ms": 5866
   },
   "C-020": {
     "call_id": "C-020",
@@ -2879,12 +2877,12 @@
     "actions": [
       "OK"
     ],
-    "summary_en": "Client is looking for a 3-room apartment for family living with a budget of about 190,000 AZN via mortgage, declined a showroom visit for tomorrow, and agreed to a callback today at 18:00.",
+    "summary_en": "The client is looking for a 3-room apartment for living with a budget of 190,000 AZN via mortgage, declined a showroom visit for tomorrow, and agreed to a callback today at 18:00.",
     "facts": {
       "intro": {
         "name_said": true,
         "project_said": true,
-        "quote": "Demo Residence, mənim adım Tural."
+        "quote": "Salam, Demo Residence, mənim adım Tural. Müraciətiniz üzrə zəng edirəm."
       },
       "budget": {
         "asked": true,
@@ -2920,8 +2918,8 @@
       },
       "translations": [
         {
-          "quote": "Demo Residence, mənim adım Tural.",
-          "en": "Demo Residence, my name is Tural."
+          "quote": "Salam, Demo Residence, mənim adım Tural. Müraciətiniz üzrə zəng edirəm.",
+          "en": "Hello, Demo Residence, my name is Tural. I am calling regarding your inquiry."
         },
         {
           "quote": "Büdcəniz nə qədərdir?",
@@ -2929,7 +2927,7 @@
         },
         {
           "quote": "İpoteka ilə.",
-          "en": "With mortgage."
+          "en": "With a mortgage."
         },
         {
           "quote": "Üçotaqlı mənzil axtarırıq, ailəmizlə yaşamaq üçün.",
@@ -2948,16 +2946,16 @@
           "en": "Tomorrow doesn't work. Call me at 18:00, we'll talk."
         }
       ],
-      "summary_en": "Client is looking for a 3-room apartment for family living with a budget of about 190,000 AZN via mortgage, declined a showroom visit for tomorrow, and agreed to a callback today at 18:00."
+      "summary_en": "The client is looking for a 3-room apartment for living with a budget of 190,000 AZN via mortgage, declined a showroom visit for tomorrow, and agreed to a callback today at 18:00."
     },
     "usage": {
       "model": "gemini-3.8-flash",
-      "thinking": "default",
+      "thinking": "LOW",
       "input_tokens": 2906,
-      "output_tokens": 27550,
-      "cost_usd": 0.105492
+      "output_tokens": 549,
+      "cost_usd": 0.004238
     },
-    "latency_ms": 204830
+    "latency_ms": 5122
   },
   "C-021": {
     "call_id": "C-021",
@@ -3027,7 +3025,7 @@
     "actions": [
       "CORRECT_PROMISE"
     ],
-    "summary_en": "The client is looking for a 2-room apartment for investment with a cash budget of up to 100,000 AZN, and agreed to visit the showroom on Thursday at 15:00 after the manager stated that phase two construction begins in March 2027.",
+    "summary_en": "The client is looking for a two-room apartment for investment with a cash budget of up to 100,000 AZN, and agreed to visit the showroom on Thursday at 15:00 after the manager stated that construction of the second phase begins in March.",
     "facts": {
       "intro": {
         "name_said": true,
@@ -3057,7 +3055,7 @@
       },
       "next_step": {
         "type": "showroom_visit",
-        "when": "cümə axşamı 15:00",
+        "when": "Cümə axşamı saat 15:00",
         "client_agreed": true,
         "quote": "Olar, cümə axşamı 15:00-da gələrəm."
       },
@@ -3103,16 +3101,16 @@
           "en": "Construction of the second phase will start in March, it is profitable to buy now."
         }
       ],
-      "summary_en": "The client is looking for a 2-room apartment for investment with a cash budget of up to 100,000 AZN, and agreed to visit the showroom on Thursday at 15:00 after the manager stated that phase two construction begins in March 2027."
+      "summary_en": "The client is looking for a two-room apartment for investment with a cash budget of up to 100,000 AZN, and agreed to visit the showroom on Thursday at 15:00 after the manager stated that construction of the second phase begins in March."
     },
     "usage": {
       "model": "gemini-3.8-flash",
-      "thinking": "default",
+      "thinking": "LOW",
       "input_tokens": 2893,
-      "output_tokens": 1488,
-      "cost_usd": 0.00775
+      "output_tokens": 610,
+      "cost_usd": 0.004457
     },
-    "latency_ms": 13194
+    "latency_ms": 4988
   },
   "C-022": {
     "call_id": "C-022",
@@ -3175,7 +3173,7 @@
     "actions": [
       "OK"
     ],
-    "summary_en": "Client is looking for a 2-room apartment to live in with a budget of 120,000 AZN in cash and agreed to visit the showroom on Saturday at 11:00.",
+    "summary_en": "The client is looking for a 2-room apartment for living with a budget of 120,000 in cash, and agreed to visit the showroom on Saturday at 11:00.",
     "facts": {
       "intro": {
         "name_said": true,
@@ -3217,7 +3215,7 @@
       "translations": [
         {
           "quote": "Dobryy den', ZhK Demo Residence, menya zovut Kenan.",
-          "en": "Good afternoon, Demo Residence RC, my name is Kenan."
+          "en": "Good day, RC Demo Residence, my name is Kenan."
         },
         {
           "quote": "Kakoy u vas byudzhet?",
@@ -3229,7 +3227,7 @@
         },
         {
           "quote": "Nu aktual'no, dlya sebya, zhit'. Tol'ko bystro.",
-          "en": "Well, it's still relevant, for myself, to live in. Just make it quick."
+          "en": "Well, it is relevant, for myself, to live in. Just be quick."
         },
         {
           "quote": "Predlagayu priekhat' v shourum v subbotu v 11:00, pokazhu vse za 20 minut.",
@@ -3237,18 +3235,2619 @@
         },
         {
           "quote": "Ladno, v subbotu v 11 priedu.",
-          "en": "Alright, I'll come on Saturday at 11."
+          "en": "Fine, I will come on Saturday at 11."
         }
       ],
-      "summary_en": "Client is looking for a 2-room apartment to live in with a budget of 120,000 AZN in cash and agreed to visit the showroom on Saturday at 11:00."
+      "summary_en": "The client is looking for a 2-room apartment for living with a budget of 120,000 in cash, and agreed to visit the showroom on Saturday at 11:00."
     },
     "usage": {
       "model": "gemini-3.8-flash",
-      "thinking": "default",
+      "thinking": "LOW",
       "input_tokens": 2928,
-      "output_tokens": 2005,
-      "cost_usd": 0.009715
+      "output_tokens": 505,
+      "cost_usd": 0.00409
     },
-    "latency_ms": 13742
+    "latency_ms": 12770
+  },
+  "C-023": {
+    "call_id": "C-023",
+    "status": "ok",
+    "criteria": [
+      {
+        "id": "C1",
+        "name": "Introduced self and project",
+        "status": "met",
+        "weight": 1
+      },
+      {
+        "id": "C2",
+        "name": "Asked about budget",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C3",
+        "name": "Clarified payment method",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C4",
+        "name": "Clarified need: rooms or area and purpose",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C5",
+        "name": "Invited to showroom with a specific time",
+        "status": "met",
+        "weight": 3
+      },
+      {
+        "id": "C6",
+        "name": "Fixed a concrete next step",
+        "status": "met",
+        "weight": 3
+      }
+    ],
+    "statuses": {
+      "C1": "met",
+      "C2": "met",
+      "C3": "met",
+      "C4": "met",
+      "C5": "met",
+      "C6": "met"
+    },
+    "score": 13,
+    "max_score": 13,
+    "score_pct": 100,
+    "needs_coaching": false,
+    "violations": [],
+    "needs_review": [],
+    "dropped": [],
+    "lead_temperature": "hot",
+    "active_lead": true,
+    "actions": [
+      "OK"
+    ],
+    "summary_en": "The client is looking for a 2-room apartment for investment with a budget up to 120,000 AZN via mortgage and agreed to visit the showroom on Saturday at 11:00.",
+    "facts": {
+      "intro": {
+        "name_said": true,
+        "project_said": true,
+        "quote": "Salam, Demo Residence, mənim adım Səbinədir. Müraciətiniz üzrə zəng edirəm."
+      },
+      "budget": {
+        "asked": true,
+        "amount_azn": 120000.0,
+        "quote": "Büdcəniz nə qədərdir?"
+      },
+      "payment": {
+        "method": "mortgage",
+        "quote": "İpoteka ilə."
+      },
+      "need": {
+        "rooms": 2,
+        "area_m2": null,
+        "purpose": "investment",
+        "quote": "İkiotaqlı mənzil axtarıram, investisiya üçün, kirayəyə verəcəyəm."
+      },
+      "showroom": {
+        "offered": true,
+        "has_time": true,
+        "discouraged": false,
+        "quote": "Şənbə saat 11:00-da şouruma gələ bilərsiniz?"
+      },
+      "next_step": {
+        "type": "showroom_visit",
+        "when": "şənbə saat 11-də",
+        "client_agreed": true,
+        "quote": "Bəli, şənbə saat 11-də gələrəm."
+      },
+      "promises": [],
+      "lead": {
+        "temperature": "hot",
+        "quote": "Bəli, şənbə saat 11-də gələrəm."
+      },
+      "translations": [
+        {
+          "quote": "Salam, Demo Residence, mənim adım Səbinədir. Müraciətiniz üzrə zəng edirəm.",
+          "en": "Hello, Demo Residence, my name is Sabina. I'm calling regarding your inquiry."
+        },
+        {
+          "quote": "Büdcəniz nə qədərdir?",
+          "en": "What is your budget?"
+        },
+        {
+          "quote": "İpoteka ilə.",
+          "en": "With a mortgage."
+        },
+        {
+          "quote": "İkiotaqlı mənzil axtarıram, investisiya üçün, kirayəyə verəcəyəm.",
+          "en": "I am looking for a two-room apartment, for investment, I will rent it out."
+        },
+        {
+          "quote": "Şənbə saat 11:00-da şouruma gələ bilərsiniz?",
+          "en": "Can you come to the showroom on Saturday at 11:00?"
+        },
+        {
+          "quote": "Bəli, şənbə saat 11-də gələrəm.",
+          "en": "Yes, I will come on Saturday at 11."
+        }
+      ],
+      "summary_en": "The client is looking for a 2-room apartment for investment with a budget up to 120,000 AZN via mortgage and agreed to visit the showroom on Saturday at 11:00."
+    },
+    "usage": {
+      "model": "gemini-3.8-flash",
+      "thinking": "LOW",
+      "input_tokens": 2908,
+      "output_tokens": 549,
+      "cost_usd": 0.00424
+    },
+    "latency_ms": 4742
+  },
+  "C-024": {
+    "call_id": "C-024",
+    "status": "ok",
+    "criteria": [
+      {
+        "id": "C1",
+        "name": "Introduced self and project",
+        "status": "met",
+        "weight": 1
+      },
+      {
+        "id": "C2",
+        "name": "Asked about budget",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C3",
+        "name": "Clarified payment method",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C4",
+        "name": "Clarified need: rooms or area and purpose",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C5",
+        "name": "Invited to showroom with a specific time",
+        "status": "met",
+        "weight": 3
+      },
+      {
+        "id": "C6",
+        "name": "Fixed a concrete next step",
+        "status": "met",
+        "weight": 3
+      }
+    ],
+    "statuses": {
+      "C1": "met",
+      "C2": "met",
+      "C3": "met",
+      "C4": "met",
+      "C5": "met",
+      "C6": "met"
+    },
+    "score": 13,
+    "max_score": 13,
+    "score_pct": 100,
+    "needs_coaching": false,
+    "violations": [
+      {
+        "topic": "discount",
+        "value": null,
+        "quote": "Narahat olmayın, sizə endirim də taparıq, razılaşarıq.",
+        "reason": "Discount promised without a percentage"
+      }
+    ],
+    "needs_review": [],
+    "dropped": [],
+    "lead_temperature": "hot",
+    "active_lead": true,
+    "actions": [
+      "CORRECT_PROMISE"
+    ],
+    "summary_en": "The client is looking for a 2-room apartment to live in with a budget of about 120,000 AZN in installments, and agreed to visit the showroom on Friday at 18:00 after the manager offered an installment plan of up to 24 months and an unspecified discount.",
+    "facts": {
+      "intro": {
+        "name_said": true,
+        "project_said": true,
+        "quote": "Salam, Demo Residence, mənim adım Fəriddir. İkiotaqlı mənzil üçün müraciətinizə zəng edirəm."
+      },
+      "budget": {
+        "asked": true,
+        "amount_azn": 120000.0,
+        "quote": "Büdcəniz nə qədərdir?"
+      },
+      "payment": {
+        "method": "installment",
+        "quote": "Hissə-hissə ödəmək istəyirik."
+      },
+      "need": {
+        "rooms": 2,
+        "area_m2": null,
+        "purpose": "living",
+        "quote": "Özümüz yaşamaq üçün axtarırıq."
+      },
+      "showroom": {
+        "offered": true,
+        "has_time": true,
+        "discouraged": false,
+        "quote": "Cümə günü saat 18:00-da şouruma gəlin, hər şeyi göstərim."
+      },
+      "next_step": {
+        "type": "showroom_visit",
+        "when": "Cümə saat altıda",
+        "client_agreed": true,
+        "quote": "Cümə saat altıda, bəli, gələrəm."
+      },
+      "promises": [
+        {
+          "topic": "installment_months",
+          "value": "24",
+          "condition": null,
+          "quote": "Rassrochka 24 aya qədərdir."
+        },
+        {
+          "topic": "discount",
+          "value": null,
+          "condition": null,
+          "quote": "Narahat olmayın, sizə endirim də taparıq, razılaşarıq."
+        }
+      ],
+      "lead": {
+        "temperature": "hot",
+        "quote": "Cümə saat altıda, bəli, gələrəm."
+      },
+      "translations": [
+        {
+          "quote": "Salam, Demo Residence, mənim adım Fəriddir. İkiotaqlı mənzil üçün müraciətinizə zəng edirəm.",
+          "en": "Hello, Demo Residence, my name is Farid. I am calling regarding your request for a two-room apartment."
+        },
+        {
+          "quote": "Büdcəniz nə qədərdir?",
+          "en": "What is your budget?"
+        },
+        {
+          "quote": "Hissə-hissə ödəmək istəyirik.",
+          "en": "We want to pay in installments."
+        },
+        {
+          "quote": "Özümüz yaşamaq üçün axtarırıq.",
+          "en": "We are looking for ourselves to live in."
+        },
+        {
+          "quote": "Cümə günü saat 18:00-da şouruma gəlin, hər şeyi göstərim.",
+          "en": "Come to the showroom on Friday at 18:00, I'll show you everything."
+        },
+        {
+          "quote": "Cümə saat altıda, bəli, gələrəm.",
+          "en": "Friday at six, yes, I'll come."
+        },
+        {
+          "quote": "Rassrochka 24 aya qədərdir.",
+          "en": "Installment is up to 24 months."
+        },
+        {
+          "quote": "Narahat olmayın, sizə endirim də taparıq, razılaşarıq.",
+          "en": "Don't worry, we'll find a discount for you as well, we'll agree."
+        }
+      ],
+      "summary_en": "The client is looking for a 2-room apartment to live in with a budget of about 120,000 AZN in installments, and agreed to visit the showroom on Friday at 18:00 after the manager offered an installment plan of up to 24 months and an unspecified discount."
+    },
+    "usage": {
+      "model": "gemini-3.8-flash",
+      "thinking": "LOW",
+      "input_tokens": 2935,
+      "output_tokens": 711,
+      "cost_usd": 0.004868
+    },
+    "latency_ms": 6874
+  },
+  "C-025": {
+    "call_id": "C-025",
+    "status": "ok",
+    "criteria": [
+      {
+        "id": "C1",
+        "name": "Introduced self and project",
+        "status": "met",
+        "weight": 1
+      },
+      {
+        "id": "C2",
+        "name": "Asked about budget",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C3",
+        "name": "Clarified payment method",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C4",
+        "name": "Clarified need: rooms or area and purpose",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C5",
+        "name": "Invited to showroom with a specific time",
+        "status": "met",
+        "weight": 3
+      },
+      {
+        "id": "C6",
+        "name": "Fixed a concrete next step",
+        "status": "not_met",
+        "weight": 3
+      }
+    ],
+    "statuses": {
+      "C1": "met",
+      "C2": "met",
+      "C3": "met",
+      "C4": "met",
+      "C5": "met",
+      "C6": "not_met"
+    },
+    "score": 10,
+    "max_score": 13,
+    "score_pct": 77,
+    "needs_coaching": false,
+    "violations": [],
+    "needs_review": [],
+    "dropped": [],
+    "lead_temperature": "warm",
+    "active_lead": true,
+    "actions": [
+      "CALLBACK_TODAY"
+    ],
+    "summary_en": "The client is looking for a 2-room apartment for living with a cash budget around 130,000 AZN, plans to decide by the end of the year, but gave a vague response to the Saturday showroom invitation.",
+    "facts": {
+      "intro": {
+        "name_said": true,
+        "project_said": true,
+        "quote": "Salam, Demo Residence, mənim adım Leyladır."
+      },
+      "budget": {
+        "asked": true,
+        "amount_azn": 130000.0,
+        "quote": "Büdcəniz nə qədərdir?"
+      },
+      "payment": {
+        "method": "cash",
+        "quote": "Nağd, mənzilimizi satırıq."
+      },
+      "need": {
+        "rooms": 2,
+        "area_m2": null,
+        "purpose": "living",
+        "quote": "Bəli, yaşamaq üçün."
+      },
+      "showroom": {
+        "offered": true,
+        "has_time": true,
+        "discouraged": false,
+        "quote": "Sizi şouruma dəvət edirəm, şənbə saat 11:00-da gələ bilərsiniz?"
+      },
+      "next_step": {
+        "type": "none",
+        "when": null,
+        "client_agreed": false,
+        "quote": null
+      },
+      "promises": [],
+      "lead": {
+        "temperature": "warm",
+        "quote": "İlin sonuna qədər qərar vermək istəyirik, köçürük."
+      },
+      "translations": [
+        {
+          "quote": "Salam, Demo Residence, mənim adım Leyladır.",
+          "en": "Hello, Demo Residence, my name is Leyla."
+        },
+        {
+          "quote": "Büdcəniz nə qədərdir?",
+          "en": "What is your budget?"
+        },
+        {
+          "quote": "Nağd, mənzilimizi satırıq.",
+          "en": "Cash, we are selling our apartment."
+        },
+        {
+          "quote": "Bəli, yaşamaq üçün.",
+          "en": "Yes, to live in."
+        },
+        {
+          "quote": "Sizi şouruma dəvət edirəm, şənbə saat 11:00-da gələ bilərsiniz?",
+          "en": "I invite you to the showroom, can you come on Saturday at 11:00?"
+        },
+        {
+          "quote": "İlin sonuna qədər qərar vermək istəyirik, köçürük.",
+          "en": "We want to make a decision by the end of the year, we are moving."
+        }
+      ],
+      "summary_en": "The client is looking for a 2-room apartment for living with a cash budget around 130,000 AZN, plans to decide by the end of the year, but gave a vague response to the Saturday showroom invitation."
+    },
+    "usage": {
+      "model": "gemini-3.8-flash",
+      "thinking": "LOW",
+      "input_tokens": 2930,
+      "output_tokens": 478,
+      "cost_usd": 0.00399
+    },
+    "latency_ms": 4534
+  },
+  "C-026": {
+    "call_id": "C-026",
+    "status": "ok",
+    "criteria": [
+      {
+        "id": "C1",
+        "name": "Introduced self and project",
+        "status": "met",
+        "weight": 1
+      },
+      {
+        "id": "C2",
+        "name": "Asked about budget",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C3",
+        "name": "Clarified payment method",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C4",
+        "name": "Clarified need: rooms or area and purpose",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C5",
+        "name": "Invited to showroom with a specific time",
+        "status": "met",
+        "weight": 3
+      },
+      {
+        "id": "C6",
+        "name": "Fixed a concrete next step",
+        "status": "met",
+        "weight": 3
+      }
+    ],
+    "statuses": {
+      "C1": "met",
+      "C2": "met",
+      "C3": "met",
+      "C4": "met",
+      "C5": "met",
+      "C6": "met"
+    },
+    "score": 13,
+    "max_score": 13,
+    "score_pct": 100,
+    "needs_coaching": false,
+    "violations": [
+      {
+        "topic": "mortgage_rate",
+        "value": "8",
+        "quote": "Narahat olmayın, sizə ipoteka faizi 8% olacaq, mən zəmanət verirəm.",
+        "reason": "Mortgage rate promises are not allowed"
+      }
+    ],
+    "needs_review": [],
+    "dropped": [],
+    "lead_temperature": "hot",
+    "active_lead": true,
+    "actions": [
+      "CORRECT_PROMISE"
+    ],
+    "summary_en": "The client is looking for a 3-room apartment for family living with a budget up to 200,000 AZN via mortgage, and agreed to visit the showroom on Monday at 15:00 after the manager guaranteed an 8% mortgage rate.",
+    "facts": {
+      "intro": {
+        "name_said": true,
+        "project_said": true,
+        "quote": "Salam, Demo Residence, mənim adım Kamaldır. Üçotaqlı mənzillə maraqlanmısınız?"
+      },
+      "budget": {
+        "asked": true,
+        "amount_azn": 200000.0,
+        "quote": "Büdcəniz nə qədərdir?"
+      },
+      "payment": {
+        "method": "mortgage",
+        "quote": "İpoteka ilə."
+      },
+      "need": {
+        "rooms": 3,
+        "area_m2": null,
+        "purpose": "living",
+        "quote": "Ailəmizlə yaşamaq üçün üçotaqlı axtarırıq."
+      },
+      "showroom": {
+        "offered": true,
+        "has_time": true,
+        "discouraged": false,
+        "quote": "Bazar ertəsi saat 15:00-da şouruma gəlin."
+      },
+      "next_step": {
+        "type": "showroom_visit",
+        "when": "bazar ertəsi saat 3-də",
+        "client_agreed": true,
+        "quote": "Olar, bazar ertəsi saat 3-də gələrəm."
+      },
+      "promises": [
+        {
+          "topic": "mortgage_rate",
+          "value": "8",
+          "condition": null,
+          "quote": "Narahat olmayın, sizə ipoteka faizi 8% olacaq, mən zəmanət verirəm."
+        }
+      ],
+      "lead": {
+        "temperature": "hot",
+        "quote": "Olar, bazar ertəsi saat 3-də gələrəm."
+      },
+      "translations": [
+        {
+          "quote": "Salam, Demo Residence, mənim adım Kamaldır. Üçotaqlı mənzillə maraqlanmısınız?",
+          "en": "Hello, Demo Residence, my name is Kamal. Were you interested in a three-room apartment?"
+        },
+        {
+          "quote": "Büdcəniz nə qədərdir?",
+          "en": "What is your budget?"
+        },
+        {
+          "quote": "İpoteka ilə.",
+          "en": "With a mortgage."
+        },
+        {
+          "quote": "Ailəmizlə yaşamaq üçün üçotaqlı axtarırıq.",
+          "en": "We are looking for a three-room flat to live with our family."
+        },
+        {
+          "quote": "Bazar ertəsi saat 15:00-da şouruma gəlin.",
+          "en": "Come to the showroom on Monday at 15:00."
+        },
+        {
+          "quote": "Olar, bazar ertəsi saat 3-də gələrəm.",
+          "en": "Sure, I will come on Monday at 3 o'clock."
+        },
+        {
+          "quote": "Narahat olmayın, sizə ipoteka faizi 8% olacaq, mən zəmanət verirəm.",
+          "en": "Don't worry, your mortgage rate will be 8%, I guarantee it."
+        }
+      ],
+      "summary_en": "The client is looking for a 3-room apartment for family living with a budget up to 200,000 AZN via mortgage, and agreed to visit the showroom on Monday at 15:00 after the manager guaranteed an 8% mortgage rate."
+    },
+    "usage": {
+      "model": "gemini-3.8-flash",
+      "thinking": "LOW",
+      "input_tokens": 2906,
+      "output_tokens": 622,
+      "cost_usd": 0.004512
+    },
+    "latency_ms": 7839
+  },
+  "C-027": {
+    "call_id": "C-027",
+    "status": "ok",
+    "criteria": [
+      {
+        "id": "C1",
+        "name": "Introduced self and project",
+        "status": "met",
+        "weight": 1
+      },
+      {
+        "id": "C2",
+        "name": "Asked about budget",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C3",
+        "name": "Clarified payment method",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C4",
+        "name": "Clarified need: rooms or area and purpose",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C5",
+        "name": "Invited to showroom with a specific time",
+        "status": "met",
+        "weight": 3
+      },
+      {
+        "id": "C6",
+        "name": "Fixed a concrete next step",
+        "status": "met",
+        "weight": 3
+      }
+    ],
+    "statuses": {
+      "C1": "met",
+      "C2": "met",
+      "C3": "met",
+      "C4": "met",
+      "C5": "met",
+      "C6": "met"
+    },
+    "score": 13,
+    "max_score": 13,
+    "score_pct": 100,
+    "needs_coaching": false,
+    "violations": [
+      {
+        "topic": "down_payment_pct",
+        "value": "20",
+        "quote": "Sizin üçün ilkin ödənişi 20% edə bilərik, qalanı rassrochka ilə.",
+        "reason": "Down payment is below the declared minimum"
+      }
+    ],
+    "needs_review": [],
+    "dropped": [],
+    "lead_temperature": "hot",
+    "active_lead": true,
+    "actions": [
+      "CORRECT_PROMISE"
+    ],
+    "summary_en": "The client is looking for a one-room apartment for investment with a budget of 85,000 AZN in installments, and agreed to visit the showroom on Wednesday at 12:00 after being offered a 20% down payment.",
+    "facts": {
+      "intro": {
+        "name_said": true,
+        "project_said": true,
+        "quote": "Salam, Demo Residence, mənim adım Orxandır."
+      },
+      "budget": {
+        "asked": true,
+        "amount_azn": 85000.0,
+        "quote": "Büdcəniz nə qədərdir?"
+      },
+      "payment": {
+        "method": "installment",
+        "quote": "Hissə-hissə."
+      },
+      "need": {
+        "rooms": 1,
+        "area_m2": null,
+        "purpose": "investment",
+        "quote": "Birotaqlı mənzil üçün müraciət etmişdiniz?"
+      },
+      "showroom": {
+        "offered": true,
+        "has_time": true,
+        "discouraged": false,
+        "quote": "Çərşənbə saat 12:00-da şouruma gələ bilərsiniz?"
+      },
+      "next_step": {
+        "type": "showroom_visit",
+        "when": "çərşənbə saat 12-də",
+        "client_agreed": true,
+        "quote": "Bəli, çərşənbə saat 12-də gələrəm."
+      },
+      "promises": [
+        {
+          "topic": "down_payment_pct",
+          "value": "20",
+          "condition": null,
+          "quote": "Sizin üçün ilkin ödənişi 20% edə bilərik, qalanı rassrochka ilə."
+        }
+      ],
+      "lead": {
+        "temperature": "hot",
+        "quote": "Bəli, çərşənbə saat 12-də gələrəm."
+      },
+      "translations": [
+        {
+          "quote": "Salam, Demo Residence, mənim adım Orxandır.",
+          "en": "Hello, Demo Residence, my name is Orkhan."
+        },
+        {
+          "quote": "Büdcəniz nə qədərdir?",
+          "en": "What is your budget?"
+        },
+        {
+          "quote": "Hissə-hissə.",
+          "en": "In installments."
+        },
+        {
+          "quote": "Birotaqlı mənzil üçün müraciət etmişdiniz?",
+          "en": "Did you apply for a one-room apartment?"
+        },
+        {
+          "quote": "Çərşənbə saat 12:00-da şouruma gələ bilərsiniz?",
+          "en": "Can you come to the showroom on Wednesday at 12:00?"
+        },
+        {
+          "quote": "Bəli, çərşənbə saat 12-də gələrəm.",
+          "en": "Yes, I will come on Wednesday at 12."
+        },
+        {
+          "quote": "Sizin üçün ilkin ödənişi 20% edə bilərik, qalanı rassrochka ilə.",
+          "en": "For you, we can make the down payment 20%, the rest in installments."
+        }
+      ],
+      "summary_en": "The client is looking for a one-room apartment for investment with a budget of 85,000 AZN in installments, and agreed to visit the showroom on Wednesday at 12:00 after being offered a 20% down payment."
+    },
+    "usage": {
+      "model": "gemini-3.8-flash",
+      "thinking": "LOW",
+      "input_tokens": 2930,
+      "output_tokens": 596,
+      "cost_usd": 0.004432
+    },
+    "latency_ms": 5496
+  },
+  "C-028": {
+    "call_id": "C-028",
+    "status": "ok",
+    "criteria": [
+      {
+        "id": "C1",
+        "name": "Introduced self and project",
+        "status": "met",
+        "weight": 1
+      },
+      {
+        "id": "C2",
+        "name": "Asked about budget",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C3",
+        "name": "Clarified payment method",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C4",
+        "name": "Clarified need: rooms or area and purpose",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C5",
+        "name": "Invited to showroom with a specific time",
+        "status": "met",
+        "weight": 3
+      },
+      {
+        "id": "C6",
+        "name": "Fixed a concrete next step",
+        "status": "met",
+        "weight": 3
+      }
+    ],
+    "statuses": {
+      "C1": "met",
+      "C2": "met",
+      "C3": "met",
+      "C4": "met",
+      "C5": "met",
+      "C6": "met"
+    },
+    "score": 13,
+    "max_score": 13,
+    "score_pct": 100,
+    "needs_coaching": false,
+    "violations": [
+      {
+        "topic": "price_per_m2",
+        "value": "1800",
+        "quote": "Sizə kvadratını 1 800 manata verə bilərik.",
+        "reason": "Price per m2 is below the declared minimum"
+      }
+    ],
+    "needs_review": [],
+    "dropped": [],
+    "lead_temperature": "hot",
+    "active_lead": true,
+    "actions": [
+      "CORRECT_PROMISE"
+    ],
+    "summary_en": "The client is looking for a two-room apartment for living with a cash budget of around 110,000 AZN, received an offer of 1,800 AZN per square meter, and agreed to visit the showroom on Saturday at 14:00.",
+    "facts": {
+      "intro": {
+        "name_said": true,
+        "project_said": true,
+        "quote": "Salam, Demo Residence, mənim adım Ruslandır. Qiymətlərlə maraqlanırdınız?"
+      },
+      "budget": {
+        "asked": true,
+        "amount_azn": 110000.0,
+        "quote": "Büdcəniz nə qədərdir?"
+      },
+      "payment": {
+        "method": "cash",
+        "quote": "Nağd."
+      },
+      "need": {
+        "rooms": 2,
+        "area_m2": null,
+        "purpose": "living",
+        "quote": "Bəli, ikiotaqlı mənzil axtarıram, özümüz yaşayacağıq."
+      },
+      "showroom": {
+        "offered": true,
+        "has_time": true,
+        "discouraged": false,
+        "quote": "Şənbə saat 14:00-da şouruma gəlin."
+      },
+      "next_step": {
+        "type": "showroom_visit",
+        "when": "şənbə saat ikidə",
+        "client_agreed": true,
+        "quote": "Bəli, şənbə saat ikidə gələrəm."
+      },
+      "promises": [
+        {
+          "topic": "price_per_m2",
+          "value": "1800",
+          "condition": null,
+          "quote": "Sizə kvadratını 1 800 manata verə bilərik."
+        }
+      ],
+      "lead": {
+        "temperature": "hot",
+        "quote": "Bəli, şənbə saat ikidə gələrəm."
+      },
+      "translations": [
+        {
+          "quote": "Salam, Demo Residence, mənim adım Ruslandır. Qiymətlərlə maraqlanırdınız?",
+          "en": "Hello, Demo Residence, my name is Ruslan. Were you interested in prices?"
+        },
+        {
+          "quote": "Büdcəniz nə qədərdir?",
+          "en": "What is your budget?"
+        },
+        {
+          "quote": "Nağd.",
+          "en": "Cash."
+        },
+        {
+          "quote": "Bəli, ikiotaqlı mənzil axtarıram, özümüz yaşayacağıq.",
+          "en": "Yes, I am looking for a two-room apartment, we will live in it ourselves."
+        },
+        {
+          "quote": "Şənbə saat 14:00-da şouruma gəlin.",
+          "en": "Come to the showroom on Saturday at 14:00."
+        },
+        {
+          "quote": "Bəli, şənbə saat ikidə gələrəm.",
+          "en": "Yes, I will come on Saturday at two o'clock."
+        },
+        {
+          "quote": "Sizə kvadratını 1 800 manata verə bilərik.",
+          "en": "We can offer it to you for 1,800 manats per square meter."
+        }
+      ],
+      "summary_en": "The client is looking for a two-room apartment for living with a cash budget of around 110,000 AZN, received an offer of 1,800 AZN per square meter, and agreed to visit the showroom on Saturday at 14:00."
+    },
+    "usage": {
+      "model": "gemini-3.8-flash",
+      "thinking": "LOW",
+      "input_tokens": 2891,
+      "output_tokens": 606,
+      "cost_usd": 0.004441
+    },
+    "latency_ms": 5557
+  },
+  "C-029": {
+    "call_id": "C-029",
+    "status": "ok",
+    "criteria": [
+      {
+        "id": "C1",
+        "name": "Introduced self and project",
+        "status": "met",
+        "weight": 1
+      },
+      {
+        "id": "C2",
+        "name": "Asked about budget",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C3",
+        "name": "Clarified payment method",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C4",
+        "name": "Clarified need: rooms or area and purpose",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C5",
+        "name": "Invited to showroom with a specific time",
+        "status": "met",
+        "weight": 3
+      },
+      {
+        "id": "C6",
+        "name": "Fixed a concrete next step",
+        "status": "met",
+        "weight": 3
+      }
+    ],
+    "statuses": {
+      "C1": "met",
+      "C2": "met",
+      "C3": "met",
+      "C4": "met",
+      "C5": "met",
+      "C6": "met"
+    },
+    "score": 13,
+    "max_score": 13,
+    "score_pct": 100,
+    "needs_coaching": false,
+    "violations": [],
+    "needs_review": [],
+    "dropped": [],
+    "lead_temperature": "hot",
+    "active_lead": true,
+    "actions": [
+      "OK"
+    ],
+    "summary_en": "The client is looking for a 3-room apartment for living with a budget around 200,000 AZN via mortgage and agreed to visit the showroom on Thursday at 16:00.",
+    "facts": {
+      "intro": {
+        "name_said": true,
+        "project_said": true,
+        "quote": "Salam, Demo Residence, mənim adım Aydındır. Müraciətinizə zəng edirəm."
+      },
+      "budget": {
+        "asked": true,
+        "amount_azn": 200000.0,
+        "quote": "Büdcəniz nə qədərdir?"
+      },
+      "payment": {
+        "method": "mortgage",
+        "quote": "İpoteka."
+      },
+      "need": {
+        "rooms": 3,
+        "area_m2": null,
+        "purpose": "living",
+        "quote": "Üçotaqlı axtarırıq, yaşamaq üçün."
+      },
+      "showroom": {
+        "offered": true,
+        "has_time": true,
+        "discouraged": false,
+        "quote": "Cümə axşamı saat 16:00-da şouruma gələ bilərsiniz?"
+      },
+      "next_step": {
+        "type": "showroom_visit",
+        "when": "Cümə axşamı saat 16:00",
+        "client_agreed": true,
+        "quote": "Bəli, gələrəm."
+      },
+      "promises": [],
+      "lead": {
+        "temperature": "hot",
+        "quote": "Bəli, gələrəm."
+      },
+      "translations": [
+        {
+          "quote": "Salam, Demo Residence, mənim adım Aydındır. Müraciətinizə zəng edirəm.",
+          "en": "Hello, Demo Residence, my name is Aydin. I am calling regarding your inquiry."
+        },
+        {
+          "quote": "Büdcəniz nə qədərdir?",
+          "en": "What is your budget?"
+        },
+        {
+          "quote": "İpoteka.",
+          "en": "Mortgage."
+        },
+        {
+          "quote": "Üçotaqlı axtarırıq, yaşamaq üçün.",
+          "en": "We are looking for a three-room, for living."
+        },
+        {
+          "quote": "Cümə axşamı saat 16:00-da şouruma gələ bilərsiniz?",
+          "en": "Can you come to the showroom on Thursday at 16:00?"
+        },
+        {
+          "quote": "Bəli, gələrəm.",
+          "en": "Yes, I will come."
+        }
+      ],
+      "summary_en": "The client is looking for a 3-room apartment for living with a budget around 200,000 AZN via mortgage and agreed to visit the showroom on Thursday at 16:00."
+    },
+    "usage": {
+      "model": "gemini-3.8-flash",
+      "thinking": "LOW",
+      "input_tokens": 2901,
+      "output_tokens": 478,
+      "cost_usd": 0.003968
+    },
+    "latency_ms": 5550
+  },
+  "C-030": {
+    "call_id": "C-030",
+    "status": "ok",
+    "criteria": [
+      {
+        "id": "C1",
+        "name": "Introduced self and project",
+        "status": "not_met",
+        "weight": 1
+      },
+      {
+        "id": "C2",
+        "name": "Asked about budget",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C3",
+        "name": "Clarified payment method",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C4",
+        "name": "Clarified need: rooms or area and purpose",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C5",
+        "name": "Invited to showroom with a specific time",
+        "status": "met",
+        "weight": 3
+      },
+      {
+        "id": "C6",
+        "name": "Fixed a concrete next step",
+        "status": "met",
+        "weight": 3
+      }
+    ],
+    "statuses": {
+      "C1": "not_met",
+      "C2": "met",
+      "C3": "met",
+      "C4": "met",
+      "C5": "met",
+      "C6": "met"
+    },
+    "score": 12,
+    "max_score": 13,
+    "score_pct": 92,
+    "needs_coaching": false,
+    "violations": [],
+    "needs_review": [],
+    "dropped": [],
+    "lead_temperature": "hot",
+    "active_lead": true,
+    "actions": [
+      "OK"
+    ],
+    "summary_en": "The client is looking for a two-room apartment to live in with a budget of 140,000 AZN in cash and agreed to visit the showroom on Saturday at 10:00.",
+    "facts": {
+      "intro": {
+        "name_said": false,
+        "project_said": true,
+        "quote": "Salam, Demo Residence-dən zəng edirəm. Müraciət etmişdiniz?"
+      },
+      "budget": {
+        "asked": true,
+        "amount_azn": 140000.0,
+        "quote": "Büdcəniz nə qədərdir?"
+      },
+      "payment": {
+        "method": "cash",
+        "quote": "Nağd."
+      },
+      "need": {
+        "rooms": 2,
+        "area_m2": null,
+        "purpose": "living",
+        "quote": "Bəli, ikiotaqlı mənzil üçün, özüm yaşamaq üçün."
+      },
+      "showroom": {
+        "offered": true,
+        "has_time": true,
+        "discouraged": false,
+        "quote": "Şənbə saat 10:00-da şouruma gəlin, planları göstərim."
+      },
+      "next_step": {
+        "type": "showroom_visit",
+        "when": "şənbə 10-da",
+        "client_agreed": true,
+        "quote": "Olar, şənbə 10-da gələrəm."
+      },
+      "promises": [],
+      "lead": {
+        "temperature": "hot",
+        "quote": "Olar, şənbə 10-da gələrəm."
+      },
+      "translations": [
+        {
+          "quote": "Salam, Demo Residence-dən zəng edirəm. Müraciət etmişdiniz?",
+          "en": "Hello, I am calling from Demo Residence. Did you apply?"
+        },
+        {
+          "quote": "Büdcəniz nə qədərdir?",
+          "en": "What is your budget?"
+        },
+        {
+          "quote": "Nağd.",
+          "en": "Cash."
+        },
+        {
+          "quote": "Bəli, ikiotaqlı mənzil üçün, özüm yaşamaq üçün.",
+          "en": "Yes, for a two-room apartment, for myself to live in."
+        },
+        {
+          "quote": "Şənbə saat 10:00-da şouruma gəlin, planları göstərim.",
+          "en": "Come to the showroom on Saturday at 10:00, I will show the layouts."
+        },
+        {
+          "quote": "Olar, şənbə 10-da gələrəm.",
+          "en": "Sure, I will come on Saturday at 10."
+        }
+      ],
+      "summary_en": "The client is looking for a two-room apartment to live in with a budget of 140,000 AZN in cash and agreed to visit the showroom on Saturday at 10:00."
+    },
+    "usage": {
+      "model": "gemini-3.8-flash",
+      "thinking": "LOW",
+      "input_tokens": 2843,
+      "output_tokens": 505,
+      "cost_usd": 0.004026
+    },
+    "latency_ms": 4969
+  },
+  "C-031": {
+    "call_id": "C-031",
+    "status": "ok",
+    "criteria": [
+      {
+        "id": "C1",
+        "name": "Introduced self and project",
+        "status": "met",
+        "weight": 1
+      },
+      {
+        "id": "C2",
+        "name": "Asked about budget",
+        "status": "not_met",
+        "weight": 2
+      },
+      {
+        "id": "C3",
+        "name": "Clarified payment method",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C4",
+        "name": "Clarified need: rooms or area and purpose",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C5",
+        "name": "Invited to showroom with a specific time",
+        "status": "met",
+        "weight": 3
+      },
+      {
+        "id": "C6",
+        "name": "Fixed a concrete next step",
+        "status": "met",
+        "weight": 3
+      }
+    ],
+    "statuses": {
+      "C1": "met",
+      "C2": "not_met",
+      "C3": "met",
+      "C4": "met",
+      "C5": "met",
+      "C6": "met"
+    },
+    "score": 11,
+    "max_score": 13,
+    "score_pct": 85,
+    "needs_coaching": false,
+    "violations": [],
+    "needs_review": [],
+    "dropped": [],
+    "lead_temperature": "hot",
+    "active_lead": true,
+    "actions": [
+      "OK"
+    ],
+    "summary_en": "The client is looking for a 3-room apartment for living via mortgage, did not specify a budget, and agreed to visit the showroom on Monday at 17:00.",
+    "facts": {
+      "intro": {
+        "name_said": true,
+        "project_said": true,
+        "quote": "Salam, Demo Residence, mənim adım Ülvidir."
+      },
+      "budget": {
+        "asked": true,
+        "amount_azn": null,
+        "quote": "Büdcəniz nə qədərdir?"
+      },
+      "payment": {
+        "method": "mortgage",
+        "quote": "İpoteka ilə."
+      },
+      "need": {
+        "rooms": 3,
+        "area_m2": null,
+        "purpose": "living",
+        "quote": "Üçotaqlı mənzil axtarıram, ailəmlə yaşamaq üçün."
+      },
+      "showroom": {
+        "offered": true,
+        "has_time": true,
+        "discouraged": false,
+        "quote": "Bazar ertəsi saat 17:00-da şouruma gələ bilərsiniz?"
+      },
+      "next_step": {
+        "type": "showroom_visit",
+        "when": "bazar ertəsi beşdə",
+        "client_agreed": true,
+        "quote": "Bəli, bazar ertəsi beşdə gələrəm."
+      },
+      "promises": [],
+      "lead": {
+        "temperature": "hot",
+        "quote": "Bəli, bazar ertəsi beşdə gələrəm."
+      },
+      "translations": [
+        {
+          "quote": "Salam, Demo Residence, mənim adım Ülvidir.",
+          "en": "Hello, Demo Residence, my name is Ulvi."
+        },
+        {
+          "quote": "Büdcəniz nə qədərdir?",
+          "en": "What is your budget?"
+        },
+        {
+          "quote": "İpoteka ilə.",
+          "en": "With mortgage."
+        },
+        {
+          "quote": "Üçotaqlı mənzil axtarıram, ailəmlə yaşamaq üçün.",
+          "en": "I am looking for a 3-room apartment to live with my family."
+        },
+        {
+          "quote": "Bazar ertəsi saat 17:00-da şouruma gələ bilərsiniz?",
+          "en": "Can you come to the showroom on Monday at 17:00?"
+        },
+        {
+          "quote": "Bəli, bazar ertəsi beşdə gələrəm.",
+          "en": "Yes, I will come on Monday at five."
+        }
+      ],
+      "summary_en": "The client is looking for a 3-room apartment for living via mortgage, did not specify a budget, and agreed to visit the showroom on Monday at 17:00."
+    },
+    "usage": {
+      "model": "gemini-3.8-flash",
+      "thinking": "LOW",
+      "input_tokens": 2866,
+      "output_tokens": 458,
+      "cost_usd": 0.003867
+    },
+    "latency_ms": 4495
+  },
+  "C-032": {
+    "call_id": "C-032",
+    "status": "ok",
+    "criteria": [
+      {
+        "id": "C1",
+        "name": "Introduced self and project",
+        "status": "met",
+        "weight": 1
+      },
+      {
+        "id": "C2",
+        "name": "Asked about budget",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C3",
+        "name": "Clarified payment method",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C4",
+        "name": "Clarified need: rooms or area and purpose",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C5",
+        "name": "Invited to showroom with a specific time",
+        "status": "met",
+        "weight": 3
+      },
+      {
+        "id": "C6",
+        "name": "Fixed a concrete next step",
+        "status": "met",
+        "weight": 3
+      }
+    ],
+    "statuses": {
+      "C1": "met",
+      "C2": "met",
+      "C3": "met",
+      "C4": "met",
+      "C5": "met",
+      "C6": "met"
+    },
+    "score": 13,
+    "max_score": 13,
+    "score_pct": 100,
+    "needs_coaching": false,
+    "violations": [],
+    "needs_review": [],
+    "dropped": [],
+    "lead_temperature": "hot",
+    "active_lead": true,
+    "actions": [
+      "OK"
+    ],
+    "summary_en": "The client is looking for a 2-room apartment for investment up to 100,000 AZN in cash, and agreed to visit the showroom on Tuesday at 13:00 after being informed that handover is at the end of next year.",
+    "facts": {
+      "intro": {
+        "name_said": true,
+        "project_said": true,
+        "quote": "Salam, Demo Residence, mənim adım Tərlandır."
+      },
+      "budget": {
+        "asked": true,
+        "amount_azn": 100000.0,
+        "quote": "Büdcəniz nə qədərdir?"
+      },
+      "payment": {
+        "method": "cash",
+        "quote": "Bəli, nağd."
+      },
+      "need": {
+        "rooms": 2,
+        "area_m2": null,
+        "purpose": "investment",
+        "quote": "İkiotaqlı mənzil, kirayə üçün, investisiya."
+      },
+      "showroom": {
+        "offered": true,
+        "has_time": true,
+        "discouraged": false,
+        "quote": "Çərşənbə axşamı saat 13:00-da şouruma gəlin."
+      },
+      "next_step": {
+        "type": "showroom_visit",
+        "when": "Çərşənbə axşamı 13:00",
+        "client_agreed": true,
+        "quote": "Olar, gələrəm."
+      },
+      "promises": [
+        {
+          "topic": "completion_date",
+          "value": "2027-12",
+          "condition": null,
+          "quote": "Təhvil gələn ilin sonundadır."
+        }
+      ],
+      "lead": {
+        "temperature": "hot",
+        "quote": "Olar, gələrəm."
+      },
+      "translations": [
+        {
+          "quote": "Salam, Demo Residence, mənim adım Tərlandır.",
+          "en": "Hello, Demo Residence, my name is Tarlan."
+        },
+        {
+          "quote": "Büdcəniz nə qədərdir?",
+          "en": "What is your budget?"
+        },
+        {
+          "quote": "Bəli, nağd.",
+          "en": "Yes, cash."
+        },
+        {
+          "quote": "İkiotaqlı mənzil, kirayə üçün, investisiya.",
+          "en": "Two-room apartment, for rent, investment."
+        },
+        {
+          "quote": "Çərşənbə axşamı saat 13:00-da şouruma gəlin.",
+          "en": "Come to the showroom on Tuesday at 13:00."
+        },
+        {
+          "quote": "Olar, gələrəm.",
+          "en": "Sure, I will come."
+        },
+        {
+          "quote": "Təhvil gələn ilin sonundadır.",
+          "en": "Handover is at the end of next year."
+        }
+      ],
+      "summary_en": "The client is looking for a 2-room apartment for investment up to 100,000 AZN in cash, and agreed to visit the showroom on Tuesday at 13:00 after being informed that handover is at the end of next year."
+    },
+    "usage": {
+      "model": "gemini-3.8-flash",
+      "thinking": "LOW",
+      "input_tokens": 2867,
+      "output_tokens": 527,
+      "cost_usd": 0.004126
+    },
+    "latency_ms": 5680
+  },
+  "C-033": {
+    "call_id": "C-033",
+    "status": "ok",
+    "criteria": [
+      {
+        "id": "C1",
+        "name": "Introduced self and project",
+        "status": "met",
+        "weight": 1
+      },
+      {
+        "id": "C2",
+        "name": "Asked about budget",
+        "status": "not_met",
+        "weight": 2
+      },
+      {
+        "id": "C3",
+        "name": "Clarified payment method",
+        "status": "not_met",
+        "weight": 2
+      },
+      {
+        "id": "C4",
+        "name": "Clarified need: rooms or area and purpose",
+        "status": "not_met",
+        "weight": 2
+      },
+      {
+        "id": "C5",
+        "name": "Invited to showroom with a specific time",
+        "status": "not_met",
+        "weight": 3
+      },
+      {
+        "id": "C6",
+        "name": "Fixed a concrete next step",
+        "status": "not_met",
+        "weight": 3
+      }
+    ],
+    "statuses": {
+      "C1": "met",
+      "C2": "not_met",
+      "C3": "not_met",
+      "C4": "not_met",
+      "C5": "not_met",
+      "C6": "not_met"
+    },
+    "score": 1,
+    "max_score": 13,
+    "score_pct": 8,
+    "needs_coaching": true,
+    "violations": [],
+    "needs_review": [],
+    "dropped": [],
+    "lead_temperature": "hot",
+    "active_lead": true,
+    "actions": [
+      "CALLBACK_TODAY",
+      "INVITE_SHOWROOM",
+      "COACHING"
+    ],
+    "summary_en": "Client seeks to buy a 2-room apartment this month and asked when they can view it; manager stated prices start at 2,000 AZN per m2 and offered an unspecified later callback.",
+    "facts": {
+      "intro": {
+        "name_said": true,
+        "project_said": true,
+        "quote": "Salam, Demo Residence, mənim adım Caviddir."
+      },
+      "budget": {
+        "asked": false,
+        "amount_azn": null,
+        "quote": null
+      },
+      "payment": {
+        "method": "unknown",
+        "quote": null
+      },
+      "need": {
+        "rooms": 2,
+        "area_m2": null,
+        "purpose": "unknown",
+        "quote": "Salam! Bu ay mənzil almaq istəyirik, ikiotaqlı, qiymətləri öyrənmək istəyirəm."
+      },
+      "showroom": {
+        "offered": false,
+        "has_time": false,
+        "discouraged": false,
+        "quote": null
+      },
+      "next_step": {
+        "type": "none",
+        "when": null,
+        "client_agreed": false,
+        "quote": null
+      },
+      "promises": [
+        {
+          "topic": "price_per_m2",
+          "value": "2000",
+          "condition": null,
+          "quote": "Qiymətlər kvadratı 2 000 manatdan başlayır."
+        }
+      ],
+      "lead": {
+        "temperature": "hot",
+        "quote": "Bu ay mənzil almaq istəyirik, ikiotaqlı, qiymətləri öyrənmək istəyirəm."
+      },
+      "translations": [
+        {
+          "quote": "Salam, Demo Residence, mənim adım Caviddir.",
+          "en": "Hello, Demo Residence, my name is Javid."
+        },
+        {
+          "quote": "Salam! Bu ay mənzil almaq istəyirik, ikiotaqlı, qiymətləri öyrənmək istəyirəm.",
+          "en": "Hello! We want to buy an apartment this month, a two-room one, I'd like to find out the prices."
+        },
+        {
+          "quote": "Qiymətlər kvadratı 2 000 manatdan başlayır.",
+          "en": "Prices start from 2,000 manats per square meter."
+        },
+        {
+          "quote": "Bu ay mənzil almaq istəyirik, ikiotaqlı, qiymətləri öyrənmək istəyirəm.",
+          "en": "We want to buy an apartment this month, a two-room one, I'd like to find out the prices."
+        }
+      ],
+      "summary_en": "Client seeks to buy a 2-room apartment this month and asked when they can view it; manager stated prices start at 2,000 AZN per m2 and offered an unspecified later callback."
+    },
+    "usage": {
+      "model": "gemini-3.8-flash",
+      "thinking": "LOW",
+      "input_tokens": 2790,
+      "output_tokens": 498,
+      "cost_usd": 0.00396
+    },
+    "latency_ms": 6915
+  },
+  "C-034": {
+    "call_id": "C-034",
+    "status": "ok",
+    "criteria": [
+      {
+        "id": "C1",
+        "name": "Introduced self and project",
+        "status": "met",
+        "weight": 1
+      },
+      {
+        "id": "C2",
+        "name": "Asked about budget",
+        "status": "not_applicable",
+        "weight": 2
+      },
+      {
+        "id": "C3",
+        "name": "Clarified payment method",
+        "status": "not_applicable",
+        "weight": 2
+      },
+      {
+        "id": "C4",
+        "name": "Clarified need: rooms or area and purpose",
+        "status": "not_applicable",
+        "weight": 2
+      },
+      {
+        "id": "C5",
+        "name": "Invited to showroom with a specific time",
+        "status": "not_applicable",
+        "weight": 3
+      },
+      {
+        "id": "C6",
+        "name": "Fixed a concrete next step",
+        "status": "not_applicable",
+        "weight": 3
+      }
+    ],
+    "statuses": {
+      "C1": "met",
+      "C2": "not_applicable",
+      "C3": "not_applicable",
+      "C4": "not_applicable",
+      "C5": "not_applicable",
+      "C6": "not_applicable"
+    },
+    "score": 1,
+    "max_score": 1,
+    "score_pct": 100,
+    "needs_coaching": false,
+    "violations": [],
+    "needs_review": [],
+    "dropped": [],
+    "lead_temperature": "cold",
+    "active_lead": false,
+    "actions": [
+      "OK"
+    ],
+    "summary_en": "The client stated they are only looking and do not plan to buy, declining the manager's offer to send a catalog.",
+    "facts": {
+      "intro": {
+        "name_said": true,
+        "project_said": true,
+        "quote": "Salam, Demo Residence, mənim adım Nərmindir. Saytda müraciət etmisiniz?"
+      },
+      "budget": {
+        "asked": false,
+        "amount_azn": null,
+        "quote": null
+      },
+      "payment": {
+        "method": "unknown",
+        "quote": null
+      },
+      "need": {
+        "rooms": null,
+        "area_m2": null,
+        "purpose": "unknown",
+        "quote": null
+      },
+      "showroom": {
+        "offered": false,
+        "has_time": false,
+        "discouraged": false,
+        "quote": null
+      },
+      "next_step": {
+        "type": "none",
+        "when": null,
+        "client_agreed": false,
+        "quote": null
+      },
+      "promises": [],
+      "lead": {
+        "temperature": "cold",
+        "quote": "Bəli, amma hələlik sadəcə baxıram, almağı planlaşdırmıram."
+      },
+      "translations": [
+        {
+          "quote": "Salam, Demo Residence, mənim adım Nərmindir. Saytda müraciət etmisiniz?",
+          "en": "Hello, Demo Residence, my name is Narmin. Did you make an inquiry on the website?"
+        },
+        {
+          "quote": "Bəli, amma hələlik sadəcə baxıram, almağı planlaşdırmıram.",
+          "en": "Yes, but for now I am just looking, I do not plan to buy."
+        }
+      ],
+      "summary_en": "The client stated they are only looking and do not plan to buy, declining the manager's offer to send a catalog."
+    },
+    "usage": {
+      "model": "gemini-3.8-flash",
+      "thinking": "LOW",
+      "input_tokens": 2760,
+      "output_tokens": 304,
+      "cost_usd": 0.00321
+    },
+    "latency_ms": 4435
+  },
+  "C-035": {
+    "call_id": "C-035",
+    "status": "ok",
+    "criteria": [
+      {
+        "id": "C1",
+        "name": "Introduced self and project",
+        "status": "met",
+        "weight": 1
+      },
+      {
+        "id": "C2",
+        "name": "Asked about budget",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C3",
+        "name": "Clarified payment method",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C4",
+        "name": "Clarified need: rooms or area and purpose",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C5",
+        "name": "Invited to showroom with a specific time",
+        "status": "not_met",
+        "weight": 3
+      },
+      {
+        "id": "C6",
+        "name": "Fixed a concrete next step",
+        "status": "met",
+        "weight": 3
+      }
+    ],
+    "statuses": {
+      "C1": "met",
+      "C2": "met",
+      "C3": "met",
+      "C4": "met",
+      "C5": "not_met",
+      "C6": "met"
+    },
+    "score": 10,
+    "max_score": 13,
+    "score_pct": 77,
+    "needs_coaching": false,
+    "violations": [],
+    "needs_review": [],
+    "dropped": [],
+    "lead_temperature": "warm",
+    "active_lead": true,
+    "actions": [
+      "INVITE_SHOWROOM"
+    ],
+    "summary_en": "The client is looking for a 3-room apartment for living with a cash budget around 200,000 AZN; the manager discouraged visiting the showroom and agreed to send floor plans via WhatsApp today by 19:00.",
+    "facts": {
+      "intro": {
+        "name_said": true,
+        "project_said": true,
+        "quote": "Salam, Demo Residence, меня зовут Эмиль."
+      },
+      "budget": {
+        "asked": true,
+        "amount_azn": 200000.0,
+        "quote": "Büdcəniz nə qədərdir?"
+      },
+      "payment": {
+        "method": "cash",
+        "quote": "Nağd."
+      },
+      "need": {
+        "rooms": 3,
+        "area_m2": null,
+        "purpose": "living",
+        "quote": "Salam. Нам нужна üçotaqlı, yaşamaq üçün."
+      },
+      "showroom": {
+        "offered": false,
+        "has_time": false,
+        "discouraged": true,
+        "quote": "Шоурум есть, но туда ехать далеко, не стоит. Планировки сегодня до 19:00 скину в WhatsApp."
+      },
+      "next_step": {
+        "type": "send_floor_plans",
+        "when": "сегодня до 19:00",
+        "client_agreed": true,
+        "quote": "Ну ладно, скиньте."
+      },
+      "promises": [],
+      "lead": {
+        "temperature": "warm",
+        "quote": "Ну ладно, скиньте."
+      },
+      "translations": [
+        {
+          "quote": "Salam, Demo Residence, меня зовут Эмиль.",
+          "en": "Hello, Demo Residence, my name is Emil."
+        },
+        {
+          "quote": "Büdcəniz nə qədərdir?",
+          "en": "What is your budget?"
+        },
+        {
+          "quote": "Nağd.",
+          "en": "Cash."
+        },
+        {
+          "quote": "Salam. Нам нужна üçotaqlı, yaşamaq üçün.",
+          "en": "Hello. We need a three-room flat, to live in."
+        },
+        {
+          "quote": "Шоурум есть, но туда ехать далеко, не стоит. Планировки сегодня до 19:00 скину в WhatsApp.",
+          "en": "There is a showroom, but it is far to travel there, not worth it. I will send floor plans on WhatsApp today before 19:00."
+        },
+        {
+          "quote": "Ну ладно, скиньте.",
+          "en": "Alright then, send them."
+        }
+      ],
+      "summary_en": "The client is looking for a 3-room apartment for living with a cash budget around 200,000 AZN; the manager discouraged visiting the showroom and agreed to send floor plans via WhatsApp today by 19:00."
+    },
+    "usage": {
+      "model": "gemini-3.8-flash",
+      "thinking": "LOW",
+      "input_tokens": 2807,
+      "output_tokens": 473,
+      "cost_usd": 0.003879
+    },
+    "latency_ms": 5800
+  },
+  "C-036": {
+    "call_id": "C-036",
+    "status": "ok",
+    "criteria": [
+      {
+        "id": "C1",
+        "name": "Introduced self and project",
+        "status": "met",
+        "weight": 1
+      },
+      {
+        "id": "C2",
+        "name": "Asked about budget",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C3",
+        "name": "Clarified payment method",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C4",
+        "name": "Clarified need: rooms or area and purpose",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C5",
+        "name": "Invited to showroom with a specific time",
+        "status": "met",
+        "weight": 3
+      },
+      {
+        "id": "C6",
+        "name": "Fixed a concrete next step",
+        "status": "met",
+        "weight": 3
+      }
+    ],
+    "statuses": {
+      "C1": "met",
+      "C2": "met",
+      "C3": "met",
+      "C4": "met",
+      "C5": "met",
+      "C6": "met"
+    },
+    "score": 13,
+    "max_score": 13,
+    "score_pct": 100,
+    "needs_coaching": false,
+    "violations": [
+      {
+        "topic": "completion_date",
+        "value": "2027-06",
+        "quote": "Сдача gələn ilin yayında, не переживайте.",
+        "reason": "Handover date is earlier than declared"
+      }
+    ],
+    "needs_review": [],
+    "dropped": [],
+    "lead_temperature": "hot",
+    "active_lead": true,
+    "actions": [
+      "CORRECT_PROMISE"
+    ],
+    "summary_en": "The client is looking for a two-room apartment to live in with a budget of 120,000 AZN via mortgage, and agreed to visit the showroom on Saturday at 12:00 after the manager confirmed completion by next summer.",
+    "facts": {
+      "intro": {
+        "name_said": true,
+        "project_said": true,
+        "quote": "Salam, Demo Residence, mənim adım Rəşaddır."
+      },
+      "budget": {
+        "asked": true,
+        "amount_azn": 120000.0,
+        "quote": "Büdcəniz?"
+      },
+      "payment": {
+        "method": "mortgage",
+        "quote": "Ипотека."
+      },
+      "need": {
+        "rooms": 2,
+        "area_m2": null,
+        "purpose": "living",
+        "quote": "Двушку axtarırıq, yaşamaq üçün."
+      },
+      "showroom": {
+        "offered": true,
+        "has_time": true,
+        "discouraged": false,
+        "quote": "Şənbə saat 12:00-da şouruma gəlin."
+      },
+      "next_step": {
+        "type": "showroom_visit",
+        "when": "şənbə 12-də",
+        "client_agreed": true,
+        "quote": "Bəli, şənbə 12-də gələrəm."
+      },
+      "promises": [
+        {
+          "topic": "completion_date",
+          "value": "2027-06",
+          "condition": null,
+          "quote": "Сдача gələn ilin yayında, не переживайте."
+        }
+      ],
+      "lead": {
+        "temperature": "hot",
+        "quote": "Bəli, şənbə 12-də gələrəm."
+      },
+      "translations": [
+        {
+          "quote": "Salam, Demo Residence, mənim adım Rəşaddır.",
+          "en": "Hello, Demo Residence, my name is Rashad."
+        },
+        {
+          "quote": "Büdcəniz?",
+          "en": "Your budget?"
+        },
+        {
+          "quote": "Ипотека.",
+          "en": "Mortgage."
+        },
+        {
+          "quote": "Двушку axtarırıq, yaşamaq üçün.",
+          "en": "We are looking for a two-room apartment, to live in."
+        },
+        {
+          "quote": "Şənbə saat 12:00-da şouruma gəlin.",
+          "en": "Come to the showroom on Saturday at 12:00."
+        },
+        {
+          "quote": "Bəli, şənbə 12-də gələrəm.",
+          "en": "Yes, I will come on Saturday at 12."
+        },
+        {
+          "quote": "Сдача gələn ilin yayında, не переживайте.",
+          "en": "Handover is in the summer of next year, don't worry."
+        }
+      ],
+      "summary_en": "The client is looking for a two-room apartment to live in with a budget of 120,000 AZN via mortgage, and agreed to visit the showroom on Saturday at 12:00 after the manager confirmed completion by next summer."
+    },
+    "usage": {
+      "model": "gemini-3.8-flash",
+      "thinking": "LOW",
+      "input_tokens": 2857,
+      "output_tokens": 529,
+      "cost_usd": 0.004126
+    },
+    "latency_ms": 6910
+  },
+  "C-037": {
+    "call_id": "C-037",
+    "status": "ok",
+    "criteria": [
+      {
+        "id": "C1",
+        "name": "Introduced self and project",
+        "status": "met",
+        "weight": 1
+      },
+      {
+        "id": "C2",
+        "name": "Asked about budget",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C3",
+        "name": "Clarified payment method",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C4",
+        "name": "Clarified need: rooms or area and purpose",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C5",
+        "name": "Invited to showroom with a specific time",
+        "status": "met",
+        "weight": 3
+      },
+      {
+        "id": "C6",
+        "name": "Fixed a concrete next step",
+        "status": "met",
+        "weight": 3
+      }
+    ],
+    "statuses": {
+      "C1": "met",
+      "C2": "met",
+      "C3": "met",
+      "C4": "met",
+      "C5": "met",
+      "C6": "met"
+    },
+    "score": 13,
+    "max_score": 13,
+    "score_pct": 100,
+    "needs_coaching": false,
+    "violations": [],
+    "needs_review": [],
+    "dropped": [],
+    "lead_temperature": "hot",
+    "active_lead": true,
+    "actions": [
+      "OK"
+    ],
+    "summary_en": "The client is looking for an apartment around 80 sq.m to live in with a budget of 160,000 AZN via installment, and agreed to visit the showroom on Friday at 15:00.",
+    "facts": {
+      "intro": {
+        "name_said": true,
+        "project_said": true,
+        "quote": "Добрый день, Demo Residence, mənim adım Lalədir."
+      },
+      "budget": {
+        "asked": true,
+        "amount_azn": 160000.0,
+        "quote": "Büdcəniz nə qədərdir?"
+      },
+      "payment": {
+        "method": "installment",
+        "quote": "Рассрочка."
+      },
+      "need": {
+        "rooms": null,
+        "area_m2": 80.0,
+        "purpose": "living",
+        "quote": "Мне нужна квартира около 80 kv.m, для себя, yaşamaq üçün."
+      },
+      "showroom": {
+        "offered": true,
+        "has_time": true,
+        "discouraged": false,
+        "quote": "Cümə saat 15:00-da şouruma gələ bilərsiniz?"
+      },
+      "next_step": {
+        "type": "showroom_visit",
+        "when": "Cümə saat 15:00",
+        "client_agreed": true,
+        "quote": "Да, в пятницу в три приду."
+      },
+      "promises": [],
+      "lead": {
+        "temperature": "hot",
+        "quote": "Да, в пятницу в три приду."
+      },
+      "translations": [
+        {
+          "quote": "Добрый день, Demo Residence, mənim adım Lalədir.",
+          "en": "Good day, Demo Residence, my name is Lala."
+        },
+        {
+          "quote": "Büdcəniz nə qədərdir?",
+          "en": "What is your budget?"
+        },
+        {
+          "quote": "Рассрочка.",
+          "en": "Installment."
+        },
+        {
+          "quote": "Мне нужна квартира около 80 kv.m, для себя, yaşamaq üçün.",
+          "en": "I need an apartment of about 80 sq.m, for myself, to live in."
+        },
+        {
+          "quote": "Cümə saat 15:00-da şouruma gələ bilərsiniz?",
+          "en": "Can you come to the showroom on Friday at 15:00?"
+        },
+        {
+          "quote": "Да, в пятницу в три приду.",
+          "en": "Yes, I'll come on Friday at three."
+        }
+      ],
+      "summary_en": "The client is looking for an apartment around 80 sq.m to live in with a budget of 160,000 AZN via installment, and agreed to visit the showroom on Friday at 15:00."
+    },
+    "usage": {
+      "model": "gemini-3.8-flash",
+      "thinking": "LOW",
+      "input_tokens": 2832,
+      "output_tokens": 464,
+      "cost_usd": 0.003864
+    },
+    "latency_ms": 6727
+  },
+  "C-038": {
+    "call_id": "C-038",
+    "status": "ok",
+    "criteria": [
+      {
+        "id": "C1",
+        "name": "Introduced self and project",
+        "status": "met",
+        "weight": 1
+      },
+      {
+        "id": "C2",
+        "name": "Asked about budget",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C3",
+        "name": "Clarified payment method",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C4",
+        "name": "Clarified need: rooms or area and purpose",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C5",
+        "name": "Invited to showroom with a specific time",
+        "status": "met",
+        "weight": 3
+      },
+      {
+        "id": "C6",
+        "name": "Fixed a concrete next step",
+        "status": "not_met",
+        "weight": 3
+      }
+    ],
+    "statuses": {
+      "C1": "met",
+      "C2": "met",
+      "C3": "met",
+      "C4": "met",
+      "C5": "met",
+      "C6": "not_met"
+    },
+    "score": 10,
+    "max_score": 13,
+    "score_pct": 77,
+    "needs_coaching": false,
+    "violations": [],
+    "needs_review": [],
+    "dropped": [],
+    "lead_temperature": "warm",
+    "active_lead": true,
+    "actions": [
+      "CALLBACK_TODAY"
+    ],
+    "summary_en": "The client seeks a two-room apartment to live in with a budget of 120,000 AZN in installments; the manager stated a price of 2,000 AZN per m2 and Q4 2027 handover, but the client postponed visiting the showroom.",
+    "facts": {
+      "intro": {
+        "name_said": true,
+        "project_said": true,
+        "quote": "Salam, Demo Residence, меня зовут Тофиг. Двухкомнатные интересуют?"
+      },
+      "budget": {
+        "asked": true,
+        "amount_azn": 120000.0,
+        "quote": "Büdcəniz?"
+      },
+      "payment": {
+        "method": "installment",
+        "quote": "Hissə-hissə."
+      },
+      "need": {
+        "rooms": 2,
+        "area_m2": null,
+        "purpose": "living",
+        "quote": "Özümüz üçün, yaşamaq üçün."
+      },
+      "showroom": {
+        "offered": true,
+        "has_time": true,
+        "discouraged": false,
+        "quote": "Приглашаю в шоурум в субботу в 12:00."
+      },
+      "next_step": {
+        "type": "none",
+        "when": null,
+        "client_agreed": false,
+        "quote": null
+      },
+      "promises": [
+        {
+          "topic": "price_per_m2",
+          "value": "2000",
+          "condition": null,
+          "quote": "Kvadratı 2 000 manatdan, təhvil 2027-ci ilin dördüncü rübündə. Для себя или для инвестиции?"
+        },
+        {
+          "topic": "completion_date",
+          "value": "2027-10",
+          "condition": null,
+          "quote": "Kvadratı 2 000 manatdan, təhvil 2027-ci ilin dördüncü rübündə. Для себя или для инвестиции?"
+        }
+      ],
+      "lead": {
+        "temperature": "warm",
+        "quote": "Hə, əlbəttə, mütləq gələcəm, başqa işim yoxdur... Yaxşı, fikirləşərəm."
+      },
+      "translations": [
+        {
+          "quote": "Salam, Demo Residence, меня зовут Тофиг. Двухкомнатные интересуют?",
+          "en": "Hello, Demo Residence, my name is Tofig. Are you interested in two-room apartments?"
+        },
+        {
+          "quote": "Büdcəniz?",
+          "en": "Your budget?"
+        },
+        {
+          "quote": "Hissə-hissə.",
+          "en": "In installments."
+        },
+        {
+          "quote": "Özümüz üçün, yaşamaq üçün.",
+          "en": "For ourselves, to live in."
+        },
+        {
+          "quote": "Приглашаю в шоурум в субботу в 12:00.",
+          "en": "I invite you to the showroom on Saturday at 12:00."
+        },
+        {
+          "quote": "Kvadratı 2 000 manatdan, təhvil 2027-ci ilin dördüncü rübündə. Для себя или для инвестиции?",
+          "en": "From 2,000 manats per square meter, handover in the fourth quarter of 2027. For yourself or for investment?"
+        },
+        {
+          "quote": "Hə, əlbəttə, mütləq gələcəm, başqa işim yoxdur... Yaxşı, fikirləşərəm.",
+          "en": "Yeah, of course, I'll definitely come, as if I have nothing else to do... Fine, I will think about it."
+        }
+      ],
+      "summary_en": "The client seeks a two-room apartment to live in with a budget of 120,000 AZN in installments; the manager stated a price of 2,000 AZN per m2 and Q4 2027 handover, but the client postponed visiting the showroom."
+    },
+    "usage": {
+      "model": "gemini-3.8-flash",
+      "thinking": "LOW",
+      "input_tokens": 2927,
+      "output_tokens": 721,
+      "cost_usd": 0.004899
+    },
+    "latency_ms": 9375
+  },
+  "C-039": {
+    "call_id": "C-039",
+    "status": "ok",
+    "criteria": [
+      {
+        "id": "C1",
+        "name": "Introduced self and project",
+        "status": "met",
+        "weight": 1
+      },
+      {
+        "id": "C2",
+        "name": "Asked about budget",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C3",
+        "name": "Clarified payment method",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C4",
+        "name": "Clarified need: rooms or area and purpose",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C5",
+        "name": "Invited to showroom with a specific time",
+        "status": "met",
+        "weight": 3
+      },
+      {
+        "id": "C6",
+        "name": "Fixed a concrete next step",
+        "status": "met",
+        "weight": 3
+      }
+    ],
+    "statuses": {
+      "C1": "met",
+      "C2": "met",
+      "C3": "met",
+      "C4": "met",
+      "C5": "met",
+      "C6": "met"
+    },
+    "score": 13,
+    "max_score": 13,
+    "score_pct": 100,
+    "needs_coaching": false,
+    "violations": [],
+    "needs_review": [],
+    "dropped": [],
+    "lead_temperature": "warm",
+    "active_lead": true,
+    "actions": [
+      "OK"
+    ],
+    "summary_en": "The client is looking for a 3-room apartment to live in with a mortgage budget of 220,000 AZN, declined a showroom visit for tomorrow, and agreed to a callback tomorrow at 11:00.",
+    "facts": {
+      "intro": {
+        "name_said": true,
+        "project_said": true,
+        "quote": "Salam, Demo Residence, mənim adım Fidandır."
+      },
+      "budget": {
+        "asked": true,
+        "amount_azn": 220000.0,
+        "quote": "Büdcəniz nə qədərdir?"
+      },
+      "payment": {
+        "method": "mortgage",
+        "quote": "Ипотека."
+      },
+      "need": {
+        "rooms": 3,
+        "area_m2": null,
+        "purpose": "living",
+        "quote": "Üçotaqlı ищем, жить будем."
+      },
+      "showroom": {
+        "offered": true,
+        "has_time": true,
+        "discouraged": false,
+        "quote": "Sabah saat 13:00-da şouruma gələ bilərsiniz?"
+      },
+      "next_step": {
+        "type": "callback",
+        "when": "sabah saat 11:00-da",
+        "client_agreed": true,
+        "quote": "Razıyam."
+      },
+      "promises": [],
+      "lead": {
+        "temperature": "warm",
+        "quote": "Sabah saat 11-də mənə zəng edin, danışarıq."
+      },
+      "translations": [
+        {
+          "quote": "Salam, Demo Residence, mənim adım Fidandır.",
+          "en": "Hello, Demo Residence, my name is Fidan."
+        },
+        {
+          "quote": "Büdcəniz nə qədərdir?",
+          "en": "What is your budget?"
+        },
+        {
+          "quote": "Ипотека.",
+          "en": "Mortgage."
+        },
+        {
+          "quote": "Üçotaqlı ищем, жить будем.",
+          "en": "We are looking for a three-room flat, to live in."
+        },
+        {
+          "quote": "Sabah saat 13:00-da şouruma gələ bilərsiniz?",
+          "en": "Can you come to the showroom tomorrow at 13:00?"
+        },
+        {
+          "quote": "Razıyam.",
+          "en": "I agree."
+        },
+        {
+          "quote": "Sabah saat 11-də mənə zəng edin, danışarıq.",
+          "en": "Call me tomorrow at 11, we will talk."
+        }
+      ],
+      "summary_en": "The client is looking for a 3-room apartment to live in with a mortgage budget of 220,000 AZN, declined a showroom visit for tomorrow, and agreed to a callback tomorrow at 11:00."
+    },
+    "usage": {
+      "model": "gemini-3.8-flash",
+      "thinking": "LOW",
+      "input_tokens": 2859,
+      "output_tokens": 463,
+      "cost_usd": 0.00388
+    },
+    "latency_ms": 5519
+  },
+  "C-040": {
+    "call_id": "C-040",
+    "status": "ok",
+    "criteria": [
+      {
+        "id": "C1",
+        "name": "Introduced self and project",
+        "status": "met",
+        "weight": 1
+      },
+      {
+        "id": "C2",
+        "name": "Asked about budget",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C3",
+        "name": "Clarified payment method",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C4",
+        "name": "Clarified need: rooms or area and purpose",
+        "status": "met",
+        "weight": 2
+      },
+      {
+        "id": "C5",
+        "name": "Invited to showroom with a specific time",
+        "status": "met",
+        "weight": 3
+      },
+      {
+        "id": "C6",
+        "name": "Fixed a concrete next step",
+        "status": "met",
+        "weight": 3
+      }
+    ],
+    "statuses": {
+      "C1": "met",
+      "C2": "met",
+      "C3": "met",
+      "C4": "met",
+      "C5": "met",
+      "C6": "met"
+    },
+    "score": 13,
+    "max_score": 13,
+    "score_pct": 100,
+    "needs_coaching": false,
+    "violations": [
+      {
+        "topic": "mortgage_rate",
+        "value": "7",
+        "quote": "Through our partner bank you'll get a 7% mortgage rate, I can guarantee that.",
+        "reason": "Mortgage rate promises are not allowed"
+      }
+    ],
+    "needs_review": [],
+    "dropped": [],
+    "lead_temperature": "hot",
+    "active_lead": true,
+    "actions": [
+      "CORRECT_PROMISE"
+    ],
+    "summary_en": "The client is looking for a 3-bedroom apartment for living with a budget up to 230,000 AZN via mortgage, was promised a 7% mortgage rate by the manager, and agreed to visit the showroom on Wednesday at 4 pm.",
+    "facts": {
+      "intro": {
+        "name_said": true,
+        "project_said": true,
+        "quote": "Hello, Demo Residence, my name is Elchin. You asked about three-bedroom apartments?"
+      },
+      "budget": {
+        "asked": true,
+        "amount_azn": 230000.0,
+        "quote": "What budget are you considering?"
+      },
+      "payment": {
+        "method": "mortgage",
+        "quote": "Mortgage."
+      },
+      "need": {
+        "rooms": 3,
+        "area_m2": null,
+        "purpose": "living",
+        "quote": "Yes. We're moving to Baku and need a place to live."
+      },
+      "showroom": {
+        "offered": true,
+        "has_time": true,
+        "discouraged": false,
+        "quote": "Can you come to our showroom on Wednesday at 4 pm?"
+      },
+      "next_step": {
+        "type": "showroom_visit",
+        "when": "Wednesday at 4 pm",
+        "client_agreed": true,
+        "quote": "Wednesday 4 pm works."
+      },
+      "promises": [
+        {
+          "topic": "mortgage_rate",
+          "value": "7",
+          "condition": null,
+          "quote": "Through our partner bank you'll get a 7% mortgage rate, I can guarantee that."
+        }
+      ],
+      "lead": {
+        "temperature": "hot",
+        "quote": "Wednesday 4 pm works."
+      },
+      "translations": [
+        {
+          "quote": "Hello, Demo Residence, my name is Elchin. You asked about three-bedroom apartments?",
+          "en": "Hello, Demo Residence, my name is Elchin. You asked about three-bedroom apartments?"
+        },
+        {
+          "quote": "What budget are you considering?",
+          "en": "What budget are you considering?"
+        },
+        {
+          "quote": "Mortgage.",
+          "en": "Mortgage."
+        },
+        {
+          "quote": "Yes. We're moving to Baku and need a place to live.",
+          "en": "Yes. We're moving to Baku and need a place to live."
+        },
+        {
+          "quote": "Can you come to our showroom on Wednesday at 4 pm?",
+          "en": "Can you come to our showroom on Wednesday at 4 pm?"
+        },
+        {
+          "quote": "Wednesday 4 pm works.",
+          "en": "Wednesday 4 pm works."
+        },
+        {
+          "quote": "Through our partner bank you'll get a 7% mortgage rate, I can guarantee that.",
+          "en": "Through our partner bank you'll get a 7% mortgage rate, I can guarantee that."
+        }
+      ],
+      "summary_en": "The client is looking for a 3-bedroom apartment for living with a budget up to 230,000 AZN via mortgage, was promised a 7% mortgage rate by the manager, and agreed to visit the showroom on Wednesday at 4 pm."
+    },
+    "usage": {
+      "model": "gemini-3.8-flash",
+      "thinking": "LOW",
+      "input_tokens": 2854,
+      "output_tokens": 508,
+      "cost_usd": 0.004045
+    },
+    "latency_ms": 5076
   }
 }

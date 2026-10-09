@@ -2,26 +2,26 @@
   "summary": {
     "set": "main",
     "model": "gemini-3.8-flash",
-    "thinking": "default",
-    "calls": 22,
-    "agent_accuracy": "22/22",
-    "baseline_accuracy": "11/22",
+    "thinking": "LOW",
+    "calls": 40,
+    "agent_accuracy": "40/40",
+    "baseline_accuracy": "21/40",
     "agent_by_language": {
-      "az": "3/3",
-      "en": "3/3",
-      "mixed": "6/6",
-      "ru": "10/10"
+      "az": "18/18",
+      "en": "4/4",
+      "mixed": "12/12",
+      "ru": "6/6"
     },
     "needs_review": 0,
-    "dropped_quotes": 1,
-    "total_cost_usd": 0.3658,
-    "cost_per_call_usd": 0.01663,
-    "avg_latency_s": 30.4
+    "dropped_quotes": 0,
+    "total_cost_usd": 0.1667,
+    "cost_per_call_usd": 0.00417,
+    "avg_latency_s": 6.4
   },
   "rows": [
     {
       "call_id": "C-001",
-      "language": "ru",
+      "language": "az",
       "scenario": "Ideal call: all criteria met, compliant handover date",
       "expected": [
         "OK"
@@ -30,7 +30,8 @@
         "OK"
       ],
       "baseline": [
-        "CORRECT_PROMISE"
+        "CORRECT_PROMISE",
+        "CALLBACK_TODAY"
       ],
       "agent_ok": true,
       "baseline_ok": false,
@@ -38,12 +39,12 @@
       "expected_violations": [],
       "criteria_diff": {},
       "dropped": [],
-      "cost_usd": 0.018158,
-      "latency_ms": 34469
+      "cost_usd": 0.004741,
+      "latency_ms": 6204
     },
     {
       "call_id": "C-002",
-      "language": "ru",
+      "language": "az",
       "scenario": "Budget never asked, everything else done",
       "expected": [
         "OK"
@@ -60,12 +61,12 @@
       "expected_violations": [],
       "criteria_diff": {},
       "dropped": [],
-      "cost_usd": 0.007296,
-      "latency_ms": 10868
+      "cost_usd": 0.004298,
+      "latency_ms": 5650
     },
     {
       "call_id": "C-003",
-      "language": "ru",
+      "language": "mixed",
       "scenario": "Budget asked without the word 'budget' (keyword-script trap)",
       "expected": [
         "OK"
@@ -82,12 +83,12 @@
       "expected_violations": [],
       "criteria_diff": {},
       "dropped": [],
-      "cost_usd": 0.033116,
-      "latency_ms": 67558
+      "cost_usd": 0.004671,
+      "latency_ms": 7000
     },
     {
       "call_id": "C-004",
-      "language": "ru",
+      "language": "az",
       "scenario": "Showroom mentioned but manager talks client out of visiting (keyword-script trap)",
       "expected": [
         "INVITE_SHOWROOM"
@@ -104,8 +105,8 @@
       "expected_violations": [],
       "criteria_diff": {},
       "dropped": [],
-      "cost_usd": 0.012868,
-      "latency_ms": 21546
+      "cost_usd": 0.00446,
+      "latency_ms": 6667
     },
     {
       "call_id": "C-005",
@@ -126,8 +127,8 @@
       "expected_violations": [],
       "criteria_diff": {},
       "dropped": [],
-      "cost_usd": 0.016039,
-      "latency_ms": 26990
+      "cost_usd": 0.00396,
+      "latency_ms": 5220
     },
     {
       "call_id": "C-006",
@@ -152,8 +153,8 @@
       ],
       "criteria_diff": {},
       "dropped": [],
-      "cost_usd": 0.010247,
-      "latency_ms": 15485
+      "cost_usd": 0.004435,
+      "latency_ms": 7119
     },
     {
       "call_id": "C-007",
@@ -178,8 +179,8 @@
       ],
       "criteria_diff": {},
       "dropped": [],
-      "cost_usd": 0.006544,
-      "latency_ms": 10161
+      "cost_usd": 0.004294,
+      "latency_ms": 7100
     },
     {
       "call_id": "C-008",
@@ -204,8 +205,8 @@
       ],
       "criteria_diff": {},
       "dropped": [],
-      "cost_usd": 0.010705,
-      "latency_ms": 16712
+      "cost_usd": 0.004657,
+      "latency_ms": 7278
     },
     {
       "call_id": "C-009",
@@ -226,8 +227,8 @@
       "expected_violations": [],
       "criteria_diff": {},
       "dropped": [],
-      "cost_usd": 0.007552,
-      "latency_ms": 11602
+      "cost_usd": 0.004117,
+      "latency_ms": 5659
     },
     {
       "call_id": "C-010",
@@ -248,8 +249,8 @@
       "expected_violations": [],
       "criteria_diff": {},
       "dropped": [],
-      "cost_usd": 0.004436,
-      "latency_ms": 5750
+      "cost_usd": 0.00322,
+      "latency_ms": 4539
     },
     {
       "call_id": "C-011",
@@ -270,8 +271,8 @@
       "expected_violations": [],
       "criteria_diff": {},
       "dropped": [],
-      "cost_usd": 0.005715,
-      "latency_ms": 8745
+      "cost_usd": 0.003184,
+      "latency_ms": 4495
     },
     {
       "call_id": "C-012",
@@ -292,8 +293,8 @@
       "expected_violations": [],
       "criteria_diff": {},
       "dropped": [],
-      "cost_usd": 0.009936,
-      "latency_ms": 15877
+      "cost_usd": 0.004487,
+      "latency_ms": 5367
     },
     {
       "call_id": "C-013",
@@ -314,8 +315,8 @@
       "expected_violations": [],
       "criteria_diff": {},
       "dropped": [],
-      "cost_usd": 0.009025,
-      "latency_ms": 14876
+      "cost_usd": 0.003824,
+      "latency_ms": 6586
     },
     {
       "call_id": "C-014",
@@ -349,8 +350,8 @@
       ],
       "criteria_diff": {},
       "dropped": [],
-      "cost_usd": 0.013543,
-      "latency_ms": 24490
+      "cost_usd": 0.004378,
+      "latency_ms": 5755
     },
     {
       "call_id": "C-015",
@@ -372,8 +373,8 @@
       "expected_violations": [],
       "criteria_diff": {},
       "dropped": [],
-      "cost_usd": 0.026792,
-      "latency_ms": 50972
+      "cost_usd": 0.00463,
+      "latency_ms": 7498
     },
     {
       "call_id": "C-016",
@@ -405,21 +406,10 @@
       "expected_violations": [
         "price_growth"
       ],
-      "criteria_diff": {
-        "C2": [
-          "met",
-          "not_met"
-        ]
-      },
-      "dropped": [
-        {
-          "field": "budget",
-          "quote": "На какой budget рассчитываете?",
-          "reason": "quote not found in the call"
-        }
-      ],
-      "cost_usd": 0.024044,
-      "latency_ms": 41471
+      "criteria_diff": {},
+      "dropped": [],
+      "cost_usd": 0.003854,
+      "latency_ms": 15895
     },
     {
       "call_id": "C-017",
@@ -440,8 +430,8 @@
       "expected_violations": [],
       "criteria_diff": {},
       "dropped": [],
-      "cost_usd": 0.008963,
-      "latency_ms": 16952
+      "cost_usd": 0.004489,
+      "latency_ms": 4536
     },
     {
       "call_id": "C-018",
@@ -467,8 +457,8 @@
       ],
       "criteria_diff": {},
       "dropped": [],
-      "cost_usd": 0.008086,
-      "latency_ms": 22097
+      "cost_usd": 0.004186,
+      "latency_ms": 6689
     },
     {
       "call_id": "C-019",
@@ -489,8 +479,8 @@
       "expected_violations": [],
       "criteria_diff": {},
       "dropped": [],
-      "cost_usd": 0.00982,
-      "latency_ms": 20350
+      "cost_usd": 0.003711,
+      "latency_ms": 5866
     },
     {
       "call_id": "C-020",
@@ -511,8 +501,8 @@
       "expected_violations": [],
       "criteria_diff": {},
       "dropped": [],
-      "cost_usd": 0.105492,
-      "latency_ms": 204830
+      "cost_usd": 0.004238,
+      "latency_ms": 5122
     },
     {
       "call_id": "C-021",
@@ -537,8 +527,8 @@
       ],
       "criteria_diff": {},
       "dropped": [],
-      "cost_usd": 0.00775,
-      "latency_ms": 13194
+      "cost_usd": 0.004457,
+      "latency_ms": 4988
     },
     {
       "call_id": "C-022",
@@ -559,8 +549,434 @@
       "expected_violations": [],
       "criteria_diff": {},
       "dropped": [],
-      "cost_usd": 0.009715,
-      "latency_ms": 13742
+      "cost_usd": 0.00409,
+      "latency_ms": 12770
+    },
+    {
+      "call_id": "C-023",
+      "language": "az",
+      "scenario": "Ideal call, investment purchase with mortgage",
+      "expected": [
+        "OK"
+      ],
+      "agent": [
+        "OK"
+      ],
+      "baseline": [
+        "OK"
+      ],
+      "agent_ok": true,
+      "baseline_ok": true,
+      "violations": [],
+      "expected_violations": [],
+      "criteria_diff": {},
+      "dropped": [],
+      "cost_usd": 0.00424,
+      "latency_ms": 4742
+    },
+    {
+      "call_id": "C-024",
+      "language": "az",
+      "scenario": "Discount promised without percent or condition ('endirim taparıq')",
+      "expected": [
+        "CORRECT_PROMISE"
+      ],
+      "agent": [
+        "CORRECT_PROMISE"
+      ],
+      "baseline": [
+        "CORRECT_PROMISE"
+      ],
+      "agent_ok": true,
+      "baseline_ok": true,
+      "violations": [
+        "discount"
+      ],
+      "expected_violations": [
+        "discount"
+      ],
+      "criteria_diff": {},
+      "dropped": [],
+      "cost_usd": 0.004868,
+      "latency_ms": 6874
+    },
+    {
+      "call_id": "C-025",
+      "language": "az",
+      "scenario": "Hot lead, showroom offered but client only says 'we'll see': no next step",
+      "expected": [
+        "CALLBACK_TODAY"
+      ],
+      "agent": [
+        "CALLBACK_TODAY"
+      ],
+      "baseline": [
+        "CALLBACK_TODAY"
+      ],
+      "agent_ok": true,
+      "baseline_ok": true,
+      "violations": [],
+      "expected_violations": [],
+      "criteria_diff": {},
+      "dropped": [],
+      "cost_usd": 0.00399,
+      "latency_ms": 4534
+    },
+    {
+      "call_id": "C-026",
+      "language": "az",
+      "scenario": "Mortgage rate promised and 'guaranteed' (declaration: the bank sets the rate)",
+      "expected": [
+        "CORRECT_PROMISE"
+      ],
+      "agent": [
+        "CORRECT_PROMISE"
+      ],
+      "baseline": [
+        "OK"
+      ],
+      "agent_ok": true,
+      "baseline_ok": false,
+      "violations": [
+        "mortgage_rate"
+      ],
+      "expected_violations": [
+        "mortgage_rate"
+      ],
+      "criteria_diff": {},
+      "dropped": [],
+      "cost_usd": 0.004512,
+      "latency_ms": 7839
+    },
+    {
+      "call_id": "C-027",
+      "language": "az",
+      "scenario": "Down payment of 20% offered (declaration: min 30%)",
+      "expected": [
+        "CORRECT_PROMISE"
+      ],
+      "agent": [
+        "CORRECT_PROMISE"
+      ],
+      "baseline": [
+        "OK"
+      ],
+      "agent_ok": true,
+      "baseline_ok": false,
+      "violations": [
+        "down_payment_pct"
+      ],
+      "expected_violations": [
+        "down_payment_pct"
+      ],
+      "criteria_diff": {},
+      "dropped": [],
+      "cost_usd": 0.004432,
+      "latency_ms": 5496
+    },
+    {
+      "call_id": "C-028",
+      "language": "az",
+      "scenario": "Price of 1 800 AZN/m2 offered (declaration: from 2 000)",
+      "expected": [
+        "CORRECT_PROMISE"
+      ],
+      "agent": [
+        "CORRECT_PROMISE"
+      ],
+      "baseline": [
+        "OK"
+      ],
+      "agent_ok": true,
+      "baseline_ok": false,
+      "violations": [
+        "price_per_m2"
+      ],
+      "expected_violations": [
+        "price_per_m2"
+      ],
+      "criteria_diff": {},
+      "dropped": [],
+      "cost_usd": 0.004441,
+      "latency_ms": 5557
+    },
+    {
+      "call_id": "C-029",
+      "language": "az",
+      "scenario": "Hedged 'prices may rise' is not a promise (false-positive trap)",
+      "expected": [
+        "OK"
+      ],
+      "agent": [
+        "OK"
+      ],
+      "baseline": [
+        "OK"
+      ],
+      "agent_ok": true,
+      "baseline_ok": true,
+      "violations": [],
+      "expected_violations": [],
+      "criteria_diff": {},
+      "dropped": [],
+      "cost_usd": 0.003968,
+      "latency_ms": 5550
+    },
+    {
+      "call_id": "C-030",
+      "language": "az",
+      "scenario": "Manager never gives his name, everything else done",
+      "expected": [
+        "OK"
+      ],
+      "agent": [
+        "OK"
+      ],
+      "baseline": [
+        "OK"
+      ],
+      "agent_ok": true,
+      "baseline_ok": true,
+      "violations": [],
+      "expected_violations": [],
+      "criteria_diff": {},
+      "dropped": [],
+      "cost_usd": 0.004026,
+      "latency_ms": 4969
+    },
+    {
+      "call_id": "C-031",
+      "language": "az",
+      "scenario": "Budget asked, client refuses to name an amount",
+      "expected": [
+        "OK"
+      ],
+      "agent": [
+        "OK"
+      ],
+      "baseline": [
+        "OK"
+      ],
+      "agent_ok": true,
+      "baseline_ok": true,
+      "violations": [],
+      "expected_violations": [],
+      "criteria_diff": {},
+      "dropped": [],
+      "cost_usd": 0.003867,
+      "latency_ms": 4495
+    },
+    {
+      "call_id": "C-032",
+      "language": "az",
+      "scenario": "Handover 'end of next year' is compliant (false-positive trap)",
+      "expected": [
+        "OK"
+      ],
+      "agent": [
+        "OK"
+      ],
+      "baseline": [
+        "CORRECT_PROMISE"
+      ],
+      "agent_ok": true,
+      "baseline_ok": false,
+      "violations": [],
+      "expected_violations": [],
+      "criteria_diff": {},
+      "dropped": [],
+      "cost_usd": 0.004126,
+      "latency_ms": 5680
+    },
+    {
+      "call_id": "C-033",
+      "language": "az",
+      "scenario": "Hot lead, manager asks nothing and only says 'I'll call you later'",
+      "expected": [
+        "CALLBACK_TODAY",
+        "INVITE_SHOWROOM",
+        "COACHING"
+      ],
+      "agent": [
+        "CALLBACK_TODAY",
+        "INVITE_SHOWROOM",
+        "COACHING"
+      ],
+      "baseline": [
+        "INVITE_SHOWROOM",
+        "COACHING"
+      ],
+      "agent_ok": true,
+      "baseline_ok": false,
+      "violations": [],
+      "expected_violations": [],
+      "criteria_diff": {},
+      "dropped": [],
+      "cost_usd": 0.00396,
+      "latency_ms": 6915
+    },
+    {
+      "call_id": "C-034",
+      "language": "az",
+      "scenario": "Client 'just looking': cold lead",
+      "expected": [
+        "OK"
+      ],
+      "agent": [
+        "OK"
+      ],
+      "baseline": [
+        "OK"
+      ],
+      "agent_ok": true,
+      "baseline_ok": true,
+      "violations": [],
+      "expected_violations": [],
+      "criteria_diff": {},
+      "dropped": [],
+      "cost_usd": 0.00321,
+      "latency_ms": 4435
+    },
+    {
+      "call_id": "C-035",
+      "language": "mixed",
+      "scenario": "Mixed AZ/RU: manager talks client out of the showroom, sends floor plans by 19:00",
+      "expected": [
+        "INVITE_SHOWROOM"
+      ],
+      "agent": [
+        "INVITE_SHOWROOM"
+      ],
+      "baseline": [
+        "CALLBACK_TODAY"
+      ],
+      "agent_ok": true,
+      "baseline_ok": false,
+      "violations": [],
+      "expected_violations": [],
+      "criteria_diff": {},
+      "dropped": [],
+      "cost_usd": 0.003879,
+      "latency_ms": 5800
+    },
+    {
+      "call_id": "C-036",
+      "language": "mixed",
+      "scenario": "Mixed AZ/RU: handover promised for next summer (declaration: Q4 2027)",
+      "expected": [
+        "CORRECT_PROMISE"
+      ],
+      "agent": [
+        "CORRECT_PROMISE"
+      ],
+      "baseline": [
+        "CORRECT_PROMISE"
+      ],
+      "agent_ok": true,
+      "baseline_ok": true,
+      "violations": [
+        "completion_date"
+      ],
+      "expected_violations": [
+        "completion_date"
+      ],
+      "criteria_diff": {},
+      "dropped": [],
+      "cost_usd": 0.004126,
+      "latency_ms": 6910
+    },
+    {
+      "call_id": "C-037",
+      "language": "mixed",
+      "scenario": "Mixed AZ/RU: need given as area (80 m2) instead of rooms, everything done",
+      "expected": [
+        "OK"
+      ],
+      "agent": [
+        "OK"
+      ],
+      "baseline": [
+        "OK"
+      ],
+      "agent_ok": true,
+      "baseline_ok": true,
+      "violations": [],
+      "expected_violations": [],
+      "criteria_diff": {},
+      "dropped": [],
+      "cost_usd": 0.003864,
+      "latency_ms": 6727
+    },
+    {
+      "call_id": "C-038",
+      "language": "mixed",
+      "scenario": "Mixed AZ/RU: sarcastic 'of course I'll come' in Azerbaijani is not agreement",
+      "expected": [
+        "CALLBACK_TODAY"
+      ],
+      "agent": [
+        "CALLBACK_TODAY"
+      ],
+      "baseline": [
+        "CORRECT_PROMISE",
+        "CALLBACK_TODAY"
+      ],
+      "agent_ok": true,
+      "baseline_ok": false,
+      "violations": [],
+      "expected_violations": [],
+      "criteria_diff": {},
+      "dropped": [],
+      "cost_usd": 0.004899,
+      "latency_ms": 9375
+    },
+    {
+      "call_id": "C-039",
+      "language": "mixed",
+      "scenario": "Mixed AZ/RU: client declines showroom but agrees a callback at 11:00",
+      "expected": [
+        "OK"
+      ],
+      "agent": [
+        "OK"
+      ],
+      "baseline": [
+        "OK"
+      ],
+      "agent_ok": true,
+      "baseline_ok": true,
+      "violations": [],
+      "expected_violations": [],
+      "criteria_diff": {},
+      "dropped": [],
+      "cost_usd": 0.00388,
+      "latency_ms": 5519
+    },
+    {
+      "call_id": "C-040",
+      "language": "en",
+      "scenario": "Mortgage rate 'guaranteed' to a foreign buyer",
+      "expected": [
+        "CORRECT_PROMISE"
+      ],
+      "agent": [
+        "CORRECT_PROMISE"
+      ],
+      "baseline": [
+        "OK"
+      ],
+      "agent_ok": true,
+      "baseline_ok": false,
+      "violations": [
+        "mortgage_rate"
+      ],
+      "expected_violations": [
+        "mortgage_rate"
+      ],
+      "criteria_diff": {},
+      "dropped": [],
+      "cost_usd": 0.004045,
+      "latency_ms": 5076
     }
   ]
 }
