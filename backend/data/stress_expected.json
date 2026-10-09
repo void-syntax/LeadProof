@@ -1,0 +1,230 @@
+{
+  "S-01": {
+    "language": "mixed",
+    "scenario": "Client quotes a 10% discount from an ad; manager corrects it to the allowed 3% for full payment",
+    "trap": "The 10% is said by the CLIENT: attributing it to the manager gives a false CORRECT_PROMISE",
+    "known_limitation": false,
+    "criteria": {
+      "C1": "met",
+      "C2": "met",
+      "C3": "met",
+      "C4": "met",
+      "C5": "met",
+      "C6": "met"
+    },
+    "violations": [],
+    "lead": [
+      "hot"
+    ],
+    "actions": [
+      "OK"
+    ]
+  },
+  "S-02": {
+    "language": "az",
+    "scenario": "Down payment 20% said in words (below the 30% minimum); 'two years' installment is compliant",
+    "trap": "Number in Azerbaijani words: if the value comes back as 'iyirmi', the code cannot read it and misses the violation",
+    "known_limitation": false,
+    "criteria": {
+      "C1": "met",
+      "C2": "met",
+      "C3": "met",
+      "C4": "met",
+      "C5": "met",
+      "C6": "met"
+    },
+    "violations": [
+      "down_payment_pct"
+    ],
+    "lead": [
+      "hot"
+    ],
+    "actions": [
+      "CORRECT_PROMISE"
+    ]
+  },
+  "S-03": {
+    "language": "az",
+    "scenario": "Handover 'second quarter of next year' = 2027-04, earlier than the declared 2027-10; no showroom invite",
+    "trap": "Relative date in Azerbaijani: the model must compute the quarter from the call date",
+    "known_limitation": false,
+    "criteria": {
+      "C1": "met",
+      "C2": "met",
+      "C3": "met",
+      "C4": "met",
+      "C5": "not_met",
+      "C6": "met"
+    },
+    "violations": [
+      "completion_date"
+    ],
+    "lead": [
+      "hot",
+      "warm"
+    ],
+    "actions": [
+      "CORRECT_PROMISE",
+      "INVITE_SHOWROOM"
+    ]
+  },
+  "S-04": {
+    "language": "ru",
+    "scenario": "Russian transliterated into Latin with ASR errors ('demo rezidens', 'skitku'); 5% discount exceeds the 3% maximum",
+    "trap": "Garbled project name and garbled word for discount",
+    "known_limitation": false,
+    "criteria": {
+      "C1": "met",
+      "C2": "met",
+      "C3": "met",
+      "C4": "met",
+      "C5": "met",
+      "C6": "met"
+    },
+    "violations": [
+      "discount"
+    ],
+    "lead": [
+      "hot"
+    ],
+    "actions": [
+      "CORRECT_PROMISE"
+    ]
+  },
+  "S-05": {
+    "language": "az",
+    "scenario": "Azerbaijani written in Cyrillic (ASR setting); price 1,900 AZN per m2 is below the 2,000 minimum",
+    "trap": "Script the prompt does not mention: Azerbaijani in Cyrillic",
+    "known_limitation": false,
+    "criteria": {
+      "C1": "met",
+      "C2": "met",
+      "C3": "met",
+      "C4": "met",
+      "C5": "met",
+      "C6": "met"
+    },
+    "violations": [
+      "price_per_m2"
+    ],
+    "lead": [
+      "hot"
+    ],
+    "actions": [
+      "CORRECT_PROMISE"
+    ]
+  },
+  "S-06": {
+    "language": "mixed",
+    "scenario": "Two promises in one sentence: 36-month installment (violation) and 30% down payment (compliant); showroom without a time",
+    "trap": "One line holds a violating and a compliant promise; only the installment must be flagged",
+    "known_limitation": false,
+    "criteria": {
+      "C1": "met",
+      "C2": "met",
+      "C3": "met",
+      "C4": "met",
+      "C5": "not_met",
+      "C6": "met"
+    },
+    "violations": [
+      "installment_months"
+    ],
+    "lead": [
+      "hot"
+    ],
+    "actions": [
+      "CORRECT_PROMISE",
+      "INVITE_SHOWROOM"
+    ]
+  },
+  "S-07": {
+    "language": "az",
+    "scenario": "Long call: an allowed hedged remark early ('ola bilər'), a guaranteed 10% price growth buried near the end",
+    "trap": "Long context: hedged statement must be ignored, the definite one must be caught",
+    "known_limitation": false,
+    "criteria": {
+      "C1": "met",
+      "C2": "met",
+      "C3": "met",
+      "C4": "met",
+      "C5": "met",
+      "C6": "met"
+    },
+    "violations": [
+      "price_growth"
+    ],
+    "lead": [
+      "hot"
+    ],
+    "actions": [
+      "CORRECT_PROMISE"
+    ]
+  },
+  "S-08": {
+    "language": "az",
+    "scenario": "Client repeats a competitor's 'price will surely grow 20%'; manager explicitly refuses to guarantee it",
+    "trap": "The guarantee words appear in the call, but nobody from our side promised anything",
+    "known_limitation": false,
+    "criteria": {
+      "C1": "met",
+      "C2": "not_met",
+      "C3": "not_met",
+      "C4": "met",
+      "C5": "met",
+      "C6": "not_met"
+    },
+    "violations": [],
+    "lead": [
+      "warm"
+    ],
+    "actions": [
+      "CALLBACK_TODAY",
+      "COACHING"
+    ]
+  },
+  "S-09": {
+    "language": "ru",
+    "scenario": "Speaker labels swapped by the telephony: the manager's 7% discount line is tagged as client",
+    "trap": "Known limitation: the agent trusts speaker labels, so a mislabeled manager promise is likely missed",
+    "known_limitation": true,
+    "criteria": {
+      "C1": "met",
+      "C2": "met",
+      "C3": "met",
+      "C4": "met",
+      "C5": "met",
+      "C6": "met"
+    },
+    "violations": [
+      "discount"
+    ],
+    "lead": [
+      "hot"
+    ],
+    "actions": [
+      "CORRECT_PROMISE"
+    ]
+  },
+  "S-10": {
+    "language": "az",
+    "scenario": "Compliant 3% discount for full payment, said in words ('üç faiz')",
+    "trap": "Number in words: if the value comes back as 'üç', the code reports a discount without a percentage (false alarm)",
+    "known_limitation": false,
+    "criteria": {
+      "C1": "met",
+      "C2": "met",
+      "C3": "met",
+      "C4": "met",
+      "C5": "met",
+      "C6": "met"
+    },
+    "violations": [],
+    "lead": [
+      "hot"
+    ],
+    "actions": [
+      "OK"
+    ]
+  }
+}

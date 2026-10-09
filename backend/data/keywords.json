@@ -1,0 +1,16 @@
+{
+  "C1": ["меня зовут", "mənim adım", "my name is", "menya zovut"],
+  "C2": ["бюджет", "сумм", "büdcə", "budget", "byudzhet"],
+  "C3": ["наличн", "ипотек", "рассрочк", "nağd", "ipoteka", "cash", "mortgage", "installment", "rassrochk", "nalichn"],
+  "C4": ["комнат", "однушк", "двушк", "трёшк", "метр", "otaq", "bedroom", "rooms", "komnat", "dvushk"],
+  "C5": ["шоурум", "офис продаж", "showroom", "şourum", "shourum"],
+  "C6": ["перезвон", "созвон", "встретимся", "записал", "договорились", "zəng ed", "qeyd etdim", "yazdım", "booked", "call you", "perezvon", "zapisal"],
+  "cold": ["просто смотрю", "prosto smotryu", "sadəcə baxıram", "just looking", "ошиблись номером", "wrong number", "səhv nömrə"],
+  "violations": {
+    "discount": ["скидк", "endirim", "discount", "% off", "skidk"],
+    "completion_date": ["сдач", "сдадим", "təhvil", "handover"],
+    "installment_months": ["36 мес", "36 ay", "36 months"],
+    "price_growth": ["вырастет", "bahalaşacaq", "go up", "vyrastet"],
+    "construction_start": ["начнется", "начнётся", "başlayacaq"]
+  }
+}

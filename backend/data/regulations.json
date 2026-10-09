@@ -1,0 +1,12 @@
+{
+  "criteria": [
+    {"id": "C1", "name": "Introduced self and project", "weight": 1},
+    {"id": "C2", "name": "Asked about budget", "weight": 2},
+    {"id": "C3", "name": "Clarified payment method", "weight": 2},
+    {"id": "C4", "name": "Clarified need: rooms or area and purpose", "weight": 2},
+    {"id": "C5", "name": "Invited to showroom with a specific time", "weight": 3},
+    {"id": "C6", "name": "Fixed a concrete next step", "weight": 3}
+  ],
+  "coaching_threshold": 60,
+  "active_leads": ["hot", "warm"]
+}

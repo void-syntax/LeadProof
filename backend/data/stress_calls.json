@@ -1,0 +1,609 @@
+{
+  "calls": [
+    {
+      "call_id": "S-01",
+      "manager": "Nərmin",
+      "started_at": "2026-10-09T12:10:00+04:00",
+      "duration_sec": 48,
+      "lead_source": "instagram_ads",
+      "language": "mixed",
+      "segments": [
+        {
+          "t": "00:03",
+          "speaker": "manager",
+          "text": "Salam, Demo Residence, mənim adım Nərmin. Sizə necə kömək edə bilərəm?"
+        },
+        {
+          "t": "00:10",
+          "speaker": "client",
+          "text": "Salam. В Инстаграме писали, что у вас скидка 10%. Это правда?"
+        },
+        {
+          "t": "00:16",
+          "speaker": "manager",
+          "text": "Xeyr, maksimum 3% endirim var, yalnız 100% ödənişdə."
+        },
+        {
+          "t": "00:21",
+          "speaker": "manager",
+          "text": "Büdcəniz nə qədərdir?"
+        },
+        {
+          "t": "00:25",
+          "speaker": "client",
+          "text": "Təxminən 130 min, nağd ödəyəcəyəm."
+        },
+        {
+          "t": "00:29",
+          "speaker": "manager",
+          "text": "Neçə otaqlı axtarırsınız, özünüz üçün, yoxsa investisiya?"
+        },
+        {
+          "t": "00:35",
+          "speaker": "client",
+          "text": "İki otaqlı, özümüz yaşamaq üçün."
+        },
+        {
+          "t": "00:39",
+          "speaker": "manager",
+          "text": "Şənbə saat 11-də şouruma gəlin, mənzilləri göstərim."
+        },
+        {
+          "t": "00:44",
+          "speaker": "client",
+          "text": "Yaxşı, şənbə 11-də gələcəm."
+        }
+      ]
+    },
+    {
+      "call_id": "S-02",
+      "manager": "Elvin",
+      "started_at": "2026-10-09T12:20:00+04:00",
+      "duration_sec": 46,
+      "lead_source": "website",
+      "language": "az",
+      "segments": [
+        {
+          "t": "00:03",
+          "speaker": "manager",
+          "text": "Salam, Demo Residence, Elvin danışır."
+        },
+        {
+          "t": "00:07",
+          "speaker": "client",
+          "text": "Salam, üç otaqlı mənzil üçün zəng edirəm, ailəmlə yaşamaq üçün."
+        },
+        {
+          "t": "00:14",
+          "speaker": "manager",
+          "text": "Büdcəniz nə qədərdir?"
+        },
+        {
+          "t": "00:18",
+          "speaker": "client",
+          "text": "Yüz səksən min manat."
+        },
+        {
+          "t": "00:22",
+          "speaker": "manager",
+          "text": "Necə ödəmək istəyirsiniz?"
+        },
+        {
+          "t": "00:26",
+          "speaker": "client",
+          "text": "Hissə-hissə ödəmək istəyirəm."
+        },
+        {
+          "t": "00:30",
+          "speaker": "manager",
+          "text": "Problem yoxdur, ilkin ödəniş cəmi iyirmi faizdir, qalanını iki ilə."
+        },
+        {
+          "t": "00:37",
+          "speaker": "manager",
+          "text": "Bazar ertəsi saat 15:00-da şouruma gələ bilərsiniz?"
+        },
+        {
+          "t": "00:42",
+          "speaker": "client",
+          "text": "Bəli, bazar ertəsi 15-də gəlirəm."
+        }
+      ]
+    },
+    {
+      "call_id": "S-03",
+      "manager": "Səbinə",
+      "started_at": "2026-10-09T12:30:00+04:00",
+      "duration_sec": 36,
+      "lead_source": "website",
+      "language": "az",
+      "segments": [
+        {
+          "t": "00:03",
+          "speaker": "manager",
+          "text": "Salam, mən Səbinə, Demo Residence satış şöbəsi."
+        },
+        {
+          "t": "00:08",
+          "speaker": "client",
+          "text": "Salam. Bir otaqlı mənzil axtarıram, investisiya üçün. Təhvil nə vaxtdır?"
+        },
+        {
+          "t": "00:16",
+          "speaker": "manager",
+          "text": "Təhvil gələn ilin ikinci rübündədir."
+        },
+        {
+          "t": "00:20",
+          "speaker": "manager",
+          "text": "Büdcəniz nə qədərdir?"
+        },
+        {
+          "t": "00:24",
+          "speaker": "client",
+          "text": "Doxsan min, ipoteka ilə alacağam."
+        },
+        {
+          "t": "00:28",
+          "speaker": "manager",
+          "text": "Sabah saat 17-də sizə planları göndərim?"
+        },
+        {
+          "t": "00:32",
+          "speaker": "client",
+          "text": "Bəli, göndərin, baxaram."
+        }
+      ]
+    },
+    {
+      "call_id": "S-04",
+      "manager": "Rashad",
+      "started_at": "2026-10-09T12:40:00+04:00",
+      "duration_sec": 43,
+      "lead_source": "phone",
+      "language": "ru",
+      "segments": [
+        {
+          "t": "00:03",
+          "speaker": "manager",
+          "text": "Dobryy den, demo rezidens, menya zovut Rashad."
+        },
+        {
+          "t": "00:08",
+          "speaker": "client",
+          "text": "Zdravstvuyte, dvushku khotim, dlya sebya zhit."
+        },
+        {
+          "t": "00:13",
+          "speaker": "manager",
+          "text": "Kakoy u vas byudzhet?"
+        },
+        {
+          "t": "00:17",
+          "speaker": "client",
+          "text": "Nu tysyach sto sorok gde-to."
+        },
+        {
+          "t": "00:21",
+          "speaker": "manager",
+          "text": "Oplata kak budet?"
+        },
+        {
+          "t": "00:25",
+          "speaker": "client",
+          "text": "Nalichnymi, srazu vsyo."
+        },
+        {
+          "t": "00:29",
+          "speaker": "manager",
+          "text": "Yesli srazu vsyo oplatite, skitku pyat protsentov sdelaem."
+        },
+        {
+          "t": "00:35",
+          "speaker": "manager",
+          "text": "V subbotu v dva prikhodite v shourum?"
+        },
+        {
+          "t": "00:39",
+          "speaker": "client",
+          "text": "Da, v subbotu v dva budem."
+        }
+      ]
+    },
+    {
+      "call_id": "S-05",
+      "manager": "Elnur",
+      "started_at": "2026-10-09T12:50:00+04:00",
+      "duration_sec": 38,
+      "lead_source": "instagram_ads",
+      "language": "az",
+      "segments": [
+        {
+          "t": "00:03",
+          "speaker": "manager",
+          "text": "Салам, Демо Резиденс, мәним адым Елнур."
+        },
+        {
+          "t": "00:07",
+          "speaker": "client",
+          "text": "Салам. Ики отаглы мәнзил истәјирәм, өзүм јашамаг үчүн."
+        },
+        {
+          "t": "00:13",
+          "speaker": "manager",
+          "text": "Бүдҹәниз нә гәдәрдир?"
+        },
+        {
+          "t": "00:17",
+          "speaker": "client",
+          "text": "Јүз ијирми мин."
+        },
+        {
+          "t": "00:21",
+          "speaker": "manager",
+          "text": "Квадрат метри 1 900 манатдан башлајыр."
+        },
+        {
+          "t": "00:25",
+          "speaker": "client",
+          "text": "Јахшы. Нағд өдәјәҹәм."
+        },
+        {
+          "t": "00:29",
+          "speaker": "manager",
+          "text": "Ҹүмә ахшамы саат 16-да шоуруму көрмәјә кәлин."
+        },
+        {
+          "t": "00:34",
+          "speaker": "client",
+          "text": "Олар, кәләрәм."
+        }
+      ]
+    },
+    {
+      "call_id": "S-06",
+      "manager": "Farid",
+      "started_at": "2026-10-09T13:00:00+04:00",
+      "duration_sec": 37,
+      "lead_source": "website",
+      "language": "mixed",
+      "segments": [
+        {
+          "t": "00:03",
+          "speaker": "manager",
+          "text": "Здравствуйте, Demo Residence, меня зовут Фарид."
+        },
+        {
+          "t": "00:08",
+          "speaker": "client",
+          "text": "Salam, üç otaqlı mənzil axtarırıq, ailəmizlə yaşamaq üçün."
+        },
+        {
+          "t": "00:14",
+          "speaker": "manager",
+          "text": "Büdcəniz və ödəniş üsulu necədir?"
+        },
+        {
+          "t": "00:18",
+          "speaker": "client",
+          "text": "200 min, hissə-hissə ödəyəcəyik."
+        },
+        {
+          "t": "00:22",
+          "speaker": "manager",
+          "text": "Отлично, рассрочка на 36 месяцев, первый взнос 30%."
+        },
+        {
+          "t": "00:27",
+          "speaker": "manager",
+          "text": "Sabah saat 12-də sizə zəng edim, şourum üçün vaxt təyin edək?"
+        },
+        {
+          "t": "00:33",
+          "speaker": "client",
+          "text": "Oldu, sabah 12-də gözləyirəm."
+        }
+      ]
+    },
+    {
+      "call_id": "S-07",
+      "manager": "Kamran",
+      "started_at": "2026-10-09T13:10:00+04:00",
+      "duration_sec": 120,
+      "lead_source": "website",
+      "language": "az",
+      "segments": [
+        {
+          "t": "00:03",
+          "speaker": "manager",
+          "text": "Salam, Demo Residence, mənim adım Kamran."
+        },
+        {
+          "t": "00:07",
+          "speaker": "client",
+          "text": "Salam, sizin layihə haqqında bir neçə sualım var."
+        },
+        {
+          "t": "00:12",
+          "speaker": "manager",
+          "text": "Buyurun, qulağım sizdədir."
+        },
+        {
+          "t": "00:16",
+          "speaker": "client",
+          "text": "Yaxınlıqda məktəb var?"
+        },
+        {
+          "t": "00:20",
+          "speaker": "manager",
+          "text": "Bəli, iki yüz metr aralıda məktəb və uşaq bağçası var."
+        },
+        {
+          "t": "00:26",
+          "speaker": "client",
+          "text": "Metro nə qədər uzaqdır?"
+        },
+        {
+          "t": "00:30",
+          "speaker": "manager",
+          "text": "Piyada on dəqiqə."
+        },
+        {
+          "t": "00:34",
+          "speaker": "client",
+          "text": "Parkinq var?"
+        },
+        {
+          "t": "00:38",
+          "speaker": "manager",
+          "text": "Yeraltı parkinq var, hər mənzilə bir yer düşür."
+        },
+        {
+          "t": "00:43",
+          "speaker": "client",
+          "text": "Binalar neçə mərtəbəlidir?"
+        },
+        {
+          "t": "00:47",
+          "speaker": "manager",
+          "text": "On altı mərtəbə, monolit karkas."
+        },
+        {
+          "t": "00:51",
+          "speaker": "client",
+          "text": "Qiymətlər artacaq?"
+        },
+        {
+          "t": "00:55",
+          "speaker": "manager",
+          "text": "Ola bilər, bazardan asılıdır."
+        },
+        {
+          "t": "00:59",
+          "speaker": "manager",
+          "text": "Siz neçə otaqlı baxırsınız və nə üçün?"
+        },
+        {
+          "t": "01:03",
+          "speaker": "client",
+          "text": "Üç otaqlı, özümüz yaşamaq üçün."
+        },
+        {
+          "t": "01:07",
+          "speaker": "manager",
+          "text": "Büdcəniz nə qədərdir?"
+        },
+        {
+          "t": "01:11",
+          "speaker": "client",
+          "text": "Təxminən iki yüz min."
+        },
+        {
+          "t": "01:15",
+          "speaker": "manager",
+          "text": "Ödənişi necə edəcəksiniz?"
+        },
+        {
+          "t": "01:19",
+          "speaker": "client",
+          "text": "İpoteka ilə."
+        },
+        {
+          "t": "01:23",
+          "speaker": "client",
+          "text": "Dənizə baxan mənzillər qalıb?"
+        },
+        {
+          "t": "01:27",
+          "speaker": "manager",
+          "text": "Bir neçə dənə qalıb, onuncu mərtəbədən yuxarı."
+        },
+        {
+          "t": "01:32",
+          "speaker": "manager",
+          "text": "Amma bunu deyim: yanvardan qiymət mütləq 10% artacaq, indi almaq sərfəlidir."
+        },
+        {
+          "t": "01:40",
+          "speaker": "client",
+          "text": "Başa düşdüm."
+        },
+        {
+          "t": "01:44",
+          "speaker": "manager",
+          "text": "Cümə günü saat 15-də şouruma gəlin, dəniz mənzərəli mənzilləri göstərim."
+        },
+        {
+          "t": "01:52",
+          "speaker": "client",
+          "text": "Yaxşı, cümə 15-də gələcəm."
+        },
+        {
+          "t": "01:56",
+          "speaker": "manager",
+          "text": "Gözləyirəm, sağ olun."
+        }
+      ]
+    },
+    {
+      "call_id": "S-08",
+      "manager": "Aysel",
+      "started_at": "2026-10-09T13:20:00+04:00",
+      "duration_sec": 58,
+      "lead_source": "instagram_ads",
+      "language": "az",
+      "segments": [
+        {
+          "t": "00:03",
+          "speaker": "manager",
+          "text": "Salam, Demo Residence, Aysel danışır."
+        },
+        {
+          "t": "00:07",
+          "speaker": "client",
+          "text": "Salam. Qonşu layihədə deyirlər ki, qiymət gələn il mütləq 20% artacaq. Sizdə də belədir?"
+        },
+        {
+          "t": "00:16",
+          "speaker": "manager",
+          "text": "Rəqiblər belə deyir, amma biz qiymət artımına zəmanət vermirik. Bazar dəyişə bilər."
+        },
+        {
+          "t": "00:25",
+          "speaker": "manager",
+          "text": "Neçə otaqlı baxırsınız, nə üçün?"
+        },
+        {
+          "t": "00:29",
+          "speaker": "client",
+          "text": "İki otaqlı, investisiya üçün."
+        },
+        {
+          "t": "00:33",
+          "speaker": "manager",
+          "text": "Büdcəniz nə qədərdir?"
+        },
+        {
+          "t": "00:37",
+          "speaker": "client",
+          "text": "Hələ demək istəmirəm."
+        },
+        {
+          "t": "00:41",
+          "speaker": "manager",
+          "text": "Ödənişi necə planlaşdırırsınız?"
+        },
+        {
+          "t": "00:45",
+          "speaker": "client",
+          "text": "Yoldaşımla danışmalıyam, sonra deyərəm."
+        },
+        {
+          "t": "00:49",
+          "speaker": "manager",
+          "text": "Cümə saat 18-də yoldaşınızla birlikdə şouruma gəlin."
+        },
+        {
+          "t": "00:54",
+          "speaker": "client",
+          "text": "Bilmirəm, fikirləşərəm."
+        }
+      ]
+    },
+    {
+      "call_id": "S-09",
+      "manager": "Ilgar",
+      "started_at": "2026-10-09T13:30:00+04:00",
+      "duration_sec": 39,
+      "lead_source": "phone",
+      "language": "ru",
+      "segments": [
+        {
+          "t": "00:03",
+          "speaker": "manager",
+          "text": "Добрый день, Demo Residence, меня зовут Ильгар."
+        },
+        {
+          "t": "00:08",
+          "speaker": "client",
+          "text": "Здравствуйте, интересует однушка под сдачу."
+        },
+        {
+          "t": "00:12",
+          "speaker": "manager",
+          "text": "Какой у вас бюджет и как планируете оплачивать?"
+        },
+        {
+          "t": "00:17",
+          "speaker": "client",
+          "text": "Около 90 тысяч, наличными."
+        },
+        {
+          "t": "00:21",
+          "speaker": "client",
+          "text": "При полной оплате дадим скидку 7%, это только для вас."
+        },
+        {
+          "t": "00:27",
+          "speaker": "client",
+          "text": "Хорошо, звучит отлично."
+        },
+        {
+          "t": "00:31",
+          "speaker": "manager",
+          "text": "Приходите в шоурум завтра в 11?"
+        },
+        {
+          "t": "00:35",
+          "speaker": "client",
+          "text": "Да, завтра в 11 буду."
+        }
+      ]
+    },
+    {
+      "call_id": "S-10",
+      "manager": "Rəşad",
+      "started_at": "2026-10-09T13:40:00+04:00",
+      "duration_sec": 34,
+      "lead_source": "website",
+      "language": "az",
+      "segments": [
+        {
+          "t": "00:03",
+          "speaker": "manager",
+          "text": "Salam, Demo Residence, mənim adım Rəşad."
+        },
+        {
+          "t": "00:07",
+          "speaker": "client",
+          "text": "Salam, iki otaqlı mənzil istəyirəm, özüm yaşamaq üçün."
+        },
+        {
+          "t": "00:13",
+          "speaker": "manager",
+          "text": "Büdcəniz nə qədərdir?"
+        },
+        {
+          "t": "00:17",
+          "speaker": "client",
+          "text": "Yüz qırx min, nağd."
+        },
+        {
+          "t": "00:21",
+          "speaker": "manager",
+          "text": "Tam ödənişdə sizə üç faiz endirim edə bilərik."
+        },
+        {
+          "t": "00:26",
+          "speaker": "manager",
+          "text": "Çərşənbə günü saat 14-də şouruma gəlin?"
+        },
+        {
+          "t": "00:30",
+          "speaker": "client",
+          "text": "Bəli, çərşənbə 14-də gəlirəm."
+        }
+      ]
+    }
+  ]
+}
