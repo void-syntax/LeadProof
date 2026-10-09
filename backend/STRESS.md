@@ -152,6 +152,28 @@ Run: `python test_run.py --stress` → `data/stress_report.json` (also served at
 - `00:26` **manager**: Çərşənbə günü saat 14-də şouruma gəlin?
 - `00:30` **client**: Bəli, çərşənbə 14-də gəlirəm.
 
-## Results
+## Results (first and only run, 2026-10-09, Gemini 3.8 Flash, low thinking)
 
-_Filled in after the first run. Not tuned afterwards._
+| | Agent | Keyword search |
+| --- | --- | --- |
+| Correct actions | **9/10** | 1/10 |
+| Avg time per call | 6.3 s | <1 s |
+| Cost per call | $0.0043 | $0 |
+
+**Failed: S-09 (speaker labels swapped).** The telephony tagged the manager's line "При полной оплате дадим скидку 7%" as the client's.
+The agent follows the labels, and the prompt says client statements are never promises, so the 7% discount (above the 3% limit) was missed
+and the call came out as OK instead of CORRECT_PROMISE. We listed this as a known limitation before the run.
+Planned fix: check speaker roles first (a manager line that answers its own question, offers terms or names the company), and send calls
+with suspicious labels to a human instead of auto-OK.
+
+**Passed:** client quoting a 10% discount (S-01), down payment said in Azerbaijani words (S-02), "second quarter of next year" date (S-03),
+garbled Russian transliteration (S-04), Azerbaijani in Cyrillic (S-05), two promises in one sentence (S-06), promise buried in a long call (S-07),
+competitor's claim the manager refused to guarantee (S-08), "üç faiz" discount in words (S-10).
+
+The prompt and rules were not changed after this run.
+
+## Other honest findings from the main runs
+
+- Default thinking: 40/40, but ~30 s per call on average; in another run one call took 205 s and cost $0.11 (6× the usual). Low thinking: 40/40, 6.4 s average, 16 s max, $0.004 per call. We switched to low.
+- In a run on our first 22-call set the quote check dropped one fact the model could not back with a real transcript line: the guard fires on live model output, not only in offline tests.
+- Bugs found and fixed while building: the next-step criterion counted a step without a time; cold leads were penalised on criteria that do not apply to them; a discount without a number was not flagged; "3%" and "2 000" were not parsed as numbers; dates were compared as raw text; API errors were swallowed silently.
