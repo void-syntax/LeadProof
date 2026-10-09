@@ -1,0 +1,2837 @@
+{
+  "C-001": {
+    "callId": "C-001",
+    "manager": "Leyla",
+    "status": "ok",
+    "extraction": {
+      "criteria": [
+        {
+          "id": "C1",
+          "status": "met",
+          "evidence_quote": "ЖК Demo Residence, меня зовут Лейла",
+          "quote_en": "Demo Residence, my name is Leyla",
+          "confidence": 0.97,
+          "reason": "Named herself and the project in the opening line."
+        },
+        {
+          "id": "C2",
+          "status": "met",
+          "evidence_quote": "Примерно до 160 тысяч манат.",
+          "quote_en": "Roughly up to 160 thousand manat.",
+          "confidence": 0.95,
+          "reason": "Asked about the amount; client gave a figure."
+        },
+        {
+          "id": "C3",
+          "status": "met",
+          "evidence_quote": "Думаю, рассрочка.",
+          "quote_en": "I think installments.",
+          "confidence": 0.93,
+          "reason": "Payment method clarified: installment."
+        },
+        {
+          "id": "C4",
+          "status": "met",
+          "evidence_quote": "Двухкомнатную, для себя, жить с семьёй.",
+          "quote_en": "Two-room, for myself, to live with my family.",
+          "confidence": 0.95,
+          "reason": "Rooms and purpose (to live in) clarified."
+        },
+        {
+          "id": "C5",
+          "status": "met",
+          "evidence_quote": "Приглашаю вас в шоурум в субботу в 12:00",
+          "quote_en": "I invite you to the showroom on Saturday at 12:00",
+          "confidence": 0.96,
+          "reason": "Showroom visit offered with a specific day and time."
+        },
+        {
+          "id": "C6",
+          "status": "met",
+          "evidence_quote": "записала вас на субботу, 12:00",
+          "quote_en": "I've booked you for Saturday, 12:00",
+          "confidence": 0.94,
+          "reason": "Visit booked and client agreed."
+        }
+      ],
+      "promises": [
+        {
+          "topic": "down_payment",
+          "normalized": 30,
+          "quote": "от 30% первого взноса",
+          "quote_en": "from 30% down payment"
+        },
+        {
+          "topic": "installment",
+          "normalized": 24,
+          "quote": "до 24 месяцев без процентов",
+          "quote_en": "up to 24 months interest-free"
+        }
+      ],
+      "lead": {
+        "temperature": "hot",
+        "evidence_quote": "Да, в субботу в 12 подойдёт.",
+        "evidence_en": "Yes, Saturday at 12 works.",
+        "budget": {
+          "value": "Up to 160,000 AZN",
+          "source": "client"
+        },
+        "rooms": {
+          "value": "2",
+          "source": "client"
+        },
+        "payment": {
+          "value": "Installment",
+          "source": "client"
+        },
+        "objection": null,
+        "timeline": null
+      },
+      "next_step": {
+        "agreed": true,
+        "type": "showroom_visit",
+        "when": "Saturday 12:00",
+        "quote": "Договорились, спасибо.",
+        "quote_en": "Deal, thank you."
+      },
+      "summary_en": "Hot lead for a 2-room flat to live in; showroom visit booked for Saturday."
+    },
+    "segments": [
+      {
+        "t": "00:02",
+        "speaker": "manager",
+        "text": "Добрый день! ЖК Demo Residence, меня зовут Лейла. Вы оставляли заявку на сайте?"
+      },
+      {
+        "t": "00:08",
+        "speaker": "client",
+        "text": "Да, интересует квартира."
+      },
+      {
+        "t": "00:11",
+        "speaker": "manager",
+        "text": "Подскажите, сколько комнат рассматриваете и для чего — для жизни или инвестиции?"
+      },
+      {
+        "t": "00:17",
+        "speaker": "client",
+        "text": "Двухкомнатную, для себя, жить с семьёй."
+      },
+      {
+        "t": "00:23",
+        "speaker": "manager",
+        "text": "На какую сумму ориентируетесь?"
+      },
+      {
+        "t": "00:26",
+        "speaker": "client",
+        "text": "Примерно до 160 тысяч манат."
+      },
+      {
+        "t": "00:31",
+        "speaker": "manager",
+        "text": "Как планируете оплачивать: наличными, рассрочка или ипотека?"
+      },
+      {
+        "t": "00:36",
+        "speaker": "client",
+        "text": "Думаю, рассрочка."
+      },
+      {
+        "t": "00:40",
+        "speaker": "manager",
+        "text": "Рассрочка у нас от 30% первого взноса, до 24 месяцев без процентов. Приглашаю вас в шоурум в субботу в 12:00, покажу планировки."
+      },
+      {
+        "t": "00:52",
+        "speaker": "client",
+        "text": "Да, в субботу в 12 подойдёт."
+      },
+      {
+        "t": "00:56",
+        "speaker": "manager",
+        "text": "Отлично, записала вас на субботу, 12:00. В пятницу пришлю напоминание в WhatsApp."
+      },
+      {
+        "t": "01:03",
+        "speaker": "client",
+        "text": "Договорились, спасибо."
+      }
+    ],
+    "started_at": "2026-10-08T09:34:00+04:00",
+    "language": "ru"
+  },
+  "C-002": {
+    "callId": "C-002",
+    "manager": "Elvin",
+    "status": "ok",
+    "extraction": {
+      "criteria": [
+        {
+          "id": "C1",
+          "status": "met",
+          "evidence_quote": "Demo Residence, меня зовут Эльвин",
+          "quote_en": "Demo Residence, my name is Elvin",
+          "confidence": 0.96,
+          "reason": "Named himself and the project."
+        },
+        {
+          "id": "C2",
+          "status": "not_met",
+          "evidence_quote": null,
+          "quote_en": null,
+          "confidence": 0.9,
+          "reason": "Manager never asked about budget."
+        },
+        {
+          "id": "C3",
+          "status": "met",
+          "evidence_quote": "Скорее ипотека.",
+          "quote_en": "Probably a mortgage.",
+          "confidence": 0.92,
+          "reason": "Payment method clarified: mortgage."
+        },
+        {
+          "id": "C4",
+          "status": "met",
+          "evidence_quote": "трёхкомнатной. Для инвестиции, хочу сдавать.",
+          "quote_en": "three-room. As an investment, I want to rent it out.",
+          "confidence": 0.94,
+          "reason": "Rooms and purpose (investment) clarified."
+        },
+        {
+          "id": "C5",
+          "status": "met",
+          "evidence_quote": "Давайте встретимся в шоуруме — в среду в 17:00 удобно?",
+          "quote_en": "Let's meet at the showroom — is Wednesday at 17:00 convenient?",
+          "confidence": 0.95,
+          "reason": "Visit offered with day and time."
+        },
+        {
+          "id": "C6",
+          "status": "met",
+          "evidence_quote": "Среда в 17:00, хорошо.",
+          "quote_en": "Wednesday at 17:00, fine.",
+          "confidence": 0.93,
+          "reason": "Client agreed to a concrete visit."
+        }
+      ],
+      "promises": [],
+      "lead": {
+        "temperature": "warm",
+        "evidence_quote": "Среда в 17:00, хорошо.",
+        "evidence_en": "Wednesday at 17:00, fine.",
+        "budget": null,
+        "rooms": {
+          "value": "3",
+          "source": "client"
+        },
+        "payment": {
+          "value": "Mortgage",
+          "source": "client"
+        },
+        "objection": null,
+        "timeline": null
+      },
+      "next_step": {
+        "agreed": true,
+        "type": "showroom_visit",
+        "when": "Wednesday 17:00",
+        "quote": "Среда в 17:00, хорошо.",
+        "quote_en": "Wednesday at 17:00, fine."
+      },
+      "summary_en": "Warm investor lead for a 3-room flat; showroom visit agreed, budget not clarified."
+    },
+    "segments": [
+      {
+        "t": "00:03",
+        "speaker": "manager",
+        "text": "Здравствуйте, Demo Residence, меня зовут Эльвин. Вы интересовались квартирами?"
+      },
+      {
+        "t": "00:09",
+        "speaker": "client",
+        "text": "Да, трёхкомнатной. Для инвестиции, хочу сдавать."
+      },
+      {
+        "t": "00:16",
+        "speaker": "manager",
+        "text": "Понял. Оплата будет наличными или ипотека?"
+      },
+      {
+        "t": "00:20",
+        "speaker": "client",
+        "text": "Скорее ипотека."
+      },
+      {
+        "t": "00:24",
+        "speaker": "manager",
+        "text": "Ипотека через наш банк-партнёр, ставку назовёт банк. Давайте встретимся в шоуруме — в среду в 17:00 удобно?"
+      },
+      {
+        "t": "00:34",
+        "speaker": "client",
+        "text": "Среда в 17:00, хорошо."
+      },
+      {
+        "t": "00:38",
+        "speaker": "manager",
+        "text": "Записал. Во вторник перезвоню и подтвержу визит."
+      },
+      {
+        "t": "00:43",
+        "speaker": "client",
+        "text": "Хорошо."
+      }
+    ],
+    "started_at": "2026-10-08T09:58:00+04:00",
+    "language": "ru"
+  },
+  "C-003": {
+    "callId": "C-003",
+    "manager": "Nigar",
+    "status": "ok",
+    "extraction": {
+      "criteria": [
+        {
+          "id": "C1",
+          "status": "met",
+          "evidence_quote": "ЖК Demo Residence, меня зовут Нигяр",
+          "quote_en": "Demo Residence, my name is Nigar",
+          "confidence": 0.97,
+          "reason": "Named herself and the project."
+        },
+        {
+          "id": "C2",
+          "status": "met",
+          "evidence_quote": "Тысяч в девяносто, не больше.",
+          "quote_en": "Around ninety thousand, no more.",
+          "confidence": 0.92,
+          "reason": "Asked for the amount without the word 'budget'; client answered."
+        },
+        {
+          "id": "C3",
+          "status": "met",
+          "evidence_quote": "Наличными.",
+          "quote_en": "In cash.",
+          "confidence": 0.95,
+          "reason": "Payment method clarified: cash."
+        },
+        {
+          "id": "C4",
+          "status": "met",
+          "evidence_quote": "Под сдачу, для инвестиции.",
+          "quote_en": "To rent out, as an investment.",
+          "confidence": 0.94,
+          "reason": "One-room flat, investment purpose."
+        },
+        {
+          "id": "C5",
+          "status": "met",
+          "evidence_quote": "приглашаю в шоурум: четверг в 15:00 или пятница в 11:00?",
+          "quote_en": "I invite you to the showroom: Thursday at 15:00 or Friday at 11:00?",
+          "confidence": 0.96,
+          "reason": "Visit offered with concrete slots."
+        },
+        {
+          "id": "C6",
+          "status": "met",
+          "evidence_quote": "Записала на четверг 15:00",
+          "quote_en": "Booked for Thursday 15:00",
+          "confidence": 0.95,
+          "reason": "Visit booked; client agreed."
+        }
+      ],
+      "promises": [],
+      "lead": {
+        "temperature": "warm",
+        "evidence_quote": "Четверг в 15:00.",
+        "evidence_en": "Thursday at 15:00.",
+        "budget": {
+          "value": "Up to 90,000 AZN",
+          "source": "client"
+        },
+        "rooms": {
+          "value": "1",
+          "source": "client"
+        },
+        "payment": {
+          "value": "Cash",
+          "source": "client"
+        },
+        "objection": null,
+        "timeline": null
+      },
+      "next_step": {
+        "agreed": true,
+        "type": "showroom_visit",
+        "when": "Thursday 15:00",
+        "quote": "Спасибо, жду.",
+        "quote_en": "Thanks, I'll be waiting."
+      },
+      "summary_en": "Warm investor lead for a 1-room flat; showroom visit booked."
+    },
+    "segments": [
+      {
+        "t": "00:02",
+        "speaker": "manager",
+        "text": "Добрый день, ЖК Demo Residence, меня зовут Нигяр."
+      },
+      {
+        "t": "00:06",
+        "speaker": "client",
+        "text": "Здравствуйте, я по объявлению про однушки."
+      },
+      {
+        "t": "00:10",
+        "speaker": "manager",
+        "text": "Однокомнатную для себя или под сдачу?"
+      },
+      {
+        "t": "00:14",
+        "speaker": "client",
+        "text": "Под сдачу, для инвестиции."
+      },
+      {
+        "t": "00:18",
+        "speaker": "manager",
+        "text": "В какую сумму хотели бы уложиться?"
+      },
+      {
+        "t": "00:21",
+        "speaker": "client",
+        "text": "Тысяч в девяносто, не больше."
+      },
+      {
+        "t": "00:25",
+        "speaker": "manager",
+        "text": "Оплата наличными или в рассрочку?"
+      },
+      {
+        "t": "00:28",
+        "speaker": "client",
+        "text": "Наличными."
+      },
+      {
+        "t": "00:31",
+        "speaker": "manager",
+        "text": "Тогда приглашаю в шоурум: четверг в 15:00 или пятница в 11:00?"
+      },
+      {
+        "t": "00:37",
+        "speaker": "client",
+        "text": "Четверг в 15:00."
+      },
+      {
+        "t": "00:40",
+        "speaker": "manager",
+        "text": "Записала на четверг 15:00, пришлю адрес в WhatsApp сегодня."
+      },
+      {
+        "t": "00:45",
+        "speaker": "client",
+        "text": "Спасибо, жду."
+      }
+    ],
+    "started_at": "2026-10-08T10:21:00+04:00",
+    "language": "ru"
+  },
+  "C-004": {
+    "callId": "C-004",
+    "manager": "Tural",
+    "status": "ok",
+    "extraction": {
+      "criteria": [
+        {
+          "id": "C1",
+          "status": "met",
+          "evidence_quote": "Demo Residence, меня зовут Турал",
+          "quote_en": "Demo Residence, my name is Tural",
+          "confidence": 0.95,
+          "reason": "Named himself and the project."
+        },
+        {
+          "id": "C2",
+          "status": "met",
+          "evidence_quote": "Около 150 тысяч.",
+          "quote_en": "About 150 thousand.",
+          "confidence": 0.94,
+          "reason": "Budget asked and answered."
+        },
+        {
+          "id": "C3",
+          "status": "met",
+          "evidence_quote": "Рассрочка.",
+          "quote_en": "Installments.",
+          "confidence": 0.93,
+          "reason": "Payment method clarified: installment."
+        },
+        {
+          "id": "C4",
+          "status": "met",
+          "evidence_quote": "Двушка интересует, для семьи.",
+          "quote_en": "Interested in a two-room, for the family.",
+          "confidence": 0.92,
+          "reason": "Rooms and purpose clarified."
+        },
+        {
+          "id": "C5",
+          "status": "not_met",
+          "evidence_quote": "Можно было бы в шоурум приехать, но он далеко, вам ехать неудобно будет.",
+          "quote_en": "You could come to the showroom, but it's far, it would be inconvenient for you.",
+          "confidence": 0.88,
+          "reason": "Showroom mentioned, but the manager discouraged the visit and offered no day or time."
+        },
+        {
+          "id": "C6",
+          "status": "met",
+          "evidence_quote": "Хорошо, в понедельник в 11 жду звонка.",
+          "quote_en": "OK, I'll expect your call on Monday at 11.",
+          "confidence": 0.93,
+          "reason": "Callback on Monday 11:00 agreed."
+        }
+      ],
+      "promises": [],
+      "lead": {
+        "temperature": "warm",
+        "evidence_quote": "Да, так даже лучше.",
+        "evidence_en": "Yes, that's even better.",
+        "budget": {
+          "value": "About 150,000 AZN",
+          "source": "client"
+        },
+        "rooms": {
+          "value": "2",
+          "source": "client"
+        },
+        "payment": {
+          "value": "Installment",
+          "source": "client"
+        },
+        "objection": null,
+        "timeline": null
+      },
+      "next_step": {
+        "agreed": true,
+        "type": "callback",
+        "when": "Monday 11:00",
+        "quote": "Хорошо, в понедельник в 11 жду звонка.",
+        "quote_en": "OK, I'll expect your call on Monday at 11."
+      },
+      "summary_en": "Warm family lead; manager talked the client out of a showroom visit and sent floor plans instead."
+    },
+    "segments": [
+      {
+        "t": "00:03",
+        "speaker": "manager",
+        "text": "Алло, Demo Residence, меня зовут Турал. Вы оставляли заявку?"
+      },
+      {
+        "t": "00:08",
+        "speaker": "client",
+        "text": "Да. Двушка интересует, для семьи."
+      },
+      {
+        "t": "00:13",
+        "speaker": "manager",
+        "text": "На какой бюджет рассчитываете?"
+      },
+      {
+        "t": "00:16",
+        "speaker": "client",
+        "text": "Около 150 тысяч."
+      },
+      {
+        "t": "00:20",
+        "speaker": "manager",
+        "text": "Оплата наличными или рассрочка?"
+      },
+      {
+        "t": "00:23",
+        "speaker": "client",
+        "text": "Рассрочка."
+      },
+      {
+        "t": "00:26",
+        "speaker": "manager",
+        "text": "Можно было бы в шоурум приехать, но он далеко, вам ехать неудобно будет. Давайте я лучше планировки на почту скину."
+      },
+      {
+        "t": "00:36",
+        "speaker": "client",
+        "text": "Да, так даже лучше."
+      },
+      {
+        "t": "00:39",
+        "speaker": "manager",
+        "text": "Отправлю сегодня, а в понедельник в 11:00 перезвоню обсудить."
+      },
+      {
+        "t": "00:45",
+        "speaker": "client",
+        "text": "Хорошо, в понедельник в 11 жду звонка."
+      }
+    ],
+    "started_at": "2026-10-08T10:47:00+04:00",
+    "language": "ru"
+  },
+  "C-005": {
+    "callId": "C-005",
+    "manager": "Rauf",
+    "status": "ok",
+    "extraction": {
+      "criteria": [
+        {
+          "id": "C1",
+          "status": "met",
+          "evidence_quote": "ЖК Demo Residence, меня зовут Рауф",
+          "quote_en": "Demo Residence, my name is Rauf",
+          "confidence": 0.97,
+          "reason": "Named himself and the project."
+        },
+        {
+          "id": "C2",
+          "status": "met",
+          "evidence_quote": "До 230 тысяч",
+          "quote_en": "Up to 230 thousand",
+          "confidence": 0.94,
+          "reason": "Budget asked and answered."
+        },
+        {
+          "id": "C3",
+          "status": "met",
+          "evidence_quote": "ипотека через банк",
+          "quote_en": "mortgage through a bank",
+          "confidence": 0.9,
+          "reason": "Payment method: mortgage."
+        },
+        {
+          "id": "C4",
+          "status": "met",
+          "evidence_quote": "Хочу трёшку, для семьи",
+          "quote_en": "I want a three-room, for the family",
+          "confidence": 0.93,
+          "reason": "Rooms and purpose clarified."
+        },
+        {
+          "id": "C5",
+          "status": "met",
+          "evidence_quote": "Приглашаю в шоурум в субботу в 11:00.",
+          "quote_en": "I invite you to the showroom on Saturday at 11:00.",
+          "confidence": 0.92,
+          "reason": "Visit offered with day and time."
+        },
+        {
+          "id": "C6",
+          "status": "not_met",
+          "evidence_quote": "Хорошо, созвонимся.",
+          "quote_en": "OK, we'll be in touch.",
+          "confidence": 0.9,
+          "reason": "Client declined Saturday; no concrete action or time agreed."
+        }
+      ],
+      "promises": [],
+      "lead": {
+        "temperature": "hot",
+        "evidence_quote": "готов брать в этом месяце",
+        "evidence_en": "ready to buy this month",
+        "budget": {
+          "value": "Up to 230,000 AZN",
+          "source": "client"
+        },
+        "rooms": {
+          "value": "3",
+          "source": "client"
+        },
+        "payment": {
+          "value": "Mortgage",
+          "source": "client"
+        },
+        "objection": {
+          "value": "Saturday may not work",
+          "source": "client"
+        },
+        "timeline": {
+          "value": "This month",
+          "source": "client"
+        }
+      },
+      "next_step": {
+        "agreed": false,
+        "type": "none",
+        "when": null,
+        "quote": "Хорошо, созвонимся.",
+        "quote_en": "OK, we'll be in touch."
+      },
+      "summary_en": "Hot lead ready to buy this month; call ended with a vague 'we'll be in touch'."
+    },
+    "segments": [
+      {
+        "t": "00:02",
+        "speaker": "manager",
+        "text": "Добрый день, ЖК Demo Residence, меня зовут Рауф."
+      },
+      {
+        "t": "00:06",
+        "speaker": "client",
+        "text": "Здравствуйте! Хочу трёшку, для семьи, готов брать в этом месяце."
+      },
+      {
+        "t": "00:13",
+        "speaker": "manager",
+        "text": "Отлично. В какой бюджет?"
+      },
+      {
+        "t": "00:15",
+        "speaker": "client",
+        "text": "До 230 тысяч, ипотека через банк."
+      },
+      {
+        "t": "00:21",
+        "speaker": "manager",
+        "text": "Приглашаю в шоурум в субботу в 11:00."
+      },
+      {
+        "t": "00:25",
+        "speaker": "client",
+        "text": "Суббота может не получиться, созвонимся."
+      },
+      {
+        "t": "00:29",
+        "speaker": "manager",
+        "text": "Хорошо, созвонимся."
+      }
+    ],
+    "started_at": "2026-10-08T11:12:00+04:00",
+    "language": "ru"
+  },
+  "C-006": {
+    "callId": "C-006",
+    "manager": "Leyla",
+    "status": "ok",
+    "extraction": {
+      "criteria": [
+        {
+          "id": "C1",
+          "status": "met",
+          "evidence_quote": "Demo Residence, Лейла, менеджер",
+          "quote_en": "Demo Residence, Leyla, sales manager",
+          "confidence": 0.93,
+          "reason": "Named herself and the project."
+        },
+        {
+          "id": "C2",
+          "status": "met",
+          "evidence_quote": "Тысяч 100.",
+          "quote_en": "About 100 thousand.",
+          "confidence": 0.94,
+          "reason": "Budget asked and answered."
+        },
+        {
+          "id": "C3",
+          "status": "met",
+          "evidence_quote": "Хотелось бы рассрочку",
+          "quote_en": "I'd like installments",
+          "confidence": 0.9,
+          "reason": "Payment method: installment."
+        },
+        {
+          "id": "C4",
+          "status": "met",
+          "evidence_quote": "однокомнатная для сына, будет жить.",
+          "quote_en": "a one-room for my son, he will live there.",
+          "confidence": 0.93,
+          "reason": "Rooms and purpose clarified."
+        },
+        {
+          "id": "C5",
+          "status": "met",
+          "evidence_quote": "Приходите в шоурум в пятницу в 16:00.",
+          "quote_en": "Come to the showroom on Friday at 16:00.",
+          "confidence": 0.95,
+          "reason": "Visit offered with day and time."
+        },
+        {
+          "id": "C6",
+          "status": "met",
+          "evidence_quote": "Хорошо, в пятницу в 16:00 буду.",
+          "quote_en": "OK, I'll be there Friday at 16:00.",
+          "confidence": 0.94,
+          "reason": "Client agreed to the visit."
+        }
+      ],
+      "promises": [
+        {
+          "topic": "discount",
+          "normalized": null,
+          "condition": null,
+          "quote": "скидочку вам подберём",
+          "quote_en": "we'll find you a little discount"
+        }
+      ],
+      "lead": {
+        "temperature": "warm",
+        "evidence_quote": "Хорошо, в пятницу в 16:00 буду.",
+        "evidence_en": "OK, I'll be there Friday at 16:00.",
+        "budget": {
+          "value": "About 100,000 AZN",
+          "source": "client"
+        },
+        "rooms": {
+          "value": "1",
+          "source": "client"
+        },
+        "payment": {
+          "value": "Installment",
+          "source": "client"
+        },
+        "objection": {
+          "value": "Installment feels expensive",
+          "source": "client"
+        },
+        "timeline": null
+      },
+      "next_step": {
+        "agreed": true,
+        "type": "showroom_visit",
+        "when": "Friday 16:00",
+        "quote": "Хорошо, в пятницу в 16:00 буду.",
+        "quote_en": "OK, I'll be there Friday at 16:00."
+      },
+      "summary_en": "Warm lead; manager promised an unspecified discount to handle a price objection."
+    },
+    "segments": [
+      {
+        "t": "00:03",
+        "speaker": "manager",
+        "text": "Здравствуйте, Demo Residence, Лейла, менеджер. Вы оставляли заявку?"
+      },
+      {
+        "t": "00:08",
+        "speaker": "client",
+        "text": "Да, однокомнатная для сына, будет жить."
+      },
+      {
+        "t": "00:14",
+        "speaker": "manager",
+        "text": "Какой бюджет?"
+      },
+      {
+        "t": "00:16",
+        "speaker": "client",
+        "text": "Тысяч 100."
+      },
+      {
+        "t": "00:19",
+        "speaker": "manager",
+        "text": "Наличными или рассрочка?"
+      },
+      {
+        "t": "00:22",
+        "speaker": "client",
+        "text": "Хотелось бы рассрочку, но дорого выходит."
+      },
+      {
+        "t": "00:27",
+        "speaker": "manager",
+        "text": "Не переживайте, скидочку вам подберём. Приходите в шоурум в пятницу в 16:00."
+      },
+      {
+        "t": "00:34",
+        "speaker": "client",
+        "text": "Хорошо, в пятницу в 16:00 буду."
+      },
+      {
+        "t": "00:38",
+        "speaker": "manager",
+        "text": "Жду вас, в четверг напомню."
+      }
+    ],
+    "started_at": "2026-10-08T11:40:00+04:00",
+    "language": "ru"
+  },
+  "C-007": {
+    "callId": "C-007",
+    "manager": "Elvin",
+    "status": "ok",
+    "extraction": {
+      "criteria": [
+        {
+          "id": "C1",
+          "status": "met",
+          "evidence_quote": "ЖК Demo Residence, меня зовут Эльвин",
+          "quote_en": "Demo Residence, my name is Elvin",
+          "confidence": 0.97,
+          "reason": "Named himself and the project."
+        },
+        {
+          "id": "C2",
+          "status": "met",
+          "evidence_quote": "Около 140 тысяч",
+          "quote_en": "About 140 thousand",
+          "confidence": 0.94,
+          "reason": "Budget asked and answered."
+        },
+        {
+          "id": "C3",
+          "status": "met",
+          "evidence_quote": "наличными",
+          "quote_en": "in cash",
+          "confidence": 0.9,
+          "reason": "Payment method: cash."
+        },
+        {
+          "id": "C4",
+          "status": "met",
+          "evidence_quote": "Нам двушка нужна, жить.",
+          "quote_en": "We need a two-room, to live in.",
+          "confidence": 0.92,
+          "reason": "Rooms and purpose clarified."
+        },
+        {
+          "id": "C5",
+          "status": "met",
+          "evidence_quote": "Приглашаю в шоурум в понедельник в 18:00.",
+          "quote_en": "I invite you to the showroom on Monday at 18:00.",
+          "confidence": 0.95,
+          "reason": "Visit offered with day and time."
+        },
+        {
+          "id": "C6",
+          "status": "met",
+          "evidence_quote": "Давайте, в понедельник в 18:00.",
+          "quote_en": "Let's do Monday at 18:00.",
+          "confidence": 0.94,
+          "reason": "Client agreed to the visit."
+        }
+      ],
+      "promises": [
+        {
+          "topic": "completion_date",
+          "normalized": "2027-06",
+          "quote": "Сдача летом следующего года.",
+          "quote_en": "Handover next summer."
+        }
+      ],
+      "lead": {
+        "temperature": "warm",
+        "evidence_quote": "Давайте, в понедельник в 18:00.",
+        "evidence_en": "Let's do Monday at 18:00.",
+        "budget": {
+          "value": "About 140,000 AZN",
+          "source": "client"
+        },
+        "rooms": {
+          "value": "2",
+          "source": "client"
+        },
+        "payment": {
+          "value": "Cash",
+          "source": "client"
+        },
+        "objection": null,
+        "timeline": null
+      },
+      "next_step": {
+        "agreed": true,
+        "type": "showroom_visit",
+        "when": "Monday 18:00",
+        "quote": "Давайте, в понедельник в 18:00.",
+        "quote_en": "Let's do Monday at 18:00."
+      },
+      "summary_en": "Warm lead; handover promised for next summer, earlier than the declared Q4 2027."
+    },
+    "segments": [
+      {
+        "t": "00:02",
+        "speaker": "manager",
+        "text": "Добрый день, ЖК Demo Residence, меня зовут Эльвин."
+      },
+      {
+        "t": "00:06",
+        "speaker": "client",
+        "text": "Здравствуйте. Когда сдача дома? Нам двушка нужна, жить."
+      },
+      {
+        "t": "00:12",
+        "speaker": "manager",
+        "text": "Сдача летом следующего года. Какой у вас бюджет?"
+      },
+      {
+        "t": "00:17",
+        "speaker": "client",
+        "text": "Около 140 тысяч, наличными."
+      },
+      {
+        "t": "00:22",
+        "speaker": "manager",
+        "text": "Приглашаю в шоурум в понедельник в 18:00."
+      },
+      {
+        "t": "00:26",
+        "speaker": "client",
+        "text": "Давайте, в понедельник в 18:00."
+      },
+      {
+        "t": "00:30",
+        "speaker": "manager",
+        "text": "Записал, накануне напишу вам."
+      }
+    ],
+    "started_at": "2026-10-08T12:05:00+04:00",
+    "language": "ru"
+  },
+  "C-008": {
+    "callId": "C-008",
+    "manager": "Nigar",
+    "status": "ok",
+    "extraction": {
+      "criteria": [
+        {
+          "id": "C1",
+          "status": "met",
+          "evidence_quote": "Demo Residence, mənim adım Nigar",
+          "quote_en": "Demo Residence, my name is Nigar",
+          "confidence": 0.95,
+          "reason": "Named herself and the project."
+        },
+        {
+          "id": "C2",
+          "status": "met",
+          "evidence_quote": "Təxminən 150 min manat.",
+          "quote_en": "About 150 thousand manat.",
+          "confidence": 0.94,
+          "reason": "Budget asked and answered."
+        },
+        {
+          "id": "C3",
+          "status": "met",
+          "evidence_quote": "Рассрочка, если долгая.",
+          "quote_en": "Installments, if it's long.",
+          "confidence": 0.92,
+          "reason": "Payment method: installment."
+        },
+        {
+          "id": "C4",
+          "status": "met",
+          "evidence_quote": "двухкомнатную ищу, для себя.",
+          "quote_en": "I'm looking for a two-room, for myself.",
+          "confidence": 0.92,
+          "reason": "Rooms and purpose clarified."
+        },
+        {
+          "id": "C5",
+          "status": "met",
+          "evidence_quote": "Gəlin şoruma, в субботу в 13:00?",
+          "quote_en": "Come to the showroom, Saturday at 13:00?",
+          "confidence": 0.93,
+          "reason": "Visit offered with day and time."
+        },
+        {
+          "id": "C6",
+          "status": "met",
+          "evidence_quote": "Oldu, şənbə 13:00.",
+          "quote_en": "OK, Saturday 13:00.",
+          "confidence": 0.93,
+          "reason": "Client agreed to the visit."
+        }
+      ],
+      "promises": [
+        {
+          "topic": "installment",
+          "normalized": 36,
+          "quote": "Рассрочку сделаем на 36 месяцев",
+          "quote_en": "We'll set up installments for 36 months"
+        },
+        {
+          "topic": "down_payment",
+          "normalized": 30,
+          "quote": "ilkin ödəniş 30%",
+          "quote_en": "down payment 30%"
+        }
+      ],
+      "lead": {
+        "temperature": "warm",
+        "evidence_quote": "O, əla!",
+        "evidence_en": "Oh, great!",
+        "budget": {
+          "value": "About 150,000 AZN",
+          "source": "client"
+        },
+        "rooms": {
+          "value": "2",
+          "source": "client"
+        },
+        "payment": {
+          "value": "Installment",
+          "source": "client"
+        },
+        "objection": null,
+        "timeline": null
+      },
+      "next_step": {
+        "agreed": true,
+        "type": "showroom_visit",
+        "when": "Saturday 13:00",
+        "quote": "Oldu, şənbə 13:00.",
+        "quote_en": "OK, Saturday 13:00."
+      },
+      "summary_en": "Warm lead; 36-month installment promised, beyond the declared 24 months."
+    },
+    "segments": [
+      {
+        "t": "00:03",
+        "speaker": "manager",
+        "text": "Salam, Demo Residence, mənim adım Nigar. Вы оставляли заявку?"
+      },
+      {
+        "t": "00:09",
+        "speaker": "client",
+        "text": "Bəli, двухкомнатную ищу, для себя."
+      },
+      {
+        "t": "00:14",
+        "speaker": "manager",
+        "text": "Büdcəniz nə qədərdir? Какой бюджет?"
+      },
+      {
+        "t": "00:18",
+        "speaker": "client",
+        "text": "Təxminən 150 min manat."
+      },
+      {
+        "t": "00:22",
+        "speaker": "manager",
+        "text": "Nağd yoxsa рассрочка?"
+      },
+      {
+        "t": "00:25",
+        "speaker": "client",
+        "text": "Рассрочка, если долгая."
+      },
+      {
+        "t": "00:29",
+        "speaker": "manager",
+        "text": "Рассрочку сделаем на 36 месяцев, ilkin ödəniş 30%."
+      },
+      {
+        "t": "00:36",
+        "speaker": "client",
+        "text": "O, əla!"
+      },
+      {
+        "t": "00:39",
+        "speaker": "manager",
+        "text": "Gəlin şoruma, в субботу в 13:00?"
+      },
+      {
+        "t": "00:44",
+        "speaker": "client",
+        "text": "Oldu, şənbə 13:00."
+      },
+      {
+        "t": "00:47",
+        "speaker": "manager",
+        "text": "Qeyd etdim, cümə günü xatırladacağam."
+      }
+    ],
+    "started_at": "2026-10-08T12:31:00+04:00",
+    "language": "mixed"
+  },
+  "C-009": {
+    "callId": "C-009",
+    "manager": "Tural",
+    "status": "ok",
+    "extraction": {
+      "criteria": [
+        {
+          "id": "C1",
+          "status": "met",
+          "evidence_quote": "ЖК Demo Residence, меня зовут Турал",
+          "quote_en": "Demo Residence, my name is Tural",
+          "confidence": 0.97,
+          "reason": "Named himself and the project."
+        },
+        {
+          "id": "C2",
+          "status": "met",
+          "evidence_quote": "До 170 тысяч",
+          "quote_en": "Up to 170 thousand",
+          "confidence": 0.94,
+          "reason": "Budget asked and answered."
+        },
+        {
+          "id": "C3",
+          "status": "met",
+          "evidence_quote": "могу сразу всю сумму",
+          "quote_en": "I can pay the full amount at once",
+          "confidence": 0.88,
+          "reason": "Payment method: full payment (cash)."
+        },
+        {
+          "id": "C4",
+          "status": "met",
+          "evidence_quote": "двушка для себя интересует",
+          "quote_en": "interested in a two-room for myself",
+          "confidence": 0.92,
+          "reason": "Rooms and purpose clarified."
+        },
+        {
+          "id": "C5",
+          "status": "met",
+          "evidence_quote": "Приглашаю в шоурум в среду в 12:00.",
+          "quote_en": "I invite you to the showroom on Wednesday at 12:00.",
+          "confidence": 0.95,
+          "reason": "Visit offered with day and time."
+        },
+        {
+          "id": "C6",
+          "status": "met",
+          "evidence_quote": "В среду в 12:00 приеду.",
+          "quote_en": "I'll come on Wednesday at 12:00.",
+          "confidence": 0.95,
+          "reason": "Client agreed to the visit."
+        }
+      ],
+      "promises": [
+        {
+          "topic": "discount",
+          "normalized": 3,
+          "condition": "full_payment",
+          "quote": "При 100% оплате скидка 3%.",
+          "quote_en": "With 100% payment, a 3% discount."
+        }
+      ],
+      "lead": {
+        "temperature": "warm",
+        "evidence_quote": "В среду в 12:00 приеду.",
+        "evidence_en": "I'll come on Wednesday at 12:00.",
+        "budget": {
+          "value": "Up to 170,000 AZN",
+          "source": "client"
+        },
+        "rooms": {
+          "value": "2",
+          "source": "client"
+        },
+        "payment": {
+          "value": "Cash (full payment)",
+          "source": "client"
+        },
+        "objection": null,
+        "timeline": null
+      },
+      "next_step": {
+        "agreed": true,
+        "type": "showroom_visit",
+        "when": "Wednesday 12:00",
+        "quote": "В среду в 12:00 приеду.",
+        "quote_en": "I'll come on Wednesday at 12:00."
+      },
+      "summary_en": "Warm cash buyer; 3% discount for full payment offered, which the declaration allows."
+    },
+    "segments": [
+      {
+        "t": "00:02",
+        "speaker": "manager",
+        "text": "Добрый день, ЖК Demo Residence, меня зовут Турал."
+      },
+      {
+        "t": "00:06",
+        "speaker": "client",
+        "text": "Здравствуйте, двушка для себя интересует. Есть скидки?"
+      },
+      {
+        "t": "00:12",
+        "speaker": "manager",
+        "text": "Какой бюджет рассматриваете?"
+      },
+      {
+        "t": "00:15",
+        "speaker": "client",
+        "text": "До 170 тысяч, могу сразу всю сумму."
+      },
+      {
+        "t": "00:20",
+        "speaker": "manager",
+        "text": "При 100% оплате скидка 3%. Приглашаю в шоурум в среду в 12:00."
+      },
+      {
+        "t": "00:28",
+        "speaker": "client",
+        "text": "В среду в 12:00 приеду."
+      },
+      {
+        "t": "00:32",
+        "speaker": "manager",
+        "text": "Записал, во вторник отправлю подтверждение."
+      }
+    ],
+    "started_at": "2026-10-08T13:02:00+04:00",
+    "language": "ru"
+  },
+  "C-010": {
+    "callId": "C-010",
+    "manager": "Rauf",
+    "status": "ok",
+    "extraction": {
+      "criteria": [
+        {
+          "id": "C1",
+          "status": "met",
+          "evidence_quote": "Demo Residence, mənim adım Rauf",
+          "quote_en": "Demo Residence, my name is Rauf",
+          "confidence": 0.96,
+          "reason": "Named himself and the project."
+        },
+        {
+          "id": "C2",
+          "status": "not_applicable",
+          "evidence_quote": "səhv düşmüsünüz",
+          "quote_en": "you've got the wrong number",
+          "confidence": 0.95,
+          "reason": "Wrong number; not a target call."
+        },
+        {
+          "id": "C3",
+          "status": "not_applicable",
+          "evidence_quote": null,
+          "quote_en": null,
+          "confidence": 0.95,
+          "reason": "Not a target call."
+        },
+        {
+          "id": "C4",
+          "status": "not_applicable",
+          "evidence_quote": null,
+          "quote_en": null,
+          "confidence": 0.95,
+          "reason": "Not a target call."
+        },
+        {
+          "id": "C5",
+          "status": "not_applicable",
+          "evidence_quote": null,
+          "quote_en": null,
+          "confidence": 0.95,
+          "reason": "Not a target call."
+        },
+        {
+          "id": "C6",
+          "status": "not_applicable",
+          "evidence_quote": null,
+          "quote_en": null,
+          "confidence": 0.95,
+          "reason": "Not a target call."
+        }
+      ],
+      "promises": [],
+      "lead": {
+        "temperature": "cold",
+        "evidence_quote": "mən heç bir müraciət etməmişəm",
+        "evidence_en": "I never submitted any request",
+        "budget": null,
+        "rooms": null,
+        "payment": null,
+        "objection": null,
+        "timeline": null
+      },
+      "next_step": {
+        "agreed": false,
+        "type": "none",
+        "when": null,
+        "quote": null,
+        "quote_en": null
+      },
+      "summary_en": "Wrong number. Manager introduced himself correctly and ended the call politely."
+    },
+    "segments": [
+      {
+        "t": "00:02",
+        "speaker": "manager",
+        "text": "Salam, Demo Residence, mənim adım Rauf. Siz mənzil üçün müraciət etmişdiniz?"
+      },
+      {
+        "t": "00:08",
+        "speaker": "client",
+        "text": "Xeyr, səhv düşmüsünüz, mən heç bir müraciət etməmişəm."
+      },
+      {
+        "t": "00:13",
+        "speaker": "manager",
+        "text": "Bağışlayın, narahat etdiyim üçün üzr istəyirəm."
+      }
+    ],
+    "started_at": "2026-10-08T13:26:00+04:00",
+    "language": "az"
+  },
+  "C-011": {
+    "callId": "C-011",
+    "manager": "Leyla",
+    "status": "ok",
+    "extraction": {
+      "criteria": [
+        {
+          "id": "C1",
+          "status": "met",
+          "evidence_quote": "Demo Residence, меня зовут Лейла",
+          "quote_en": "Demo Residence, my name is Leyla",
+          "confidence": 0.96,
+          "reason": "Named herself and the project."
+        },
+        {
+          "id": "C2",
+          "status": "not_met",
+          "evidence_quote": "Hələ bilmirəm, может через год-два.",
+          "quote_en": "I don't know yet, maybe in a year or two.",
+          "confidence": 0.8,
+          "reason": "Asked, but the client gave no amount."
+        },
+        {
+          "id": "C3",
+          "status": "not_met",
+          "evidence_quote": "Не думал ещё.",
+          "quote_en": "Haven't thought about it yet.",
+          "confidence": 0.85,
+          "reason": "Asked, but payment method remains unknown."
+        },
+        {
+          "id": "C4",
+          "status": "met",
+          "evidence_quote": "Bir otaqlı, investisiya üçün.",
+          "quote_en": "One-room, as an investment.",
+          "confidence": 0.93,
+          "reason": "Rooms and purpose clarified."
+        },
+        {
+          "id": "C5",
+          "status": "met",
+          "evidence_quote": "Приглашаю в шоурум, суббота 11:00",
+          "quote_en": "I invite you to the showroom, Saturday 11:00",
+          "confidence": 0.92,
+          "reason": "Visit offered with day and time."
+        },
+        {
+          "id": "C6",
+          "status": "met",
+          "evidence_quote": "Olar, yazın.",
+          "quote_en": "OK, write to me.",
+          "confidence": 0.86,
+          "reason": "Follow-up message on Nov 8 agreed."
+        }
+      ],
+      "promises": [],
+      "lead": {
+        "temperature": "cold",
+        "evidence_quote": "Я просто смотрю, пока ничего не планирую.",
+        "evidence_en": "I'm just looking, not planning anything yet.",
+        "budget": null,
+        "rooms": {
+          "value": "1",
+          "source": "client"
+        },
+        "payment": null,
+        "objection": {
+          "value": "Not ready to buy yet",
+          "source": "client"
+        },
+        "timeline": {
+          "value": "In 1–2 years",
+          "source": "client"
+        }
+      },
+      "next_step": {
+        "agreed": true,
+        "type": "message",
+        "when": "Nov 8",
+        "quote": "Olar, yazın.",
+        "quote_en": "OK, write to me."
+      },
+      "summary_en": "Cold lead just browsing; follow-up message agreed for November 8."
+    },
+    "segments": [
+      {
+        "t": "00:03",
+        "speaker": "manager",
+        "text": "Добрый день, Demo Residence, меня зовут Лейла."
+      },
+      {
+        "t": "00:07",
+        "speaker": "client",
+        "text": "Salam. Я просто смотрю, пока ничего не планирую."
+      },
+      {
+        "t": "00:12",
+        "speaker": "manager",
+        "text": "Понимаю. На какой бюджет вообще ориентируетесь?"
+      },
+      {
+        "t": "00:16",
+        "speaker": "client",
+        "text": "Hələ bilmirəm, может через год-два."
+      },
+      {
+        "t": "00:21",
+        "speaker": "manager",
+        "text": "Какая квартира была бы интересна — сколько комнат, для себя или инвестиция?"
+      },
+      {
+        "t": "00:26",
+        "speaker": "client",
+        "text": "Bir otaqlı, investisiya üçün."
+      },
+      {
+        "t": "00:31",
+        "speaker": "manager",
+        "text": "Оплата — наличные, рассрочка или ипотека?"
+      },
+      {
+        "t": "00:35",
+        "speaker": "client",
+        "text": "Не думал ещё."
+      },
+      {
+        "t": "00:38",
+        "speaker": "manager",
+        "text": "Приглашаю в шоурум, суббота 11:00 — без обязательств."
+      },
+      {
+        "t": "00:43",
+        "speaker": "client",
+        "text": "Yox, sağ olun, hələ yox."
+      },
+      {
+        "t": "00:47",
+        "speaker": "manager",
+        "text": "Хорошо, могу через месяц, 8 ноября, написать вам про новые планировки?"
+      },
+      {
+        "t": "00:53",
+        "speaker": "client",
+        "text": "Olar, yazın."
+      }
+    ],
+    "started_at": "2026-10-08T13:58:00+04:00",
+    "language": "mixed"
+  },
+  "C-012": {
+    "callId": "C-012",
+    "manager": "Elvin",
+    "status": "ok",
+    "extraction": {
+      "criteria": [
+        {
+          "id": "C1",
+          "status": "met",
+          "evidence_quote": "ЖК Demo Residence, меня зовут Эльвин",
+          "quote_en": "Demo Residence, my name is Elvin",
+          "confidence": 0.96,
+          "reason": "Named himself and the project."
+        },
+        {
+          "id": "C2",
+          "status": "met",
+          "evidence_quote": "200 min manata qədər.",
+          "quote_en": "Up to 200 thousand manat.",
+          "confidence": 0.94,
+          "reason": "Budget asked and answered."
+        },
+        {
+          "id": "C3",
+          "status": "met",
+          "evidence_quote": "Ipoteka, bank vasitəsilə.",
+          "quote_en": "Mortgage, through a bank.",
+          "confidence": 0.94,
+          "reason": "Payment method: mortgage."
+        },
+        {
+          "id": "C4",
+          "status": "met",
+          "evidence_quote": "Для себя, жить будем всей семьёй.",
+          "quote_en": "For ourselves, the whole family will live there.",
+          "confidence": 0.7,
+          "reason": "Rooms and purpose clarified."
+        },
+        {
+          "id": "C5",
+          "status": "met",
+          "evidence_quote": "Şoruma gəlin — cümə axşamı 17:00?",
+          "quote_en": "Come to the showroom — Thursday 17:00?",
+          "confidence": 0.93,
+          "reason": "Visit offered with day and time."
+        },
+        {
+          "id": "C6",
+          "status": "met",
+          "evidence_quote": "Cümə axşamı 17:00 olar.",
+          "quote_en": "Thursday 17:00 works.",
+          "confidence": 0.94,
+          "reason": "Client agreed to the visit."
+        }
+      ],
+      "promises": [],
+      "lead": {
+        "temperature": "hot",
+        "evidence_quote": "Cümə axşamı 17:00 olar.",
+        "evidence_en": "Thursday 17:00 works.",
+        "budget": {
+          "value": "Up to 200,000 AZN",
+          "source": "client"
+        },
+        "rooms": {
+          "value": "3",
+          "source": "client"
+        },
+        "payment": {
+          "value": "Mortgage",
+          "source": "client"
+        },
+        "objection": null,
+        "timeline": null
+      },
+      "next_step": {
+        "agreed": true,
+        "type": "showroom_visit",
+        "when": "Thursday 17:00",
+        "quote": "Yaxşı, gözləyirəm.",
+        "quote_en": "OK, I'll be waiting."
+      },
+      "summary_en": "Hot family lead for a 3-room flat; showroom visit booked for Thursday."
+    },
+    "segments": [
+      {
+        "t": "00:02",
+        "speaker": "manager",
+        "text": "Salam, ЖК Demo Residence, меня зовут Эльвин."
+      },
+      {
+        "t": "00:06",
+        "speaker": "client",
+        "text": "Salam! Üç otaqlı mənzil lazımdır, ailə üçün."
+      },
+      {
+        "t": "00:12",
+        "speaker": "manager",
+        "text": "Büdcəniz? Какую сумму рассматриваете?"
+      },
+      {
+        "t": "00:16",
+        "speaker": "client",
+        "text": "200 min manata qədər."
+      },
+      {
+        "t": "00:20",
+        "speaker": "manager",
+        "text": "Ödəniş necə olacaq — nağd, рассрочка yoxsa ipoteka?"
+      },
+      {
+        "t": "00:25",
+        "speaker": "client",
+        "text": "Ipoteka, bank vasitəsilə."
+      },
+      {
+        "t": "00:29",
+        "speaker": "manager",
+        "text": "Ipoteka bank-partnyor vasitəsilə, faizi bank deyəcək. Şoruma gəlin — cümə axşamı 17:00?"
+      },
+      {
+        "t": "00:38",
+        "speaker": "client",
+        "text": "Cümə axşamı 17:00 olar."
+      },
+      {
+        "t": "00:42",
+        "speaker": "manager",
+        "text": "Qeyd etdim, çərşənbə günü təsdiq üçün zəng edəcəyəm."
+      },
+      {
+        "t": "00:47",
+        "speaker": "client",
+        "text": "Yaxşı, gözləyirəm."
+      }
+    ],
+    "started_at": "2026-10-08T14:20:00+04:00",
+    "language": "mixed"
+  },
+  "C-013": {
+    "callId": "C-013",
+    "manager": "Nigar",
+    "status": "ok",
+    "extraction": {
+      "criteria": [
+        {
+          "id": "C1",
+          "status": "met",
+          "evidence_quote": "Demo Residence, меня зовут Нигяр",
+          "quote_en": "Demo Residence, my name is Nigar",
+          "confidence": 0.96,
+          "reason": "Named herself and the project."
+        },
+        {
+          "id": "C2",
+          "status": "met",
+          "evidence_quote": "150-160 тысяч.",
+          "quote_en": "150–160 thousand.",
+          "confidence": 0.93,
+          "reason": "Budget asked and answered."
+        },
+        {
+          "id": "C3",
+          "status": "met",
+          "evidence_quote": "Рассрочка.",
+          "quote_en": "Installments.",
+          "confidence": 0.92,
+          "reason": "Payment method: installment."
+        },
+        {
+          "id": "C4",
+          "status": "met",
+          "evidence_quote": "двушка нужна, для себя.",
+          "quote_en": "need a two-room, for myself.",
+          "confidence": 0.92,
+          "reason": "Rooms and purpose clarified."
+        },
+        {
+          "id": "C5",
+          "status": "not_met",
+          "evidence_quote": null,
+          "quote_en": null,
+          "confidence": 0.55,
+          "reason": "No clear showroom invitation recognized (noisy transcript)."
+        },
+        {
+          "id": "C6",
+          "status": "met",
+          "evidence_quote": "Да, в субботу в двенадцать приду.",
+          "quote_en": "Yes, I'll come on Saturday at twelve.",
+          "confidence": 0.9,
+          "reason": "Client agreed to come on Saturday."
+        }
+      ],
+      "promises": [],
+      "lead": {
+        "temperature": "warm",
+        "evidence_quote": "Да, в субботу в двенадцать приду.",
+        "evidence_en": "Yes, I'll come on Saturday at twelve.",
+        "budget": {
+          "value": "150,000–160,000 AZN",
+          "source": "client"
+        },
+        "rooms": {
+          "value": "2",
+          "source": "client"
+        },
+        "payment": {
+          "value": "Installment",
+          "source": "client"
+        },
+        "objection": null,
+        "timeline": null
+      },
+      "next_step": {
+        "agreed": true,
+        "type": "showroom_visit",
+        "when": "Saturday 12:00",
+        "quote": "Да, в субботу в двенадцать приду.",
+        "quote_en": "Yes, I'll come on Saturday at twelve."
+      },
+      "summary_en": "Warm lead; showroom visit on Saturday despite transcription noise."
+    },
+    "segments": [
+      {
+        "t": "00:03",
+        "speaker": "manager",
+        "text": "Добрый день, Demo Residence, меня зовут Нигяр."
+      },
+      {
+        "t": "00:07",
+        "speaker": "client",
+        "text": "Salam, двушка нужна, для себя."
+      },
+      {
+        "t": "00:11",
+        "speaker": "manager",
+        "text": "Какой бюджет?"
+      },
+      {
+        "t": "00:13",
+        "speaker": "client",
+        "text": "150-160 тысяч."
+      },
+      {
+        "t": "00:17",
+        "speaker": "manager",
+        "text": "Оплата?"
+      },
+      {
+        "t": "00:18",
+        "speaker": "client",
+        "text": "Рассрочка."
+      },
+      {
+        "t": "00:21",
+        "speaker": "manager",
+        "text": "Приглашаю вас в шоу рум э-э в субботу в двенадцать ноль-ноль, şou rum на первом этаже."
+      },
+      {
+        "t": "00:30",
+        "speaker": "client",
+        "text": "Да, в субботу в двенадцать приду."
+      },
+      {
+        "t": "00:34",
+        "speaker": "manager",
+        "text": "Записала, в пятницу напомню."
+      }
+    ],
+    "started_at": "2026-10-08T14:44:00+04:00",
+    "language": "mixed"
+  },
+  "C-014": {
+    "callId": "C-014",
+    "manager": "Tural",
+    "status": "ok",
+    "extraction": {
+      "criteria": [
+        {
+          "id": "C1",
+          "status": "met",
+          "evidence_quote": "ЖК Demo Residence, меня зовут Турал",
+          "quote_en": "Demo Residence, my name is Tural",
+          "confidence": 0.97,
+          "reason": "Named himself and the project."
+        },
+        {
+          "id": "C2",
+          "status": "met",
+          "evidence_quote": "Тысяч 150",
+          "quote_en": "About 150 thousand",
+          "confidence": 0.92,
+          "reason": "Budget asked and answered."
+        },
+        {
+          "id": "C3",
+          "status": "met",
+          "evidence_quote": "если ипотеку дадут",
+          "quote_en": "if they approve a mortgage",
+          "confidence": 0.85,
+          "reason": "Payment method: mortgage."
+        },
+        {
+          "id": "C4",
+          "status": "met",
+          "evidence_quote": "Двушка, для себя.",
+          "quote_en": "A two-room, for myself.",
+          "confidence": 0.92,
+          "reason": "Rooms and purpose clarified."
+        },
+        {
+          "id": "C5",
+          "status": "met",
+          "evidence_quote": "Приглашаю в шоурум завтра в 18:00",
+          "quote_en": "I invite you to the showroom tomorrow at 18:00",
+          "confidence": 0.95,
+          "reason": "Visit offered with day and time."
+        },
+        {
+          "id": "C6",
+          "status": "not_met",
+          "evidence_quote": "Ну конечно, обязательно приеду. Прямо бегу.",
+          "quote_en": "Oh sure, I'll definitely come. Running there right now.",
+          "confidence": 0.8,
+          "reason": "Sarcastic reply; the client did not genuinely agree."
+        }
+      ],
+      "promises": [],
+      "lead": {
+        "temperature": "warm",
+        "evidence_quote": "раз заявку оставлял",
+        "evidence_en": "since I did leave a request",
+        "budget": {
+          "value": "About 150,000 AZN",
+          "source": "client"
+        },
+        "rooms": {
+          "value": "2",
+          "source": "client"
+        },
+        "payment": {
+          "value": "Mortgage (if approved)",
+          "source": "client"
+        },
+        "objection": {
+          "value": "Irritated tone, skeptical about the visit",
+          "source": "inferred"
+        },
+        "timeline": null
+      },
+      "next_step": {
+        "agreed": false,
+        "type": "none",
+        "when": null,
+        "quote": "Ну конечно, обязательно приеду. Прямо бегу.",
+        "quote_en": "Oh sure, I'll definitely come. Running there right now."
+      },
+      "summary_en": "Warm lead; the client's 'agreement' to visit is sarcastic, so the visit is not confirmed."
+    },
+    "segments": [
+      {
+        "t": "00:02",
+        "speaker": "manager",
+        "text": "Добрый день, ЖК Demo Residence, меня зовут Турал."
+      },
+      {
+        "t": "00:06",
+        "speaker": "client",
+        "text": "Ну, звоните же, раз заявку оставлял. Двушка, для себя."
+      },
+      {
+        "t": "00:12",
+        "speaker": "manager",
+        "text": "Какой бюджет?"
+      },
+      {
+        "t": "00:14",
+        "speaker": "client",
+        "text": "Тысяч 150, если ипотеку дадут."
+      },
+      {
+        "t": "00:19",
+        "speaker": "manager",
+        "text": "Приглашаю в шоурум завтра в 18:00, придёте?"
+      },
+      {
+        "t": "00:23",
+        "speaker": "client",
+        "text": "Ну конечно, обязательно приеду. Прямо бегу."
+      },
+      {
+        "t": "00:28",
+        "speaker": "manager",
+        "text": "Отлично, жду завтра в 18:00!"
+      }
+    ],
+    "started_at": "2026-10-08T15:09:00+04:00",
+    "language": "ru"
+  },
+  "C-015": {
+    "callId": "C-015",
+    "manager": "Rauf",
+    "status": "ok",
+    "extraction": {
+      "criteria": [
+        {
+          "id": "C1",
+          "status": "met",
+          "evidence_quote": "Demo Residence, mənim adım Rauf",
+          "quote_en": "Demo Residence, my name is Rauf",
+          "confidence": 0.96,
+          "reason": "Named himself and the project."
+        },
+        {
+          "id": "C2",
+          "status": "met",
+          "evidence_quote": "Maksimum 120 min.",
+          "quote_en": "Maximum 120 thousand.",
+          "confidence": 0.95,
+          "reason": "Budget asked and answered."
+        },
+        {
+          "id": "C3",
+          "status": "met",
+          "evidence_quote": "Hissə-hissə.",
+          "quote_en": "In installments.",
+          "confidence": 0.93,
+          "reason": "Payment method: installment."
+        },
+        {
+          "id": "C4",
+          "status": "met",
+          "evidence_quote": "İki otaqlı, özüm yaşayacağam.",
+          "quote_en": "Two-room, I'll live there myself.",
+          "confidence": 0.95,
+          "reason": "Rooms and purpose clarified."
+        },
+        {
+          "id": "C5",
+          "status": "met",
+          "evidence_quote": "Bazar ertəsi saat 15:00 şoruma gəlin",
+          "quote_en": "Come to the showroom on Monday at 15:00",
+          "confidence": 0.95,
+          "reason": "Visit offered with day and time."
+        },
+        {
+          "id": "C6",
+          "status": "met",
+          "evidence_quote": "Yaxşı, bazar ertəsi 15:00.",
+          "quote_en": "OK, Monday 15:00.",
+          "confidence": 0.92,
+          "reason": "Client agreed to the visit."
+        }
+      ],
+      "promises": [
+        {
+          "topic": "down_payment",
+          "normalized": 30,
+          "quote": "ilkin 30%-dən",
+          "quote_en": "from 30% down"
+        },
+        {
+          "topic": "installment",
+          "normalized": 24,
+          "quote": "24 aya qədər faizsiz",
+          "quote_en": "up to 24 months interest-free"
+        }
+      ],
+      "lead": {
+        "temperature": "warm",
+        "evidence_quote": "Yaxşı, bazar ertəsi 15:00.",
+        "evidence_en": "OK, Monday 15:00.",
+        "budget": {
+          "value": "Max 120,000 AZN",
+          "source": "client"
+        },
+        "rooms": {
+          "value": "2",
+          "source": "client"
+        },
+        "payment": {
+          "value": "Installment",
+          "source": "client"
+        },
+        "objection": {
+          "value": "Prices are too high",
+          "source": "client"
+        },
+        "timeline": null
+      },
+      "next_step": {
+        "agreed": true,
+        "type": "showroom_visit",
+        "when": "Monday 15:00",
+        "quote": "Yaxşı, bazar ertəsi 15:00.",
+        "quote_en": "OK, Monday 15:00."
+      },
+      "summary_en": "Aggressive client handled by the regulation; showroom visit booked for Monday."
+    },
+    "segments": [
+      {
+        "t": "00:02",
+        "speaker": "manager",
+        "text": "Salam, Demo Residence, mənim adım Rauf."
+      },
+      {
+        "t": "00:06",
+        "speaker": "client",
+        "text": "Yenə zəng edirsiniz! Qiymətləriniz çox bahadır!"
+      },
+      {
+        "t": "00:11",
+        "speaker": "manager",
+        "text": "Başa düşürəm. Hansı büdcəni nəzərdə tutursunuz?"
+      },
+      {
+        "t": "00:15",
+        "speaker": "client",
+        "text": "Maksimum 120 min."
+      },
+      {
+        "t": "00:18",
+        "speaker": "manager",
+        "text": "Neçə otaqlı və nə üçün — yaşamaq, yoxsa investisiya?"
+      },
+      {
+        "t": "00:23",
+        "speaker": "client",
+        "text": "İki otaqlı, özüm yaşayacağam."
+      },
+      {
+        "t": "00:28",
+        "speaker": "manager",
+        "text": "Ödəniş nağd, kredit, yoxsa hissə-hissə?"
+      },
+      {
+        "t": "00:32",
+        "speaker": "client",
+        "text": "Hissə-hissə."
+      },
+      {
+        "t": "00:35",
+        "speaker": "manager",
+        "text": "Hissə-hissə ödəniş ilkin 30%-dən, 24 aya qədər faizsiz. Bazar ertəsi saat 15:00 şoruma gəlin, planları göstərim."
+      },
+      {
+        "t": "00:46",
+        "speaker": "client",
+        "text": "Yaxşı, bazar ertəsi 15:00. Amma vaxtımı itirməyin."
+      },
+      {
+        "t": "00:51",
+        "speaker": "manager",
+        "text": "Razıyıq, bazar günü təsdiq mesajı göndərəcəyəm."
+      }
+    ],
+    "started_at": "2026-10-08T15:33:00+04:00",
+    "language": "az"
+  },
+  "C-016": {
+    "callId": "C-016",
+    "manager": "Rauf",
+    "status": "ok",
+    "extraction": {
+      "criteria": [
+        {
+          "id": "C1",
+          "status": "met",
+          "evidence_quote": "ЖК Demo Residence, меня зовут Рауф",
+          "quote_en": "Demo Residence, my name is Rauf",
+          "confidence": 0.97,
+          "reason": "Named himself and the project."
+        },
+        {
+          "id": "C2",
+          "status": "not_met",
+          "evidence_quote": null,
+          "quote_en": null,
+          "confidence": 0.9,
+          "reason": "Manager never asked about budget."
+        },
+        {
+          "id": "C3",
+          "status": "not_met",
+          "evidence_quote": "Ипотеку можно или только наличными?",
+          "quote_en": "Is a mortgage possible, or only cash?",
+          "confidence": 0.82,
+          "reason": "Client asked about payment, but the preferred method was never clarified."
+        },
+        {
+          "id": "C4",
+          "status": "not_met",
+          "evidence_quote": null,
+          "quote_en": null,
+          "confidence": 0.78,
+          "reason": "Rooms mentioned from the request, but purpose (to live in or invest) not asked."
+        },
+        {
+          "id": "C5",
+          "status": "not_met",
+          "evidence_quote": null,
+          "quote_en": null,
+          "confidence": 0.92,
+          "reason": "No showroom invitation."
+        },
+        {
+          "id": "C6",
+          "status": "not_met",
+          "evidence_quote": "Конечно, созвонимся.",
+          "quote_en": "Sure, we'll be in touch.",
+          "confidence": 0.85,
+          "reason": "No concrete action or time agreed."
+        }
+      ],
+      "promises": [
+        {
+          "topic": "price",
+          "normalized": 2000,
+          "quote": "Цены от 2 000 манат за метр.",
+          "quote_en": "Prices from 2,000 manat per metre."
+        },
+        {
+          "topic": "completion_date",
+          "normalized": "2027-06",
+          "quote": "Сдача летом следующего года.",
+          "quote_en": "Handover next summer."
+        },
+        {
+          "topic": "down_payment",
+          "normalized": 30,
+          "quote": "первый взнос 30%",
+          "quote_en": "down payment 30%"
+        },
+        {
+          "topic": "discount",
+          "normalized": null,
+          "condition": null,
+          "quote": "И скидочку вам подберём, не переживайте.",
+          "quote_en": "And we'll find you a discount, don't worry."
+        }
+      ],
+      "lead": {
+        "temperature": "hot",
+        "evidence_quote": "Хотел узнать цену и когда сдача.",
+        "evidence_en": "I wanted to know the price and when the handover is.",
+        "budget": null,
+        "rooms": {
+          "value": "2",
+          "source": "inferred"
+        },
+        "payment": null,
+        "objection": {
+          "value": "Needs to discuss with his wife",
+          "source": "client"
+        },
+        "timeline": null
+      },
+      "next_step": {
+        "agreed": false,
+        "type": "none",
+        "when": null,
+        "quote": "Конечно, созвонимся.",
+        "quote_en": "Sure, we'll be in touch."
+      },
+      "summary_en": "Hot lead for a 2-room flat; handover date and discount promised outside the declaration, no next step."
+    },
+    "segments": [
+      {
+        "t": "00:03",
+        "speaker": "manager",
+        "text": "Добрый день, ЖК Demo Residence, меня зовут Рауф. Вы оставляли заявку на двухкомнатную?"
+      },
+      {
+        "t": "00:09",
+        "speaker": "client",
+        "text": "Salam, да. Хотел узнать цену и когда сдача."
+      },
+      {
+        "t": "00:15",
+        "speaker": "manager",
+        "text": "Цены от 2 000 манат за метр. Сдача летом следующего года."
+      },
+      {
+        "t": "00:24",
+        "speaker": "client",
+        "text": "Ипотеку можно или только наличными?"
+      },
+      {
+        "t": "00:29",
+        "speaker": "manager",
+        "text": "Есть рассрочка, первый взнос 30%. И скидочку вам подберём, не переживайте."
+      },
+      {
+        "t": "00:41",
+        "speaker": "client",
+        "text": "Хорошо, мне надо с женой обсудить."
+      },
+      {
+        "t": "00:45",
+        "speaker": "manager",
+        "text": "Конечно, созвонимся."
+      }
+    ],
+    "started_at": "2026-10-08T15:42:00+04:00",
+    "language": "mixed"
+  },
+  "C-017": {
+    "callId": "C-017",
+    "manager": "Leyla",
+    "status": "ok",
+    "extraction": {
+      "criteria": [
+        {
+          "id": "C1",
+          "status": "met",
+          "evidence_quote": "Demo Residence, my name is Leyla",
+          "quote_en": null,
+          "confidence": 0.97,
+          "reason": "Named herself and the project."
+        },
+        {
+          "id": "C2",
+          "status": "met",
+          "evidence_quote": "Around 180,000 manat.",
+          "quote_en": null,
+          "confidence": 0.95,
+          "reason": "Budget asked and answered."
+        },
+        {
+          "id": "C3",
+          "status": "met",
+          "evidence_quote": "Cash, the full amount.",
+          "quote_en": null,
+          "confidence": 0.95,
+          "reason": "Payment method: cash."
+        },
+        {
+          "id": "C4",
+          "status": "met",
+          "evidence_quote": "need a two-room flat to live in",
+          "quote_en": null,
+          "confidence": 0.94,
+          "reason": "Rooms and purpose clarified."
+        },
+        {
+          "id": "C5",
+          "status": "met",
+          "evidence_quote": "Could you visit our showroom on Thursday at 14:00?",
+          "quote_en": null,
+          "confidence": 0.96,
+          "reason": "Visit offered with day and time."
+        },
+        {
+          "id": "C6",
+          "status": "met",
+          "evidence_quote": "Thursday at 14:00 works.",
+          "quote_en": null,
+          "confidence": 0.95,
+          "reason": "Client agreed to the visit."
+        }
+      ],
+      "promises": [
+        {
+          "topic": "discount",
+          "normalized": 3,
+          "condition": "full_payment",
+          "quote": "With 100% payment we can offer a 3% discount.",
+          "quote_en": null
+        }
+      ],
+      "lead": {
+        "temperature": "hot",
+        "evidence_quote": "I'm relocating to Baku",
+        "evidence_en": null,
+        "budget": {
+          "value": "Around 180,000 AZN",
+          "source": "client"
+        },
+        "rooms": {
+          "value": "2",
+          "source": "client"
+        },
+        "payment": {
+          "value": "Cash (full payment)",
+          "source": "client"
+        },
+        "objection": null,
+        "timeline": {
+          "value": "Relocating soon",
+          "source": "inferred"
+        }
+      },
+      "next_step": {
+        "agreed": true,
+        "type": "showroom_visit",
+        "when": "Thursday 14:00",
+        "quote": "Thursday at 14:00 works.",
+        "quote_en": null
+      },
+      "summary_en": "Hot foreign buyer paying cash; allowed 3% discount offered and showroom visit booked."
+    },
+    "segments": [
+      {
+        "t": "00:02",
+        "speaker": "manager",
+        "text": "Good afternoon, Demo Residence, my name is Leyla. You left a request on our website?"
+      },
+      {
+        "t": "00:09",
+        "speaker": "client",
+        "text": "Yes, I'm relocating to Baku and need a two-room flat to live in."
+      },
+      {
+        "t": "00:16",
+        "speaker": "manager",
+        "text": "What budget do you have in mind?"
+      },
+      {
+        "t": "00:19",
+        "speaker": "client",
+        "text": "Around 180,000 manat."
+      },
+      {
+        "t": "00:23",
+        "speaker": "manager",
+        "text": "Will you pay in cash, by installments, or with a mortgage?"
+      },
+      {
+        "t": "00:28",
+        "speaker": "client",
+        "text": "Cash, the full amount."
+      },
+      {
+        "t": "00:32",
+        "speaker": "manager",
+        "text": "With 100% payment we can offer a 3% discount. Could you visit our showroom on Thursday at 14:00?"
+      },
+      {
+        "t": "00:41",
+        "speaker": "client",
+        "text": "Thursday at 14:00 works."
+      },
+      {
+        "t": "00:45",
+        "speaker": "manager",
+        "text": "Great, I've booked you for Thursday at 14:00 and will send the address by email today."
+      },
+      {
+        "t": "00:52",
+        "speaker": "client",
+        "text": "Perfect, thanks."
+      }
+    ],
+    "started_at": "2026-10-08T16:10:00+04:00",
+    "language": "en"
+  },
+  "C-018": {
+    "callId": "C-018",
+    "manager": "Elvin",
+    "status": "ok",
+    "extraction": {
+      "criteria": [
+        {
+          "id": "C1",
+          "status": "met",
+          "evidence_quote": "Demo Residence, this is Elvin speaking",
+          "quote_en": null,
+          "confidence": 0.95,
+          "reason": "Named himself and the project."
+        },
+        {
+          "id": "C2",
+          "status": "met",
+          "evidence_quote": "Up to 95,000.",
+          "quote_en": null,
+          "confidence": 0.94,
+          "reason": "Budget asked and answered."
+        },
+        {
+          "id": "C3",
+          "status": "met",
+          "evidence_quote": "Installments.",
+          "quote_en": null,
+          "confidence": 0.94,
+          "reason": "Payment method: installment."
+        },
+        {
+          "id": "C4",
+          "status": "met",
+          "evidence_quote": "a one-room apartment as an investment",
+          "quote_en": null,
+          "confidence": 0.95,
+          "reason": "Rooms and purpose clarified."
+        },
+        {
+          "id": "C5",
+          "status": "met",
+          "evidence_quote": "Come to the showroom on Saturday at 10:00",
+          "quote_en": null,
+          "confidence": 0.95,
+          "reason": "Visit offered with day and time."
+        },
+        {
+          "id": "C6",
+          "status": "met",
+          "evidence_quote": "Saturday at 10 is fine.",
+          "quote_en": null,
+          "confidence": 0.94,
+          "reason": "Client agreed to the visit."
+        }
+      ],
+      "promises": [
+        {
+          "topic": "discount",
+          "normalized": 5,
+          "condition": null,
+          "quote": "I'll get you a 5% discount on installments",
+          "quote_en": null
+        }
+      ],
+      "lead": {
+        "temperature": "warm",
+        "evidence_quote": "Really? Nice.",
+        "evidence_en": null,
+        "budget": {
+          "value": "Up to 95,000 AZN",
+          "source": "client"
+        },
+        "rooms": {
+          "value": "1",
+          "source": "client"
+        },
+        "payment": {
+          "value": "Installment",
+          "source": "client"
+        },
+        "objection": null,
+        "timeline": {
+          "value": "This month (manager's offer)",
+          "source": "inferred"
+        }
+      },
+      "next_step": {
+        "agreed": true,
+        "type": "showroom_visit",
+        "when": "Saturday 10:00",
+        "quote": "Saturday at 10 is fine.",
+        "quote_en": null
+      },
+      "summary_en": "Warm investor lead; 5% discount on installments promised, outside the declaration."
+    },
+    "segments": [
+      {
+        "t": "00:03",
+        "speaker": "manager",
+        "text": "Hello, Demo Residence, this is Elvin speaking."
+      },
+      {
+        "t": "00:07",
+        "speaker": "client",
+        "text": "Hi, I'm interested in a one-room apartment as an investment."
+      },
+      {
+        "t": "00:13",
+        "speaker": "manager",
+        "text": "What's your budget?"
+      },
+      {
+        "t": "00:15",
+        "speaker": "client",
+        "text": "Up to 95,000."
+      },
+      {
+        "t": "00:18",
+        "speaker": "manager",
+        "text": "Cash or installments?"
+      },
+      {
+        "t": "00:20",
+        "speaker": "client",
+        "text": "Installments."
+      },
+      {
+        "t": "00:23",
+        "speaker": "manager",
+        "text": "Sign this month and I'll get you a 5% discount on installments."
+      },
+      {
+        "t": "00:29",
+        "speaker": "client",
+        "text": "Really? Nice."
+      },
+      {
+        "t": "00:31",
+        "speaker": "manager",
+        "text": "Come to the showroom on Saturday at 10:00 and we'll finalize."
+      },
+      {
+        "t": "00:36",
+        "speaker": "client",
+        "text": "Saturday at 10 is fine."
+      },
+      {
+        "t": "00:39",
+        "speaker": "manager",
+        "text": "Booked. I'll text you a reminder on Friday."
+      }
+    ],
+    "started_at": "2026-10-08T16:38:00+04:00",
+    "language": "en"
+  },
+  "C-019": {
+    "callId": "C-019",
+    "manager": "Nigar",
+    "status": "ok",
+    "extraction": {
+      "criteria": [
+        {
+          "id": "C1",
+          "status": "met",
+          "evidence_quote": "Demo Residence, my name is Nigar",
+          "quote_en": null,
+          "confidence": 0.96,
+          "reason": "Named herself and the project."
+        },
+        {
+          "id": "C2",
+          "status": "met",
+          "evidence_quote": "Maybe 250,000.",
+          "quote_en": null,
+          "confidence": 0.92,
+          "reason": "Budget asked and answered."
+        },
+        {
+          "id": "C3",
+          "status": "met",
+          "evidence_quote": "Mortgage, probably.",
+          "quote_en": null,
+          "confidence": 0.9,
+          "reason": "Payment method: mortgage."
+        },
+        {
+          "id": "C4",
+          "status": "met",
+          "evidence_quote": "It's for my family.",
+          "quote_en": null,
+          "confidence": 0.88,
+          "reason": "Three-room flat for the family."
+        },
+        {
+          "id": "C5",
+          "status": "not_met",
+          "evidence_quote": "Feel free to drop by.",
+          "quote_en": null,
+          "confidence": 0.88,
+          "reason": "Showroom hours given, but no specific day or time offered."
+        },
+        {
+          "id": "C6",
+          "status": "not_met",
+          "evidence_quote": "OK, I'll think about it.",
+          "quote_en": null,
+          "confidence": 0.9,
+          "reason": "No concrete next step agreed."
+        }
+      ],
+      "promises": [
+        {
+          "topic": "price",
+          "normalized": 2000,
+          "quote": "From 2,000 manat per square metre.",
+          "quote_en": null
+        }
+      ],
+      "lead": {
+        "temperature": "warm",
+        "evidence_quote": "what are the prices for three-room flats?",
+        "evidence_en": null,
+        "budget": {
+          "value": "About 250,000 AZN",
+          "source": "client"
+        },
+        "rooms": {
+          "value": "3",
+          "source": "client"
+        },
+        "payment": {
+          "value": "Mortgage",
+          "source": "client"
+        },
+        "objection": null,
+        "timeline": null
+      },
+      "next_step": {
+        "agreed": false,
+        "type": "none",
+        "when": null,
+        "quote": "OK, I'll think about it.",
+        "quote_en": null
+      },
+      "summary_en": "Warm family lead with a solid budget; call ended without a next step or showroom date."
+    },
+    "segments": [
+      {
+        "t": "00:02",
+        "speaker": "manager",
+        "text": "Good morning, Demo Residence, my name is Nigar."
+      },
+      {
+        "t": "00:06",
+        "speaker": "client",
+        "text": "Hi. I saw your ad, what are the prices for three-room flats?"
+      },
+      {
+        "t": "00:12",
+        "speaker": "manager",
+        "text": "From 2,000 manat per square metre. What budget are you considering?"
+      },
+      {
+        "t": "00:18",
+        "speaker": "client",
+        "text": "Maybe 250,000. It's for my family."
+      },
+      {
+        "t": "00:23",
+        "speaker": "manager",
+        "text": "How would you pay — cash, installments or mortgage?"
+      },
+      {
+        "t": "00:27",
+        "speaker": "client",
+        "text": "Mortgage, probably."
+      },
+      {
+        "t": "00:30",
+        "speaker": "manager",
+        "text": "Our showroom is open Monday to Saturday, 10 to 19. Feel free to drop by."
+      },
+      {
+        "t": "00:36",
+        "speaker": "client",
+        "text": "OK, I'll think about it."
+      },
+      {
+        "t": "00:39",
+        "speaker": "manager",
+        "text": "Sure, have a nice day."
+      }
+    ],
+    "started_at": "2026-10-08T17:05:00+04:00",
+    "language": "en"
+  },
+  "C-020": {
+    "callId": "C-020",
+    "manager": "Tural",
+    "status": "ok",
+    "extraction": {
+      "criteria": [
+        {
+          "id": "C1",
+          "status": "met",
+          "evidence_quote": "Demo Residence, mənim adım Tural",
+          "quote_en": "Demo Residence, my name is Tural",
+          "confidence": 0.96,
+          "reason": "Named himself and the project."
+        },
+        {
+          "id": "C2",
+          "status": "met",
+          "evidence_quote": "130-140 min.",
+          "quote_en": "130–140 thousand.",
+          "confidence": 0.94,
+          "reason": "Budget asked and answered."
+        },
+        {
+          "id": "C3",
+          "status": "met",
+          "evidence_quote": "Nağd.",
+          "quote_en": "Cash.",
+          "confidence": 0.94,
+          "reason": "Payment method: cash."
+        },
+        {
+          "id": "C4",
+          "status": "met",
+          "evidence_quote": "iki otaqlı mənzil maraqlıdır, özümüz yaşayacağıq",
+          "quote_en": "interested in a two-room flat, we'll live there ourselves",
+          "confidence": 0.94,
+          "reason": "Rooms and purpose clarified."
+        },
+        {
+          "id": "C5",
+          "status": "met",
+          "evidence_quote": "Şənbə saat 12:00 şoruma dəvət edirəm",
+          "quote_en": "I invite you to the showroom on Saturday at 12:00",
+          "confidence": 0.95,
+          "reason": "Visit offered with day and time."
+        },
+        {
+          "id": "C6",
+          "status": "met",
+          "evidence_quote": "bu gün saat 18:00-da zəng edirəm",
+          "quote_en": "I'll call you today at 18:00",
+          "confidence": 0.93,
+          "reason": "Callback at 18:00 today agreed by the client."
+        }
+      ],
+      "promises": [],
+      "lead": {
+        "temperature": "warm",
+        "evidence_quote": "Mənə saat 18:00-da zəng edin, dəqiqləşdirək.",
+        "evidence_en": "Call me at 18:00, let's confirm.",
+        "budget": {
+          "value": "130,000–140,000 AZN",
+          "source": "client"
+        },
+        "rooms": {
+          "value": "2",
+          "source": "client"
+        },
+        "payment": {
+          "value": "Cash",
+          "source": "client"
+        },
+        "objection": {
+          "value": "Busy at work right now",
+          "source": "client"
+        },
+        "timeline": null
+      },
+      "next_step": {
+        "agreed": true,
+        "type": "callback",
+        "when": "Today 18:00",
+        "quote": "Razıyam.",
+        "quote_en": "I agree."
+      },
+      "summary_en": "Warm lead; callback at 18:00 today agreed to confirm the Saturday showroom visit."
+    },
+    "segments": [
+      {
+        "t": "00:02",
+        "speaker": "manager",
+        "text": "Salam, Demo Residence, mənim adım Tural."
+      },
+      {
+        "t": "00:06",
+        "speaker": "client",
+        "text": "Salam, iki otaqlı mənzil maraqlıdır, özümüz yaşayacağıq. İndi işdəyəm."
+      },
+      {
+        "t": "00:12",
+        "speaker": "manager",
+        "text": "Büdcəniz nə qədərdir?"
+      },
+      {
+        "t": "00:15",
+        "speaker": "client",
+        "text": "130-140 min."
+      },
+      {
+        "t": "00:18",
+        "speaker": "manager",
+        "text": "Ödəniş nağd, yoxsa hissə-hissə?"
+      },
+      {
+        "t": "00:21",
+        "speaker": "client",
+        "text": "Nağd."
+      },
+      {
+        "t": "00:24",
+        "speaker": "manager",
+        "text": "Şənbə saat 12:00 şoruma dəvət edirəm, uyğundur?"
+      },
+      {
+        "t": "00:29",
+        "speaker": "client",
+        "text": "Ola bilər. Mənə saat 18:00-da zəng edin, dəqiqləşdirək."
+      },
+      {
+        "t": "00:34",
+        "speaker": "manager",
+        "text": "Yaxşı, bu gün saat 18:00-da zəng edirəm."
+      },
+      {
+        "t": "00:38",
+        "speaker": "client",
+        "text": "Razıyam."
+      }
+    ],
+    "started_at": "2026-10-08T17:41:00+04:00",
+    "language": "az"
+  },
+  "C-021": {
+    "callId": "C-021",
+    "manager": "Leyla",
+    "status": "needs_review",
+    "extraction": null,
+    "segments": [
+      {
+        "t": "00:02",
+        "speaker": "manager",
+        "text": "Добрый день, Demo Residence, меня зовут Лейла."
+      },
+      {
+        "t": "00:06",
+        "speaker": "client",
+        "text": "Да-да, я… [неразборчиво] …по поводу квартиры."
+      },
+      {
+        "t": "00:11",
+        "speaker": "manager",
+        "text": "Извините, плохо слышно. Перезвоню вам через пять минут."
+      }
+    ],
+    "started_at": "2026-10-08T18:12:00+04:00",
+    "language": "ru"
+  }
+}

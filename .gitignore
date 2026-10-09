@@ -14,7 +14,7 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+# lib/
 lib64/
 parts/
 sdist/
@@ -221,3 +221,10 @@ __marimo__/
 
 # API keys
 api.py
+
+# Next.js & Frontend
+node_modules/
+.next/
+.env*.local
+.env
+*.env.local

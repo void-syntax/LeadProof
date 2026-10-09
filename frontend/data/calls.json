@@ -1,0 +1,1118 @@
+{
+  "calls": [
+    {
+      "call_id": "C-001",
+      "manager": "Leyla",
+      "started_at": "2026-10-08T09:34:00+04:00",
+      "duration_sec": 248,
+      "language": "ru",
+      "segments": [
+        {
+          "t": "00:02",
+          "speaker": "manager",
+          "text": "Добрый день! ЖК Demo Residence, меня зовут Лейла. Вы оставляли заявку на сайте?"
+        },
+        {
+          "t": "00:08",
+          "speaker": "client",
+          "text": "Да, интересует квартира."
+        },
+        {
+          "t": "00:11",
+          "speaker": "manager",
+          "text": "Подскажите, сколько комнат рассматриваете и для чего — для жизни или инвестиции?"
+        },
+        {
+          "t": "00:17",
+          "speaker": "client",
+          "text": "Двухкомнатную, для себя, жить с семьёй."
+        },
+        {
+          "t": "00:23",
+          "speaker": "manager",
+          "text": "На какую сумму ориентируетесь?"
+        },
+        {
+          "t": "00:26",
+          "speaker": "client",
+          "text": "Примерно до 160 тысяч манат."
+        },
+        {
+          "t": "00:31",
+          "speaker": "manager",
+          "text": "Как планируете оплачивать: наличными, рассрочка или ипотека?"
+        },
+        {
+          "t": "00:36",
+          "speaker": "client",
+          "text": "Думаю, рассрочка."
+        },
+        {
+          "t": "00:40",
+          "speaker": "manager",
+          "text": "Рассрочка у нас от 30% первого взноса, до 24 месяцев без процентов. Приглашаю вас в шоурум в субботу в 12:00, покажу планировки."
+        },
+        {
+          "t": "00:52",
+          "speaker": "client",
+          "text": "Да, в субботу в 12 подойдёт."
+        },
+        {
+          "t": "00:56",
+          "speaker": "manager",
+          "text": "Отлично, записала вас на субботу, 12:00. В пятницу пришлю напоминание в WhatsApp."
+        },
+        {
+          "t": "01:03",
+          "speaker": "client",
+          "text": "Договорились, спасибо."
+        }
+      ]
+    },
+    {
+      "call_id": "C-002",
+      "manager": "Elvin",
+      "started_at": "2026-10-08T09:58:00+04:00",
+      "duration_sec": 196,
+      "language": "ru",
+      "segments": [
+        {
+          "t": "00:03",
+          "speaker": "manager",
+          "text": "Здравствуйте, Demo Residence, меня зовут Эльвин. Вы интересовались квартирами?"
+        },
+        {
+          "t": "00:09",
+          "speaker": "client",
+          "text": "Да, трёхкомнатной. Для инвестиции, хочу сдавать."
+        },
+        {
+          "t": "00:16",
+          "speaker": "manager",
+          "text": "Понял. Оплата будет наличными или ипотека?"
+        },
+        {
+          "t": "00:20",
+          "speaker": "client",
+          "text": "Скорее ипотека."
+        },
+        {
+          "t": "00:24",
+          "speaker": "manager",
+          "text": "Ипотека через наш банк-партнёр, ставку назовёт банк. Давайте встретимся в шоуруме — в среду в 17:00 удобно?"
+        },
+        {
+          "t": "00:34",
+          "speaker": "client",
+          "text": "Среда в 17:00, хорошо."
+        },
+        {
+          "t": "00:38",
+          "speaker": "manager",
+          "text": "Записал. Во вторник перезвоню и подтвержу визит."
+        },
+        {
+          "t": "00:43",
+          "speaker": "client",
+          "text": "Хорошо."
+        }
+      ]
+    },
+    {
+      "call_id": "C-003",
+      "manager": "Nigar",
+      "started_at": "2026-10-08T10:21:00+04:00",
+      "duration_sec": 174,
+      "language": "ru",
+      "segments": [
+        {
+          "t": "00:02",
+          "speaker": "manager",
+          "text": "Добрый день, ЖК Demo Residence, меня зовут Нигяр."
+        },
+        {
+          "t": "00:06",
+          "speaker": "client",
+          "text": "Здравствуйте, я по объявлению про однушки."
+        },
+        {
+          "t": "00:10",
+          "speaker": "manager",
+          "text": "Однокомнатную для себя или под сдачу?"
+        },
+        {
+          "t": "00:14",
+          "speaker": "client",
+          "text": "Под сдачу, для инвестиции."
+        },
+        {
+          "t": "00:18",
+          "speaker": "manager",
+          "text": "В какую сумму хотели бы уложиться?"
+        },
+        {
+          "t": "00:21",
+          "speaker": "client",
+          "text": "Тысяч в девяносто, не больше."
+        },
+        {
+          "t": "00:25",
+          "speaker": "manager",
+          "text": "Оплата наличными или в рассрочку?"
+        },
+        {
+          "t": "00:28",
+          "speaker": "client",
+          "text": "Наличными."
+        },
+        {
+          "t": "00:31",
+          "speaker": "manager",
+          "text": "Тогда приглашаю в шоурум: четверг в 15:00 или пятница в 11:00?"
+        },
+        {
+          "t": "00:37",
+          "speaker": "client",
+          "text": "Четверг в 15:00."
+        },
+        {
+          "t": "00:40",
+          "speaker": "manager",
+          "text": "Записала на четверг 15:00, пришлю адрес в WhatsApp сегодня."
+        },
+        {
+          "t": "00:45",
+          "speaker": "client",
+          "text": "Спасибо, жду."
+        }
+      ]
+    },
+    {
+      "call_id": "C-004",
+      "manager": "Tural",
+      "started_at": "2026-10-08T10:47:00+04:00",
+      "duration_sec": 205,
+      "language": "ru",
+      "segments": [
+        {
+          "t": "00:03",
+          "speaker": "manager",
+          "text": "Алло, Demo Residence, меня зовут Турал. Вы оставляли заявку?"
+        },
+        {
+          "t": "00:08",
+          "speaker": "client",
+          "text": "Да. Двушка интересует, для семьи."
+        },
+        {
+          "t": "00:13",
+          "speaker": "manager",
+          "text": "На какой бюджет рассчитываете?"
+        },
+        {
+          "t": "00:16",
+          "speaker": "client",
+          "text": "Около 150 тысяч."
+        },
+        {
+          "t": "00:20",
+          "speaker": "manager",
+          "text": "Оплата наличными или рассрочка?"
+        },
+        {
+          "t": "00:23",
+          "speaker": "client",
+          "text": "Рассрочка."
+        },
+        {
+          "t": "00:26",
+          "speaker": "manager",
+          "text": "Можно было бы в шоурум приехать, но он далеко, вам ехать неудобно будет. Давайте я лучше планировки на почту скину."
+        },
+        {
+          "t": "00:36",
+          "speaker": "client",
+          "text": "Да, так даже лучше."
+        },
+        {
+          "t": "00:39",
+          "speaker": "manager",
+          "text": "Отправлю сегодня, а в понедельник в 11:00 перезвоню обсудить."
+        },
+        {
+          "t": "00:45",
+          "speaker": "client",
+          "text": "Хорошо, в понедельник в 11 жду звонка."
+        }
+      ]
+    },
+    {
+      "call_id": "C-005",
+      "manager": "Rauf",
+      "started_at": "2026-10-08T11:12:00+04:00",
+      "duration_sec": 142,
+      "language": "ru",
+      "segments": [
+        {
+          "t": "00:02",
+          "speaker": "manager",
+          "text": "Добрый день, ЖК Demo Residence, меня зовут Рауф."
+        },
+        {
+          "t": "00:06",
+          "speaker": "client",
+          "text": "Здравствуйте! Хочу трёшку, для семьи, готов брать в этом месяце."
+        },
+        {
+          "t": "00:13",
+          "speaker": "manager",
+          "text": "Отлично. В какой бюджет?"
+        },
+        {
+          "t": "00:15",
+          "speaker": "client",
+          "text": "До 230 тысяч, ипотека через банк."
+        },
+        {
+          "t": "00:21",
+          "speaker": "manager",
+          "text": "Приглашаю в шоурум в субботу в 11:00."
+        },
+        {
+          "t": "00:25",
+          "speaker": "client",
+          "text": "Суббота может не получиться, созвонимся."
+        },
+        {
+          "t": "00:29",
+          "speaker": "manager",
+          "text": "Хорошо, созвонимся."
+        }
+      ]
+    },
+    {
+      "call_id": "C-006",
+      "manager": "Leyla",
+      "started_at": "2026-10-08T11:40:00+04:00",
+      "duration_sec": 188,
+      "language": "ru",
+      "segments": [
+        {
+          "t": "00:03",
+          "speaker": "manager",
+          "text": "Здравствуйте, Demo Residence, Лейла, менеджер. Вы оставляли заявку?"
+        },
+        {
+          "t": "00:08",
+          "speaker": "client",
+          "text": "Да, однокомнатная для сына, будет жить."
+        },
+        {
+          "t": "00:14",
+          "speaker": "manager",
+          "text": "Какой бюджет?"
+        },
+        {
+          "t": "00:16",
+          "speaker": "client",
+          "text": "Тысяч 100."
+        },
+        {
+          "t": "00:19",
+          "speaker": "manager",
+          "text": "Наличными или рассрочка?"
+        },
+        {
+          "t": "00:22",
+          "speaker": "client",
+          "text": "Хотелось бы рассрочку, но дорого выходит."
+        },
+        {
+          "t": "00:27",
+          "speaker": "manager",
+          "text": "Не переживайте, скидочку вам подберём. Приходите в шоурум в пятницу в 16:00."
+        },
+        {
+          "t": "00:34",
+          "speaker": "client",
+          "text": "Хорошо, в пятницу в 16:00 буду."
+        },
+        {
+          "t": "00:38",
+          "speaker": "manager",
+          "text": "Жду вас, в четверг напомню."
+        }
+      ]
+    },
+    {
+      "call_id": "C-007",
+      "manager": "Elvin",
+      "started_at": "2026-10-08T12:05:00+04:00",
+      "duration_sec": 161,
+      "language": "ru",
+      "segments": [
+        {
+          "t": "00:02",
+          "speaker": "manager",
+          "text": "Добрый день, ЖК Demo Residence, меня зовут Эльвин."
+        },
+        {
+          "t": "00:06",
+          "speaker": "client",
+          "text": "Здравствуйте. Когда сдача дома? Нам двушка нужна, жить."
+        },
+        {
+          "t": "00:12",
+          "speaker": "manager",
+          "text": "Сдача летом следующего года. Какой у вас бюджет?"
+        },
+        {
+          "t": "00:17",
+          "speaker": "client",
+          "text": "Около 140 тысяч, наличными."
+        },
+        {
+          "t": "00:22",
+          "speaker": "manager",
+          "text": "Приглашаю в шоурум в понедельник в 18:00."
+        },
+        {
+          "t": "00:26",
+          "speaker": "client",
+          "text": "Давайте, в понедельник в 18:00."
+        },
+        {
+          "t": "00:30",
+          "speaker": "manager",
+          "text": "Записал, накануне напишу вам."
+        }
+      ]
+    },
+    {
+      "call_id": "C-008",
+      "manager": "Nigar",
+      "started_at": "2026-10-08T12:31:00+04:00",
+      "duration_sec": 219,
+      "language": "mixed",
+      "segments": [
+        {
+          "t": "00:03",
+          "speaker": "manager",
+          "text": "Salam, Demo Residence, mənim adım Nigar. Вы оставляли заявку?"
+        },
+        {
+          "t": "00:09",
+          "speaker": "client",
+          "text": "Bəli, двухкомнатную ищу, для себя."
+        },
+        {
+          "t": "00:14",
+          "speaker": "manager",
+          "text": "Büdcəniz nə qədərdir? Какой бюджет?"
+        },
+        {
+          "t": "00:18",
+          "speaker": "client",
+          "text": "Təxminən 150 min manat."
+        },
+        {
+          "t": "00:22",
+          "speaker": "manager",
+          "text": "Nağd yoxsa рассрочка?"
+        },
+        {
+          "t": "00:25",
+          "speaker": "client",
+          "text": "Рассрочка, если долгая."
+        },
+        {
+          "t": "00:29",
+          "speaker": "manager",
+          "text": "Рассрочку сделаем на 36 месяцев, ilkin ödəniş 30%."
+        },
+        {
+          "t": "00:36",
+          "speaker": "client",
+          "text": "O, əla!"
+        },
+        {
+          "t": "00:39",
+          "speaker": "manager",
+          "text": "Gəlin şoruma, в субботу в 13:00?"
+        },
+        {
+          "t": "00:44",
+          "speaker": "client",
+          "text": "Oldu, şənbə 13:00."
+        },
+        {
+          "t": "00:47",
+          "speaker": "manager",
+          "text": "Qeyd etdim, cümə günü xatırladacağam."
+        }
+      ]
+    },
+    {
+      "call_id": "C-009",
+      "manager": "Tural",
+      "started_at": "2026-10-08T13:02:00+04:00",
+      "duration_sec": 153,
+      "language": "ru",
+      "segments": [
+        {
+          "t": "00:02",
+          "speaker": "manager",
+          "text": "Добрый день, ЖК Demo Residence, меня зовут Турал."
+        },
+        {
+          "t": "00:06",
+          "speaker": "client",
+          "text": "Здравствуйте, двушка для себя интересует. Есть скидки?"
+        },
+        {
+          "t": "00:12",
+          "speaker": "manager",
+          "text": "Какой бюджет рассматриваете?"
+        },
+        {
+          "t": "00:15",
+          "speaker": "client",
+          "text": "До 170 тысяч, могу сразу всю сумму."
+        },
+        {
+          "t": "00:20",
+          "speaker": "manager",
+          "text": "При 100% оплате скидка 3%. Приглашаю в шоурум в среду в 12:00."
+        },
+        {
+          "t": "00:28",
+          "speaker": "client",
+          "text": "В среду в 12:00 приеду."
+        },
+        {
+          "t": "00:32",
+          "speaker": "manager",
+          "text": "Записал, во вторник отправлю подтверждение."
+        }
+      ]
+    },
+    {
+      "call_id": "C-010",
+      "manager": "Rauf",
+      "started_at": "2026-10-08T13:26:00+04:00",
+      "duration_sec": 38,
+      "language": "az",
+      "segments": [
+        {
+          "t": "00:02",
+          "speaker": "manager",
+          "text": "Salam, Demo Residence, mənim adım Rauf. Siz mənzil üçün müraciət etmişdiniz?"
+        },
+        {
+          "t": "00:08",
+          "speaker": "client",
+          "text": "Xeyr, səhv düşmüsünüz, mən heç bir müraciət etməmişəm."
+        },
+        {
+          "t": "00:13",
+          "speaker": "manager",
+          "text": "Bağışlayın, narahat etdiyim üçün üzr istəyirəm."
+        }
+      ]
+    },
+    {
+      "call_id": "C-011",
+      "manager": "Leyla",
+      "started_at": "2026-10-08T13:58:00+04:00",
+      "duration_sec": 167,
+      "language": "mixed",
+      "segments": [
+        {
+          "t": "00:03",
+          "speaker": "manager",
+          "text": "Добрый день, Demo Residence, меня зовут Лейла."
+        },
+        {
+          "t": "00:07",
+          "speaker": "client",
+          "text": "Salam. Я просто смотрю, пока ничего не планирую."
+        },
+        {
+          "t": "00:12",
+          "speaker": "manager",
+          "text": "Понимаю. На какой бюджет вообще ориентируетесь?"
+        },
+        {
+          "t": "00:16",
+          "speaker": "client",
+          "text": "Hələ bilmirəm, может через год-два."
+        },
+        {
+          "t": "00:21",
+          "speaker": "manager",
+          "text": "Какая квартира была бы интересна — сколько комнат, для себя или инвестиция?"
+        },
+        {
+          "t": "00:26",
+          "speaker": "client",
+          "text": "Bir otaqlı, investisiya üçün."
+        },
+        {
+          "t": "00:31",
+          "speaker": "manager",
+          "text": "Оплата — наличные, рассрочка или ипотека?"
+        },
+        {
+          "t": "00:35",
+          "speaker": "client",
+          "text": "Не думал ещё."
+        },
+        {
+          "t": "00:38",
+          "speaker": "manager",
+          "text": "Приглашаю в шоурум, суббота 11:00 — без обязательств."
+        },
+        {
+          "t": "00:43",
+          "speaker": "client",
+          "text": "Yox, sağ olun, hələ yox."
+        },
+        {
+          "t": "00:47",
+          "speaker": "manager",
+          "text": "Хорошо, могу через месяц, 8 ноября, написать вам про новые планировки?"
+        },
+        {
+          "t": "00:53",
+          "speaker": "client",
+          "text": "Olar, yazın."
+        }
+      ]
+    },
+    {
+      "call_id": "C-012",
+      "manager": "Elvin",
+      "started_at": "2026-10-08T14:20:00+04:00",
+      "duration_sec": 231,
+      "language": "mixed",
+      "segments": [
+        {
+          "t": "00:02",
+          "speaker": "manager",
+          "text": "Salam, ЖК Demo Residence, меня зовут Эльвин."
+        },
+        {
+          "t": "00:06",
+          "speaker": "client",
+          "text": "Salam! Üç otaqlı mənzil lazımdır, ailə üçün."
+        },
+        {
+          "t": "00:12",
+          "speaker": "manager",
+          "text": "Büdcəniz? Какую сумму рассматриваете?"
+        },
+        {
+          "t": "00:16",
+          "speaker": "client",
+          "text": "200 min manata qədər."
+        },
+        {
+          "t": "00:20",
+          "speaker": "manager",
+          "text": "Ödəniş necə olacaq — nağd, рассрочка yoxsa ipoteka?"
+        },
+        {
+          "t": "00:25",
+          "speaker": "client",
+          "text": "Ipoteka, bank vasitəsilə."
+        },
+        {
+          "t": "00:29",
+          "speaker": "manager",
+          "text": "Ipoteka bank-partnyor vasitəsilə, faizi bank deyəcək. Şoruma gəlin — cümə axşamı 17:00?"
+        },
+        {
+          "t": "00:38",
+          "speaker": "client",
+          "text": "Cümə axşamı 17:00 olar."
+        },
+        {
+          "t": "00:42",
+          "speaker": "manager",
+          "text": "Qeyd etdim, çərşənbə günü təsdiq üçün zəng edəcəyəm."
+        },
+        {
+          "t": "00:47",
+          "speaker": "client",
+          "text": "Yaxşı, gözləyirəm."
+        }
+      ]
+    },
+    {
+      "call_id": "C-013",
+      "manager": "Nigar",
+      "started_at": "2026-10-08T14:44:00+04:00",
+      "duration_sec": 139,
+      "language": "mixed",
+      "segments": [
+        {
+          "t": "00:03",
+          "speaker": "manager",
+          "text": "Добрый день, Demo Residence, меня зовут Нигяр."
+        },
+        {
+          "t": "00:07",
+          "speaker": "client",
+          "text": "Salam, двушка нужна, для себя."
+        },
+        {
+          "t": "00:11",
+          "speaker": "manager",
+          "text": "Какой бюджет?"
+        },
+        {
+          "t": "00:13",
+          "speaker": "client",
+          "text": "150-160 тысяч."
+        },
+        {
+          "t": "00:17",
+          "speaker": "manager",
+          "text": "Оплата?"
+        },
+        {
+          "t": "00:18",
+          "speaker": "client",
+          "text": "Рассрочка."
+        },
+        {
+          "t": "00:21",
+          "speaker": "manager",
+          "text": "Приглашаю вас в шоу рум э-э в субботу в двенадцать ноль-ноль, şou rum на первом этаже."
+        },
+        {
+          "t": "00:30",
+          "speaker": "client",
+          "text": "Да, в субботу в двенадцать приду."
+        },
+        {
+          "t": "00:34",
+          "speaker": "manager",
+          "text": "Записала, в пятницу напомню."
+        }
+      ]
+    },
+    {
+      "call_id": "C-014",
+      "manager": "Tural",
+      "started_at": "2026-10-08T15:09:00+04:00",
+      "duration_sec": 118,
+      "language": "ru",
+      "segments": [
+        {
+          "t": "00:02",
+          "speaker": "manager",
+          "text": "Добрый день, ЖК Demo Residence, меня зовут Турал."
+        },
+        {
+          "t": "00:06",
+          "speaker": "client",
+          "text": "Ну, звоните же, раз заявку оставлял. Двушка, для себя."
+        },
+        {
+          "t": "00:12",
+          "speaker": "manager",
+          "text": "Какой бюджет?"
+        },
+        {
+          "t": "00:14",
+          "speaker": "client",
+          "text": "Тысяч 150, если ипотеку дадут."
+        },
+        {
+          "t": "00:19",
+          "speaker": "manager",
+          "text": "Приглашаю в шоурум завтра в 18:00, придёте?"
+        },
+        {
+          "t": "00:23",
+          "speaker": "client",
+          "text": "Ну конечно, обязательно приеду. Прямо бегу."
+        },
+        {
+          "t": "00:28",
+          "speaker": "manager",
+          "text": "Отлично, жду завтра в 18:00!"
+        }
+      ]
+    },
+    {
+      "call_id": "C-015",
+      "manager": "Rauf",
+      "started_at": "2026-10-08T15:33:00+04:00",
+      "duration_sec": 263,
+      "language": "az",
+      "segments": [
+        {
+          "t": "00:02",
+          "speaker": "manager",
+          "text": "Salam, Demo Residence, mənim adım Rauf."
+        },
+        {
+          "t": "00:06",
+          "speaker": "client",
+          "text": "Yenə zəng edirsiniz! Qiymətləriniz çox bahadır!"
+        },
+        {
+          "t": "00:11",
+          "speaker": "manager",
+          "text": "Başa düşürəm. Hansı büdcəni nəzərdə tutursunuz?"
+        },
+        {
+          "t": "00:15",
+          "speaker": "client",
+          "text": "Maksimum 120 min."
+        },
+        {
+          "t": "00:18",
+          "speaker": "manager",
+          "text": "Neçə otaqlı və nə üçün — yaşamaq, yoxsa investisiya?"
+        },
+        {
+          "t": "00:23",
+          "speaker": "client",
+          "text": "İki otaqlı, özüm yaşayacağam."
+        },
+        {
+          "t": "00:28",
+          "speaker": "manager",
+          "text": "Ödəniş nağd, kredit, yoxsa hissə-hissə?"
+        },
+        {
+          "t": "00:32",
+          "speaker": "client",
+          "text": "Hissə-hissə."
+        },
+        {
+          "t": "00:35",
+          "speaker": "manager",
+          "text": "Hissə-hissə ödəniş ilkin 30%-dən, 24 aya qədər faizsiz. Bazar ertəsi saat 15:00 şoruma gəlin, planları göstərim."
+        },
+        {
+          "t": "00:46",
+          "speaker": "client",
+          "text": "Yaxşı, bazar ertəsi 15:00. Amma vaxtımı itirməyin."
+        },
+        {
+          "t": "00:51",
+          "speaker": "manager",
+          "text": "Razıyıq, bazar günü təsdiq mesajı göndərəcəyəm."
+        }
+      ]
+    },
+    {
+      "call_id": "C-016",
+      "manager": "Rauf",
+      "started_at": "2026-10-08T15:42:00+04:00",
+      "duration_sec": 312,
+      "language": "mixed",
+      "segments": [
+        {
+          "t": "00:03",
+          "speaker": "manager",
+          "text": "Добрый день, ЖК Demo Residence, меня зовут Рауф. Вы оставляли заявку на двухкомнатную?"
+        },
+        {
+          "t": "00:09",
+          "speaker": "client",
+          "text": "Salam, да. Хотел узнать цену и когда сдача."
+        },
+        {
+          "t": "00:15",
+          "speaker": "manager",
+          "text": "Цены от 2 000 манат за метр. Сдача летом следующего года."
+        },
+        {
+          "t": "00:24",
+          "speaker": "client",
+          "text": "Ипотеку можно или только наличными?"
+        },
+        {
+          "t": "00:29",
+          "speaker": "manager",
+          "text": "Есть рассрочка, первый взнос 30%. И скидочку вам подберём, не переживайте."
+        },
+        {
+          "t": "00:41",
+          "speaker": "client",
+          "text": "Хорошо, мне надо с женой обсудить."
+        },
+        {
+          "t": "00:45",
+          "speaker": "manager",
+          "text": "Конечно, созвонимся."
+        }
+      ]
+    },
+    {
+      "call_id": "C-017",
+      "manager": "Leyla",
+      "started_at": "2026-10-08T16:10:00+04:00",
+      "duration_sec": 226,
+      "language": "en",
+      "segments": [
+        {
+          "t": "00:02",
+          "speaker": "manager",
+          "text": "Good afternoon, Demo Residence, my name is Leyla. You left a request on our website?"
+        },
+        {
+          "t": "00:09",
+          "speaker": "client",
+          "text": "Yes, I'm relocating to Baku and need a two-room flat to live in."
+        },
+        {
+          "t": "00:16",
+          "speaker": "manager",
+          "text": "What budget do you have in mind?"
+        },
+        {
+          "t": "00:19",
+          "speaker": "client",
+          "text": "Around 180,000 manat."
+        },
+        {
+          "t": "00:23",
+          "speaker": "manager",
+          "text": "Will you pay in cash, by installments, or with a mortgage?"
+        },
+        {
+          "t": "00:28",
+          "speaker": "client",
+          "text": "Cash, the full amount."
+        },
+        {
+          "t": "00:32",
+          "speaker": "manager",
+          "text": "With 100% payment we can offer a 3% discount. Could you visit our showroom on Thursday at 14:00?"
+        },
+        {
+          "t": "00:41",
+          "speaker": "client",
+          "text": "Thursday at 14:00 works."
+        },
+        {
+          "t": "00:45",
+          "speaker": "manager",
+          "text": "Great, I've booked you for Thursday at 14:00 and will send the address by email today."
+        },
+        {
+          "t": "00:52",
+          "speaker": "client",
+          "text": "Perfect, thanks."
+        }
+      ]
+    },
+    {
+      "call_id": "C-018",
+      "manager": "Elvin",
+      "started_at": "2026-10-08T16:38:00+04:00",
+      "duration_sec": 171,
+      "language": "en",
+      "segments": [
+        {
+          "t": "00:03",
+          "speaker": "manager",
+          "text": "Hello, Demo Residence, this is Elvin speaking."
+        },
+        {
+          "t": "00:07",
+          "speaker": "client",
+          "text": "Hi, I'm interested in a one-room apartment as an investment."
+        },
+        {
+          "t": "00:13",
+          "speaker": "manager",
+          "text": "What's your budget?"
+        },
+        {
+          "t": "00:15",
+          "speaker": "client",
+          "text": "Up to 95,000."
+        },
+        {
+          "t": "00:18",
+          "speaker": "manager",
+          "text": "Cash or installments?"
+        },
+        {
+          "t": "00:20",
+          "speaker": "client",
+          "text": "Installments."
+        },
+        {
+          "t": "00:23",
+          "speaker": "manager",
+          "text": "Sign this month and I'll get you a 5% discount on installments."
+        },
+        {
+          "t": "00:29",
+          "speaker": "client",
+          "text": "Really? Nice."
+        },
+        {
+          "t": "00:31",
+          "speaker": "manager",
+          "text": "Come to the showroom on Saturday at 10:00 and we'll finalize."
+        },
+        {
+          "t": "00:36",
+          "speaker": "client",
+          "text": "Saturday at 10 is fine."
+        },
+        {
+          "t": "00:39",
+          "speaker": "manager",
+          "text": "Booked. I'll text you a reminder on Friday."
+        }
+      ]
+    },
+    {
+      "call_id": "C-019",
+      "manager": "Nigar",
+      "started_at": "2026-10-08T17:05:00+04:00",
+      "duration_sec": 134,
+      "language": "en",
+      "segments": [
+        {
+          "t": "00:02",
+          "speaker": "manager",
+          "text": "Good morning, Demo Residence, my name is Nigar."
+        },
+        {
+          "t": "00:06",
+          "speaker": "client",
+          "text": "Hi. I saw your ad, what are the prices for three-room flats?"
+        },
+        {
+          "t": "00:12",
+          "speaker": "manager",
+          "text": "From 2,000 manat per square metre. What budget are you considering?"
+        },
+        {
+          "t": "00:18",
+          "speaker": "client",
+          "text": "Maybe 250,000. It's for my family."
+        },
+        {
+          "t": "00:23",
+          "speaker": "manager",
+          "text": "How would you pay — cash, installments or mortgage?"
+        },
+        {
+          "t": "00:27",
+          "speaker": "client",
+          "text": "Mortgage, probably."
+        },
+        {
+          "t": "00:30",
+          "speaker": "manager",
+          "text": "Our showroom is open Monday to Saturday, 10 to 19. Feel free to drop by."
+        },
+        {
+          "t": "00:36",
+          "speaker": "client",
+          "text": "OK, I'll think about it."
+        },
+        {
+          "t": "00:39",
+          "speaker": "manager",
+          "text": "Sure, have a nice day."
+        }
+      ]
+    },
+    {
+      "call_id": "C-020",
+      "manager": "Tural",
+      "started_at": "2026-10-08T17:41:00+04:00",
+      "duration_sec": 98,
+      "language": "az",
+      "segments": [
+        {
+          "t": "00:02",
+          "speaker": "manager",
+          "text": "Salam, Demo Residence, mənim adım Tural."
+        },
+        {
+          "t": "00:06",
+          "speaker": "client",
+          "text": "Salam, iki otaqlı mənzil maraqlıdır, özümüz yaşayacağıq. İndi işdəyəm."
+        },
+        {
+          "t": "00:12",
+          "speaker": "manager",
+          "text": "Büdcəniz nə qədərdir?"
+        },
+        {
+          "t": "00:15",
+          "speaker": "client",
+          "text": "130-140 min."
+        },
+        {
+          "t": "00:18",
+          "speaker": "manager",
+          "text": "Ödəniş nağd, yoxsa hissə-hissə?"
+        },
+        {
+          "t": "00:21",
+          "speaker": "client",
+          "text": "Nağd."
+        },
+        {
+          "t": "00:24",
+          "speaker": "manager",
+          "text": "Şənbə saat 12:00 şoruma dəvət edirəm, uyğundur?"
+        },
+        {
+          "t": "00:29",
+          "speaker": "client",
+          "text": "Ola bilər. Mənə saat 18:00-da zəng edin, dəqiqləşdirək."
+        },
+        {
+          "t": "00:34",
+          "speaker": "manager",
+          "text": "Yaxşı, bu gün saat 18:00-da zəng edirəm."
+        },
+        {
+          "t": "00:38",
+          "speaker": "client",
+          "text": "Razıyam."
+        }
+      ]
+    },
+    {
+      "call_id": "C-021",
+      "manager": "Leyla",
+      "started_at": "2026-10-08T18:12:00+04:00",
+      "duration_sec": 74,
+      "language": "ru",
+      "segments": [
+        {
+          "t": "00:02",
+          "speaker": "manager",
+          "text": "Добрый день, Demo Residence, меня зовут Лейла."
+        },
+        {
+          "t": "00:06",
+          "speaker": "client",
+          "text": "Да-да, я… [неразборчиво] …по поводу квартиры."
+        },
+        {
+          "t": "00:11",
+          "speaker": "manager",
+          "text": "Извините, плохо слышно. Перезвоню вам через пять минут."
+        }
+      ]
+    }
+  ]
+}

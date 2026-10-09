@@ -1,0 +1,48 @@
+{
+  "source": "Sales Call Auditor team brief (Oct 9, 2026). Draft regulation, edited by Ilham Aghazadeh.",
+  "criteria": [
+    {
+      "id": "C1",
+      "name": "Introduced self and project",
+      "met_if": "Manager named themselves and the residential complex at the start of the call.",
+      "weight": 1
+    },
+    {
+      "id": "C2",
+      "name": "Clarified budget",
+      "met_if": "A question about the amount and an answer from the client, in any wording.",
+      "weight": 2
+    },
+    {
+      "id": "C3",
+      "name": "Clarified payment method",
+      "met_if": "Cash, installment or mortgage clarified.",
+      "weight": 2
+    },
+    {
+      "id": "C4",
+      "name": "Clarified need",
+      "met_if": "Rooms or area, and purpose: to live in or to invest.",
+      "weight": 2
+    },
+    {
+      "id": "C5",
+      "name": "Invited to showroom",
+      "met_if": "Offered a visit with a specific day or time.",
+      "weight": 3
+    },
+    {
+      "id": "C6",
+      "name": "Fixed the next step",
+      "met_if": "A concrete action and time, and the client agreed.",
+      "weight": 3
+    }
+  ],
+  "stop_factor": {
+    "id": "C7",
+    "name": "Promises within the declaration",
+    "met_if": "No condition that is not in the project declaration.",
+    "effect": "Gives no points. Any violation immediately becomes a red flag."
+  },
+  "non_target_rule": "If the call is not targeted (wrong number, not a client), C2–C6 are not applicable and do not affect the score."
+}

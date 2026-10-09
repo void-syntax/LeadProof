@@ -1,0 +1,30 @@
+{
+  "source": "Test-set table from the team brief. 'accepted' = allowed primary action; 'required' = actions that must all be present.",
+  "cases": [
+    { "call_id": "C-001", "scenario": "Perfect call", "accepted": ["OK"] },
+    { "call_id": "C-002", "scenario": "Budget not asked", "accepted": ["OK", "COACHING"] },
+    { "call_id": "C-003", "scenario": "Budget clarified without the word 'budget'", "accepted": ["OK"] },
+    { "call_id": "C-004", "scenario": "Showroom mentioned but talked out of it", "accepted": ["INVITE_SHOWROOM"] },
+    { "call_id": "C-005", "scenario": "'We'll be in touch' without a date, hot lead", "accepted": ["CALLBACK_TODAY"] },
+    { "call_id": "C-006", "scenario": "'We'll find you a discount'", "accepted": ["CORRECT_PROMISE"] },
+    { "call_id": "C-007", "scenario": "Handover 'next summer'", "accepted": ["CORRECT_PROMISE"] },
+    { "call_id": "C-008", "scenario": "36-month installment", "accepted": ["CORRECT_PROMISE"] },
+    { "call_id": "C-009", "scenario": "3% discount with 100% payment (allowed)", "accepted": ["OK"] },
+    { "call_id": "C-010", "scenario": "Wrong number", "accepted": ["OK"] },
+    { "call_id": "C-011", "scenario": "'Just looking', cold client", "accepted": ["OK"] },
+    { "call_id": "C-012", "scenario": "All criteria met, mixed languages", "accepted": ["OK"] },
+    { "call_id": "C-013", "scenario": "Transcription noise in showroom invite", "accepted": ["OK"] },
+    { "call_id": "C-014", "scenario": "Sarcasm: 'sure, I'll definitely come'", "accepted": ["CALLBACK_TODAY"] },
+    { "call_id": "C-015", "scenario": "Aggressive client, manager follows regulation", "accepted": ["OK"] },
+    {
+      "call_id": "C-016",
+      "scenario": "Hot lead, everything wrong",
+      "accepted": ["CORRECT_PROMISE"],
+      "required": ["CORRECT_PROMISE", "CALLBACK_TODAY"]
+    },
+    { "call_id": "C-017", "scenario": "Foreign buyer, all good", "accepted": ["OK"] },
+    { "call_id": "C-018", "scenario": "Discount promise", "accepted": ["CORRECT_PROMISE"] },
+    { "call_id": "C-019", "scenario": "No next step", "accepted": ["CALLBACK_TODAY"] },
+    { "call_id": "C-020", "scenario": "'Call me back at 18:00'", "accepted": ["OK"] }
+  ]
+}

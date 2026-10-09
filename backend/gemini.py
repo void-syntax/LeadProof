@@ -13,7 +13,10 @@ Usage:
 
 import os
 from typing import Optional
-from api import KEY
+try:
+    from api import KEY
+except ImportError:
+    KEY = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
 
 from google import genai
 from google.genai import types
@@ -29,7 +32,11 @@ _client = None
 def _get_client() -> genai.Client:
     global _client
     if _client is None:
-        _client = genai.Client(api_key=KEY)
+        api_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY") or KEY
+        if api_key:
+            _client = genai.Client(api_key=api_key)
+        else:
+            _client = genai.Client()
     return _client
 
 
