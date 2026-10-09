@@ -34,16 +34,17 @@ def main(prompt, transcript, client, model):
         prompt += (
             f"\nYour previous response missed these criteria: "
             f"{', '.join(sorted(missing))}. "
-            "Return the complete JSON with all criteria C1-C7."
+            "Return the complete JSON with all criteria C1-C6."
         )
 
     raise ValueError("Gemini failed to return all criteria after 3 attempts")
+
 
 client = genai.Client(api_key=KEY)
 model = "models/gemini-2.5-flash"
 
 result = main(
-    prompt="Return JSON with criteria C1-C7.",
+    prompt="Return JSON with criteria C1-C6.",
     transcript="Менеджер: Добрый день. Клиент: Здравствуйте.",
     client=client,
     model=model
