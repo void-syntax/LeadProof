@@ -219,5 +219,3 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# API keys
-api.py
