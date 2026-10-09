@@ -1,6 +1,6 @@
 {
   "C-001": {
-    "language": "ru",
+    "language": "az",
     "scenario": "Ideal call: all criteria met, compliant handover date",
     "criteria": {
       "C1": "met",
@@ -19,7 +19,7 @@
     ]
   },
   "C-002": {
-    "language": "ru",
+    "language": "az",
     "scenario": "Budget never asked, everything else done",
     "criteria": {
       "C1": "met",
@@ -38,7 +38,7 @@
     ]
   },
   "C-003": {
-    "language": "ru",
+    "language": "mixed",
     "scenario": "Budget asked without the word 'budget' (keyword-script trap)",
     "criteria": {
       "C1": "met",
@@ -57,7 +57,7 @@
     ]
   },
   "C-004": {
-    "language": "ru",
+    "language": "az",
     "scenario": "Showroom mentioned but manager talks client out of visiting (keyword-script trap)",
     "criteria": {
       "C1": "met",
@@ -444,6 +444,367 @@
     ],
     "actions": [
       "OK"
+    ]
+  },
+  "C-023": {
+    "language": "az",
+    "scenario": "Ideal call, investment purchase with mortgage",
+    "criteria": {
+      "C1": "met",
+      "C2": "met",
+      "C3": "met",
+      "C4": "met",
+      "C5": "met",
+      "C6": "met"
+    },
+    "violations": [],
+    "lead": [
+      "hot"
+    ],
+    "actions": [
+      "OK"
+    ]
+  },
+  "C-024": {
+    "language": "az",
+    "scenario": "Discount promised without percent or condition ('endirim taparıq')",
+    "criteria": {
+      "C1": "met",
+      "C2": "met",
+      "C3": "met",
+      "C4": "met",
+      "C5": "met",
+      "C6": "met"
+    },
+    "violations": [
+      "discount"
+    ],
+    "lead": [
+      "hot"
+    ],
+    "actions": [
+      "CORRECT_PROMISE"
+    ]
+  },
+  "C-025": {
+    "language": "az",
+    "scenario": "Hot lead, showroom offered but client only says 'we'll see': no next step",
+    "criteria": {
+      "C1": "met",
+      "C2": "met",
+      "C3": "met",
+      "C4": "met",
+      "C5": "met",
+      "C6": "not_met"
+    },
+    "violations": [],
+    "lead": [
+      "hot",
+      "warm"
+    ],
+    "actions": [
+      "CALLBACK_TODAY"
+    ]
+  },
+  "C-026": {
+    "language": "az",
+    "scenario": "Mortgage rate promised and 'guaranteed' (declaration: the bank sets the rate)",
+    "criteria": {
+      "C1": "met",
+      "C2": "met",
+      "C3": "met",
+      "C4": "met",
+      "C5": "met",
+      "C6": "met"
+    },
+    "violations": [
+      "mortgage_rate"
+    ],
+    "lead": [
+      "hot"
+    ],
+    "actions": [
+      "CORRECT_PROMISE"
+    ]
+  },
+  "C-027": {
+    "language": "az",
+    "scenario": "Down payment of 20% offered (declaration: min 30%)",
+    "criteria": {
+      "C1": "met",
+      "C2": "met",
+      "C3": "met",
+      "C4": "met",
+      "C5": "met",
+      "C6": "met"
+    },
+    "violations": [
+      "down_payment_pct"
+    ],
+    "lead": [
+      "hot"
+    ],
+    "actions": [
+      "CORRECT_PROMISE"
+    ]
+  },
+  "C-028": {
+    "language": "az",
+    "scenario": "Price of 1 800 AZN/m2 offered (declaration: from 2 000)",
+    "criteria": {
+      "C1": "met",
+      "C2": "met",
+      "C3": "met",
+      "C4": "met",
+      "C5": "met",
+      "C6": "met"
+    },
+    "violations": [
+      "price_per_m2"
+    ],
+    "lead": [
+      "hot"
+    ],
+    "actions": [
+      "CORRECT_PROMISE"
+    ]
+  },
+  "C-029": {
+    "language": "az",
+    "scenario": "Hedged 'prices may rise' is not a promise (false-positive trap)",
+    "criteria": {
+      "C1": "met",
+      "C2": "met",
+      "C3": "met",
+      "C4": "met",
+      "C5": "met",
+      "C6": "met"
+    },
+    "violations": [],
+    "lead": [
+      "hot"
+    ],
+    "actions": [
+      "OK"
+    ]
+  },
+  "C-030": {
+    "language": "az",
+    "scenario": "Manager never gives his name, everything else done",
+    "criteria": {
+      "C1": "not_met",
+      "C2": "met",
+      "C3": "met",
+      "C4": "met",
+      "C5": "met",
+      "C6": "met"
+    },
+    "violations": [],
+    "lead": [
+      "hot"
+    ],
+    "actions": [
+      "OK"
+    ]
+  },
+  "C-031": {
+    "language": "az",
+    "scenario": "Budget asked, client refuses to name an amount",
+    "criteria": {
+      "C1": "met",
+      "C2": "not_met",
+      "C3": "met",
+      "C4": "met",
+      "C5": "met",
+      "C6": "met"
+    },
+    "violations": [],
+    "lead": [
+      "hot",
+      "warm"
+    ],
+    "actions": [
+      "OK"
+    ]
+  },
+  "C-032": {
+    "language": "az",
+    "scenario": "Handover 'end of next year' is compliant (false-positive trap)",
+    "criteria": {
+      "C1": "met",
+      "C2": "met",
+      "C3": "met",
+      "C4": "met",
+      "C5": "met",
+      "C6": "met"
+    },
+    "violations": [],
+    "lead": [
+      "hot"
+    ],
+    "actions": [
+      "OK"
+    ]
+  },
+  "C-033": {
+    "language": "az",
+    "scenario": "Hot lead, manager asks nothing and only says 'I'll call you later'",
+    "criteria": {
+      "C1": "met",
+      "C2": "not_met",
+      "C3": "not_met",
+      "C4": "not_met",
+      "C5": "not_met",
+      "C6": "not_met"
+    },
+    "violations": [],
+    "lead": [
+      "hot"
+    ],
+    "actions": [
+      "CALLBACK_TODAY",
+      "INVITE_SHOWROOM",
+      "COACHING"
+    ]
+  },
+  "C-034": {
+    "language": "az",
+    "scenario": "Client 'just looking': cold lead",
+    "criteria": {
+      "C1": "met",
+      "C2": "not_applicable",
+      "C3": "not_applicable",
+      "C4": "not_applicable",
+      "C5": "not_applicable",
+      "C6": "not_applicable"
+    },
+    "violations": [],
+    "lead": [
+      "cold"
+    ],
+    "actions": [
+      "OK"
+    ]
+  },
+  "C-035": {
+    "language": "mixed",
+    "scenario": "Mixed AZ/RU: manager talks client out of the showroom, sends floor plans by 19:00",
+    "criteria": {
+      "C1": "met",
+      "C2": "met",
+      "C3": "met",
+      "C4": "met",
+      "C5": "not_met",
+      "C6": "met"
+    },
+    "violations": [],
+    "lead": [
+      "warm",
+      "hot"
+    ],
+    "actions": [
+      "INVITE_SHOWROOM"
+    ]
+  },
+  "C-036": {
+    "language": "mixed",
+    "scenario": "Mixed AZ/RU: handover promised for next summer (declaration: Q4 2027)",
+    "criteria": {
+      "C1": "met",
+      "C2": "met",
+      "C3": "met",
+      "C4": "met",
+      "C5": "met",
+      "C6": "met"
+    },
+    "violations": [
+      "completion_date"
+    ],
+    "lead": [
+      "hot"
+    ],
+    "actions": [
+      "CORRECT_PROMISE"
+    ]
+  },
+  "C-037": {
+    "language": "mixed",
+    "scenario": "Mixed AZ/RU: need given as area (80 m2) instead of rooms, everything done",
+    "criteria": {
+      "C1": "met",
+      "C2": "met",
+      "C3": "met",
+      "C4": "met",
+      "C5": "met",
+      "C6": "met"
+    },
+    "violations": [],
+    "lead": [
+      "hot"
+    ],
+    "actions": [
+      "OK"
+    ]
+  },
+  "C-038": {
+    "language": "mixed",
+    "scenario": "Mixed AZ/RU: sarcastic 'of course I'll come' in Azerbaijani is not agreement",
+    "criteria": {
+      "C1": "met",
+      "C2": "met",
+      "C3": "met",
+      "C4": "met",
+      "C5": "met",
+      "C6": "not_met"
+    },
+    "violations": [],
+    "lead": [
+      "warm",
+      "hot"
+    ],
+    "actions": [
+      "CALLBACK_TODAY"
+    ]
+  },
+  "C-039": {
+    "language": "mixed",
+    "scenario": "Mixed AZ/RU: client declines showroom but agrees a callback at 11:00",
+    "criteria": {
+      "C1": "met",
+      "C2": "met",
+      "C3": "met",
+      "C4": "met",
+      "C5": "met",
+      "C6": "met"
+    },
+    "violations": [],
+    "lead": [
+      "warm",
+      "hot"
+    ],
+    "actions": [
+      "OK"
+    ]
+  },
+  "C-040": {
+    "language": "en",
+    "scenario": "Mortgage rate 'guaranteed' to a foreign buyer",
+    "criteria": {
+      "C1": "met",
+      "C2": "met",
+      "C3": "met",
+      "C4": "met",
+      "C5": "met",
+      "C6": "met"
+    },
+    "violations": [
+      "mortgage_rate"
+    ],
+    "lead": [
+      "hot"
+    ],
+    "actions": [
+      "CORRECT_PROMISE"
     ]
   }
 }
