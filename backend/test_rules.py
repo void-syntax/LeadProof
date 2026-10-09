@@ -6,6 +6,9 @@ including one invented quote that must be dropped.
 
     python test_rules.py   ->  every line must say PASS
 """
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from backend.config import load_json
 from backend.rules import evaluate_call

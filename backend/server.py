@@ -12,7 +12,12 @@ POST /audit    — {"call_id": "C-016"}: audit a call live through Gemini right 
 """
 
 import json
+import sys
 import time
+from pathlib import Path
+
+# Allow importing 'backend.*' when run directly from within the backend/ folder
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
