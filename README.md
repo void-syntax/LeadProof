@@ -1,48 +1,164 @@
 # LeadProof
 
-Audits every sales call of a real estate developer. Gemini extracts facts with quotes, code verifies every quote and makes the decision, the head of sales approves the action.
+**AI-powered sales call auditing for real estate developers.**
 
+LeadProof audits sales calls against company regulations and project declarations, identifies potential violations, and provides evidence-backed findings for the Head of Sales (HoS) to review.
+
+Instead of relying on random call sampling or keyword matching alone, LeadProof uses Gemini to extract structured facts from conversations and deterministic Python rules to verify evidence and evaluate compliance.
+
+> **Core principle:** AI extracts the facts. Python verifies the evidence and applies the rules. Humans approve the actions.
+
+## How It Works
+
+```text
+Sales Call
+    |
+    v
+gemini.py
+Extract facts, quotes, and token usage
+    |
+    v
+rules.py
+Verify quotes -> Evaluate C1-C6 -> Check promises
+    |
+    v
+Generate findings and recommended actions
+    |
+    v
+server.py
+Expose results through an HTTP API
+    |
+    v
+Dashboard -> Head of Sales review
 ```
-call -> gemini.py (facts + tokens) -> rules.py (quote check -> criteria -> promises -> actions) -> server.py (API)
+
+### Why This Architecture?
+
+- **Evidence-first analysis:** Findings must be supported by quotes from the original transcript.
+- **Deterministic decisions:** Compliance criteria and action logic live in Python, not in the LLM prompt.
+- **Separation of concerns:** AI extraction, rule evaluation, API delivery, and frontend presentation are independent components.
+- **Cost awareness:** Token usage and estimated API costs are tracked during model calls.
+- **Testability:** The decision layer can be tested without an API key, network requests, or AI inference.
+
+## Features
+
+- **Automated call auditing** — analyze sales conversations against defined company requirements.
+- **Quote verification** — check extracted evidence against the original transcript before using it in a decision.
+- **Criteria evaluation (C1–C6)** — apply explicit rules to evaluate call quality and compliance.
+- **Promise verification** — compare sales representatives' promises against the project's official declaration.
+- **Action recommendations** — generate findings and recommended follow-up actions for human review.
+- **Structured AI output** — enforce a defined response schema for predictable downstream processing.
+- **Cost and token tracking** — monitor inference usage while testing and tuning prompts.
+- **Offline rule tests** — validate decision logic without calling Gemini.
+- **Benchmarking** — compare agent results against a keyword-based baseline using a synthetic test set.
+- **HTTP API** — serve audit results to the frontend.
+
+## Architecture
+
+| File | Responsibility |
+|---|---|
+| `config.py` | Loads regulations, project declarations, and keywords from `data/`. |
+| `prompt.py` | Defines instructions for structured fact extraction. |
+| `schema.py` | Defines the expected AI response schema. |
+| `gemini.py` | Handles Gemini requests, retries, token usage, and cost estimation. |
+| `rules.py` | Verifies quotes, evaluates C1–C6, checks promises, and determines recommended actions. |
+| `test_rules.py` | Runs offline tests for the deterministic decision layer. |
+| `test_run.py` | Runs the evaluation set, compares results with a keyword baseline, and tracks accuracy and cost. |
+| `server.py` | Exposes the audit functionality and cached results through an HTTP API. |
+| `API.md` | Documents the API endpoints and response formats. |
+| `data/calls.json` | Contains 22 synthetic test calls. |
+| `data/expected.json` | Contains expected results for evaluation; never passed to the agent. |
+
+## Getting Started
+
+### Requirements
+
+- Python 3.10 or newer, subject to dependency compatibility
+- A Gemini API key for live inference
+- Dependencies listed in `requirements.txt`
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/void-syntax/LeadProof.git
+cd LeadProof
 ```
 
-## Files
+Replace the repository URL if your project uses a different location.
 
-| File | What it does |
-| --- | --- |
-| `config.py` | Loads the regulation, declaration and keywords from `data/` |
-| `prompt.py`, `schema.py` | Gemini prompt and the strict answer schema |
-| `gemini.py` | One Gemini call: facts, tokens, cost, retry on errors |
-| `rules.py` | All decisions: quote check, criteria C1–C6, promises vs declaration, actions |
-| `test_rules.py` | Offline test of the decision layer: no Gemini, no key, no cost |
-| `test_run.py` | Test set run: agent vs keyword script, accuracy and cost |
-| `server.py` | HTTP API for the frontend (see `API.md`) |
-| `data/calls.json`, `data/expected.json` | 22 synthetic test calls and the answer key (never passed to the agent) |
-
-## Key
-
-The Gemini key lives only in environment variables: `GEMINI_API_KEY` in Vercel env vars, or in a local `.env` (git-ignored, see `.env.example`). Never in code or in the repo.
-
-## Run
+### 2. Install dependencies
 
 ```bash
 pip install -r requirements.txt
-cp .env.example .env              # then put the key into .env
-python test_rules.py              # offline rule tests: every line must say PASS
-python test_run.py C-016          # one live call: check that everything works
-python test_run.py C-016 C-014    # a few calls while tuning the prompt (cheap)
-python test_run.py                # all 22 calls -> data/cached_results.json and data/last_report.json
-uvicorn server:app --reload       # API for the frontend at http://localhost:8000
 ```
 
-Switch the model: `GEMINI_MODEL=gemini-3.5-flash-lite python test_run.py` (prices in `gemini.py`, `PRICES`).
+### 3. Configure environment variables
 
-## Deploy (Vercel)
+Create a local environment file:
 
-Vercel picks up `server.py` automatically. Set `GEMINI_API_KEY` (and optionally `GEMINI_MODEL`) in Project → Settings → Environment Variables. Commit `data/cached_results.json` and `data/last_report.json` after the full run: the API serves them, the Vercel filesystem is read-only.
+```bash
+cp .env.example .env
+```
 
-## Rules
+Add your Gemini API key to `.env`:
 
-- Gemini requests one at a time, never in parallel.
-- Decisions only in `rules.py`, never in the prompt.
-- Do not change `expected.json` and never pass it to the agent.
+```env
+GEMINI_API_KEY=your_api_key_here
+```
+
+Keep `.env` out of version control. Never hardcode API keys or commit secrets to the repository.
+
+### 4. Run the offline tests
+
+```bash
+python test_rules.py
+```
+
+These tests validate the decision layer without making Gemini requests or incurring API costs. All tests should pass before running live evaluations.
+
+### 5. Run a live evaluation
+
+Test a single call:
+
+```bash
+python test_run.py C-016
+```
+
+Test multiple calls:
+
+```bash
+python test_run.py C-016 C-014
+```
+
+Run the complete synthetic evaluation set:
+
+```bash
+python test_run.py
+```
+
+The full run evaluates all 22 test calls and generates:
+
+- `data/cached_results.json`
+- `data/last_report.json`
+
+Review these outputs to inspect the results, evaluation metrics, and estimated inference costs.
+
+### 6. Start the API server
+
+```bash
+uvicorn server:app --reload
+```
+
+The API will be available at:
+
+```text
+http://localhost:8000
+```
+
+Refer to [`API.md`](API.md) for endpoint documentation and request/response examples.
+
+## Model Configuration
+
+Select the Gemini model through an environment variable:
+
+```env
